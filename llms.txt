@@ -8,6 +8,14 @@
 Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una automatización
 Criterio de salida: Explicar por escrito, con las definiciones de la etapa, dónde no hace falta IA en un caso concreto y por qué; distinguir un clasificador, un generador y un agente; y situar tres hitos históricos con su consecuencia
 - Fundamentos: camino/etapa-0-fundamentos/README.md
+- Qué es la inteligencia artificial: camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md
+- De Turing a AlexNet — la historia hasta 2012: camino/etapa-0-fundamentos/02-historia-hasta-2012.md
+- De AlexNet a los agentes — la historia desde 2012: camino/etapa-0-fundamentos/03-historia-desde-2012.md
+- Qué es y qué no es un agente: camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md
+- Dónde no hace falta inteligencia artificial: camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md
+- El oficio en 2026: camino/etapa-0-fundamentos/06-el-oficio-en-2026.md
+- Práctica — análisis de tres procesos propios: camino/etapa-0-fundamentos/practica.md
+- Recursos de la Etapa 0: camino/etapa-0-fundamentos/recursos.md
 
 ## Recursos del catálogo
 

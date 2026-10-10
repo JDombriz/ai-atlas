@@ -13,7 +13,7 @@ Se puede copiar, redistribuir, adaptar y reutilizar con cualquier propósito, in
 
 Atribución recomendada:
 
-> «AI Atlas» — José Domingo Dombriz, disponible en https://github.com/JDombriz/ai-atlas (licencia CC BY 4.0)
+> «AI Atlas» — José Domingo Dombriz, repositorio `JDombriz/ai-atlas` en GitHub (licencia CC BY 4.0)
 
 ## Datos del catálogo — CC0 1.0
 

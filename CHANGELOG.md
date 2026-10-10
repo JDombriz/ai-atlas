@@ -17,6 +17,6 @@ Todas las entregas del proyecto, con su fecha y su contenido. Una entrada por Re
 - `README.md`, `ROADMAP.md`, `CONTRIBUTING.md`, `AGENTS.md` y las licencias.
 - Canal de propuestas para asistentes de IA: plantilla «propuesta asistida» y reglas en `AGENTS.md`. Proponer sí, verificar no.
 
-## v0.1 — lunes 19 de octubre de 2026
+## v0.1 — semana del 12 al 18 de octubre de 2026
 
-Pendiente de publicación. Contendrá la Etapa 0 completa —documentación, práctica y recursos—, la página de punto de partida, doce fichas semilla y una receta.
+Pendiente de publicación: la Etapa 0 completa y el punto de partida pasan revisión humana, y la Release se publica el día en que esa revisión cierre. Contendrá la Etapa 0 completa —seis páginas, práctica y recursos— y la página de punto de partida. Las doce fichas semilla y la primera receta se incorporan a la entrega siguiente.

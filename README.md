@@ -29,11 +29,11 @@ Las reglas completas están en AGENTS.md.
 
 **Repositorio de consulta documental sobre inteligencia artificial, con un camino de cero a nivel profesional.**
 
-![estado](https://img.shields.io/badge/estado-en%20preparaci%C3%B3n%20%C2%B7%20v0.1%20el%2019%20de%20octubre-1F4E79?style=flat-square)
+![estado](https://img.shields.io/badge/estado-v0.1%20en%20revisi%C3%B3n-1F4E79?style=flat-square)
 ![entregas](https://img.shields.io/badge/entregas-una%20cada%20lunes-1F4E79?style=flat-square)
 ![licencia](https://img.shields.io/badge/licencia-MIT%20%2B%20CC%20BY%204.0-1F4E79?style=flat-square)
 
-> **En preparación.** La primera entrega —la Etapa 0 completa— se publica el lunes 19 de octubre de 2026. El calendario de las once entregas siguientes está en [`ROADMAP.md`](ROADMAP.md).
+> **En preparación.** La primera entrega —la Etapa 0 completa, con su práctica y sus recursos— está redactada y pasa por revisión humana. Se publica en cuanto la revisión cierre, dentro de la semana del 12 al 18 de octubre de 2026, y con ella el repositorio pasa a público. El calendario de las once entregas siguientes está en [`ROADMAP.md`](ROADMAP.md).
 
 ## Qué es
 
@@ -80,14 +80,14 @@ Cada etapa consta de cuatro piezas: índice con criterio de salida, documentaci�
 
 ## Por dónde empezar hoy
 
-El repositorio está en preparación: la Etapa 0 se publica el 19 de octubre de 2026. Hasta entonces, lo que hay en pie es el [índice temático](INDEX.md) y el [calendario](ROADMAP.md).
+La Etapa 0 está redactada y en revisión humana; se publica en cuanto la revisión cierre. Hasta entonces, lo que hay en pie es el [índice temático](INDEX.md) y el [calendario](ROADMAP.md). Cuando el repositorio pase a público, el orden recomendado es: [`camino/00-punto-de-partida.md`](camino/00-punto-de-partida.md) —para comprobar que no falta el oficio— y la [Etapa 0](camino/etapa-0-fundamentos/README.md), de principio a fin.
 
 ## Calendario
 
 | Publicación | Entrega |
 |:--|:--|
-| lun 19 oct 2026 | **Release v0.1** — Etapa 0 completa: documentación, práctica y recursos |
-| lun 26 oct 2026 | Etapa 1, páginas 1–3 + fichas de modelos |
+| semana del 12 al 18 de octubre de 2026 | **Release v0.1** — Etapa 0 completa: documentación, práctica y recursos. Fecha fija el día de la aprobación |
+| lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 |
 | lun 2 nov 2026 | Receta: elegir un modelo para una tarea concreta |
 | lun 9 nov 2026 | Etapa 1, páginas 4–5 + práctica + fichas de herramientas |
 

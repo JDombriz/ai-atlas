@@ -8,24 +8,32 @@ Los estados posibles de una entrega son: `planificada`, `en investigación`, `re
 
 Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026.
 
-- [ ] Repositorio, licencias, `README.md`, `CONTRIBUTING.md`, `AGENTS.md`.
+- [x] Repositorio, licencias, `README.md`, `CONTRIBUTING.md`, `AGENTS.md`.
 - [x] Plantillas de etapa, página, ficha, receta y RFC.
 - [x] `scripts/build_index.py` generando los tres índices.
-- [x] Imagen de cabecera y de previsualización social, en su versión inicial.
-- [ ] **Tarea pendiente:** generar un banner definitivo con una herramienta de imagen (Gemini o ChatGPT) y recomponerlo sobre `assets/banner.html`. El prompt, listo para pegar, está en `assets/prompt-banner.md`.
-- [ ] **Tarea pendiente (manual, en GitHub):** subir `assets/social-preview.png` en *Settings → Social preview*. Solo se puede hacer desde la interfaz.
-- [ ] `camino/00-punto-de-partida.md` y la Etapa 0 completa (documentación, práctica y recursos).
+- [x] Imagen de cabecera y de previsualización social, en su versión inicial. Banner definitivo generado con herramienta de imagen y recompuesto sobre `assets/banner.html`; el prompt está en `assets/prompt-banner.md`.
+- [x] `camino/00-punto-de-partida.md` y la Etapa 0 completa (documentación, práctica y recursos).
 - [ ] 12 fichas semilla y 1 receta.
 - [x] `ROADMAP.md` con las entregas siguientes.
+- [ ] **Tarea pendiente (manual, en GitHub):** subir `assets/social-preview.jpg` en *Settings → Social preview*. Solo se puede hacer desde la interfaz, y el apartado aparece cuando el repositorio es público.
 
-Borrador de la Etapa 0 para revisión: **jueves 15 de octubre de 2026**.
-Publicación de la **Release v0.1**: **lunes 19 de octubre de 2026**.
+### Entrega en curso
+
+| Entrega | Revisión humana | Publicación | Estado |
+|:--|:--|:--|:--|
+| Release v0.1 — Etapa 0 completa (seis páginas, práctica y recursos) | abierta el sábado 10 de octubre | el día en que se apruebe, dentro de la semana del 12 al 18 de octubre de 2026 | `en revisión` |
+
+**Publicación adelantada.** La Etapa 0 quedó redactada y con las referencias comprobadas el 10 de octubre, antes de la fecha prevista. Por decisión del autor, la Release v0.1 se publica **en cuanto pase la revisión humana**, en lugar de esperar al lunes 19 de octubre, para que el cambio del repositorio a público llegue con contenido de valor y no con un esqueleto. La fecha de la entrega se fija el día de la aprobación y se anota aquí.
+
+Las doce fichas semilla y la primera receta **no** bloquean esta publicación: quedan como primera entrega de la Fase 1 y se anuncian como tales. La Etapa 0 se publica con sus cuatro elementos —índice, documentación, práctica y recursos—, y `recursos.md` enlaza directamente a las fuentes mientras no existan sus fichas de catálogo.
+
+El calendario de la Fase 1 **no se desplaza**: arranca con la semana 1 el lunes 26 de octubre, como estaba previsto.
 
 ## Fase 1 — Primer trimestre
 
 | Semana | Revisión | Publicación | Entrega | Estado |
 |--:|:--|:--|:--|:--|
-| 1 | jue 22 oct 2026 | lun 26 oct 2026 | Etapa 1, páginas 1–3 + 8 fichas de `catalogo/modelos/` | planificada |
+| 1 | jue 22 oct 2026 | lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 y 8 fichas de `catalogo/modelos/` | planificada |
 | 2 | jue 29 oct 2026 | lun 2 nov 2026 | Receta: elegir un modelo para una tarea concreta | planificada |
 | 3 | jue 5 nov 2026 | lun 9 nov 2026 | Etapa 1, páginas 4–5 + práctica + 8 fichas de `catalogo/herramientas/` | planificada |
 | 4 | jue 12 nov 2026 | lun 16 nov 2026 | Receta: estimar el coste por tarea · **Release v0.2** — Etapa 1 cerrada | planificada |

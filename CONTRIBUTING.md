@@ -10,7 +10,7 @@ La razón es práctica: admitir propuestas sobre un borrador obliga a revisar do
 
 | Desde | Qué se puede aportar |
 |:--|:--|
-| Release v0.1 (19 oct 2026) | Avisos de error factual y de enlace roto |
+| Release v0.1 (semana del 12 al 18 oct 2026) | Avisos de error factual y de enlace roto |
 | Release v0.2 (16 nov 2026) | Propuestas de ficha para el catálogo |
 | Release v0.3 (14 dic 2026) | Correcciones y traducciones sobre contenido publicado |
 | Release v0.4 (1 feb 2027) | Propuestas de cambio de criterio, alcance o estructura |
