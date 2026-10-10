@@ -1,0 +1,40 @@
+name: Índices
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'camino/**'
+      - 'recetas/**'
+      - 'referencia/**'
+      - 'catalogo/**'
+      - 'scripts/build_index.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  indices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerar índices
+        run: python3 scripts/build_index.py
+
+      - name: Confirmar si hay cambios
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Sin cambios en los índices."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add INDEX.md GLOSSARY.md llms.txt
+          git commit -m "chore: regenerar índices"
+          git push

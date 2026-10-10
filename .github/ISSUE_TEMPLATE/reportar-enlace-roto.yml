@@ -1,0 +1,35 @@
+name: Enlace roto o error factual
+description: Avisa de un enlace que no funciona o de un dato incorrecto en contenido publicado.
+title: "[Error] "
+labels: ["correccion"]
+body:
+  - type: input
+    id: donde
+    attributes:
+      label: Dónde
+      description: Ruta del archivo o dirección de la página.
+    validations:
+      required: true
+
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué está mal
+    validations:
+      required: true
+
+  - type: textarea
+    id: fuente
+    attributes:
+      label: Fuente correcta, si la conoces
+      description: Dirección y fecha de consulta. Sin registro ni pago.
+    validations:
+      required: false
+
+  - type: input
+    id: comprobado
+    attributes:
+      label: Fecha en que lo comprobaste
+      placeholder: 2026-10-14
+    validations:
+      required: true

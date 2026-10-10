@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Atlas — paleta de color</title>
+<style>
+  :root{
+    --tinta:#1F4E79; --tinta-profunda:#12233A; --gris:#57606A;
+    --ambar:#B45309; --verde:#1A7F37; --rojo:#B42318;
+    --superficie:#F6F8FA; --borde:#D8DEE4; --pagina:#FFFFFF;
+    --etapa0:#D7E3F0; --etapa1:#B3C9E2; --etapa2:#8AAAD0;
+    --etapa3:#5B87BC; --etapa4:#2F62A0; --etapa5:#1F4E79;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--pagina);color:#1B2229}
+  header{padding:40px 32px 24px;border-bottom:1px solid var(--borde)}
+  h1{margin:0 0 6px;font-size:26px;letter-spacing:-.01em}
+  h1 span{color:var(--tinta)}
+  header p{margin:0;color:var(--gris)}
+  main{display:grid;grid-template-columns:1fr 1fr;gap:0}
+  section{padding:32px}
+  section.claro{background:var(--pagina)}
+  section.oscuro{background:#0D1117;color:#E6EDF3}
+  section.oscuro h2,section.oscuro h3{color:#F0F6FC}
+  section.oscuro .nota{color:#9198A1}
+  h2{margin:0 0 18px;font-size:15px;text-transform:uppercase;letter-spacing:.09em;color:var(--gris)}
+  h3{margin:26px 0 10px;font-size:15px}
+  .fila{display:flex;align-items:center;gap:14px;margin:0 0 10px}
+  .muestra{width:74px;height:44px;border-radius:6px;flex:none;border:1px solid rgba(0,0,0,.12)}
+  .datos{font-size:14px}
+  .datos b{display:block;font-weight:600}
+  .datos code{color:var(--gris);font-size:12.5px}
+  section.oscuro .datos code{color:#9198A1}
+  .rampa{display:flex;margin:12px 0 6px;border-radius:6px;overflow:hidden}
+  .rampa div{flex:1;height:52px;display:flex;align-items:flex-end;justify-content:center;
+             font-size:11px;padding-bottom:5px;color:#fff}
+  .rampa div:nth-child(-n+2){color:#12233A}
+  .nota{font-size:13px;color:var(--gris);margin:6px 0 0}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:12px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid rgba(128,140,152,.28)}
+  th{font-weight:600;color:inherit;opacity:.75}
+  .insignia{display:inline-block;padding:3px 9px;border-radius:11px;font-size:12px;color:#fff;margin-right:6px}
+  footer{padding:22px 32px 40px;border-top:1px solid var(--borde);color:var(--gris);font-size:13px}
+  @media (max-width:860px){main{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>AI<span>Atlas</span> — paleta de color</h1>
+  <p>Una tinta, un acento y una escala de datos. El color señala estado, no decora.</p>
+</header>
+
+<main>
+  <section class="claro">
+    <h2>Tema claro</h2>
+
+    <div class="fila"><div class="muestra" style="background:#1F4E79"></div>
+      <div class="datos"><b>Tinta</b><code>#1F4E79 · 8,66:1 sobre blanco</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#12233A"></div>
+      <div class="datos"><b>Tinta profunda</b><code>#12233A · encabezados, portada</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#57606A"></div>
+      <div class="datos"><b>Gris de texto</b><code>#57606A · 6,39:1 sobre blanco</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#F6F8FA"></div>
+      <div class="datos"><b>Superficie</b><code>#F6F8FA · tablas, bloques de código</code></div></div>
+
+    <h3>Escala de frescura (dato, no adorno)</h3>
+    <div class="fila"><div class="muestra" style="background:#1A7F37"></div>
+      <div class="datos"><b>Al día</b><code>#1A7F37 · 5,08:1 · verificado hace menos de 6 meses</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#B45309"></div>
+      <div class="datos"><b>Revisar</b><code>#B45309 · 5,02:1 · entre 6 y 12 meses</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#B42318"></div>
+      <div class="datos"><b>Caducado o caído</b><code>#B42318 · 6,57:1 · más de 12 meses o enlace muerto</code></div></div>
+
+    <h3>Rampa del camino, etapas 0 a 5</h3>
+    <div class="rampa">
+      <div style="background:#D7E3F0">0</div><div style="background:#B3C9E2">1</div>
+      <div style="background:#8AAAD0">2</div><div style="background:#5B87BC">3</div>
+      <div style="background:#2F62A0">4</div><div style="background:#1F4E79">5</div>
+    </div>
+    <p class="nota">Monocroma y ordenada de claro a oscuro: la profundidad del color indica la
+    profundidad de la etapa. Ninguna etapa se distingue solo por el color: siempre lleva su número.</p>
+
+    <h3>Insignias</h3>
+    <p><span class="insignia" style="background:#1F4E79">v0.1 · 19 oct</span>
+       <span class="insignia" style="background:#1A7F37">12 fichas verificadas</span>
+       <span class="insignia" style="background:#B45309">2 por revisar</span></p>
+  </section>
+
+  <section class="oscuro">
+    <h2>Tema oscuro</h2>
+
+    <div class="fila"><div class="muestra" style="background:#3B6FAF"></div>
+      <div class="datos"><b>Tinta clara</b><code>#3B6FAF · 5,15:1 sobre blanco, 3,68:1 sobre #0D1117</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#F0F6FC"></div>
+      <div class="datos"><b>Texto principal</b><code>#F0F6FC</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#9198A1"></div>
+      <div class="datos"><b>Texto secundario</b><code>#9198A1</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#E6EDF3"></div>
+      <div class="datos"><b>Superficie de diagrama</b><code>#E6EDF3 sobre fondo oscuro</code></div></div>
+
+    <h3>Escala de frescura</h3>
+    <div class="fila"><div class="muestra" style="background:#3FB950"></div>
+      <div class="datos"><b>Al día</b><code>#3FB950</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#D29922"></div>
+      <div class="datos"><b>Revisar</b><code>#D29922</code></div></div>
+    <div class="fila"><div class="muestra" style="background:#F85149"></div>
+      <div class="datos"><b>Caducado o caído</b><code>#F85149</code></div></div>
+
+    <h3>Rampa del camino, etapas 0 a 5</h3>
+    <div class="rampa">
+      <div style="background:#E6EEF7;color:#0D1117">0</div><div style="background:#CADCEF;color:#0D1117">1</div>
+      <div style="background:#A6C3E3;color:#0D1117">2</div><div style="background:#7BA3D2;color:#0D1117">3</div>
+      <div style="background:#5687C4">4</div><div style="background:#3B6FAF">5</div>
+    </div>
+    <p class="nota">Contraste sobre #0D1117: etapa 0 16,2:1 · etapa 3 7,2:1 · etapa 5 3,7:1.
+    La rampa se invierte respecto al tema claro; no se reutiliza la misma.</p>
+
+    <h3>Reglas de uso</h3>
+    <table>
+      <tr><th>Superficie</th><th>Cómo entra el color</th></tr>
+      <tr><td>README en GitHub</td><td>Insignias e imagen de cabecera. Los diagramas Mermaid los pinta GitHub con su propio tema: no se controlan ahí.</td></tr>
+      <tr><td>Sitio (Material)</td><td>Tinta como color primario, ámbar como acento, rampa en los diagramas.</td></tr>
+      <tr><td>Diagramas exportados</td><td>Rampa por etapa; el color acompaña siempre a una etiqueta de texto.</td></tr>
+      <tr><td>Datos de verificación</td><td>Solo la escala de frescura. Verde, ámbar y rojo nunca significan otra cosa.</td></tr>
+    </table>
+  </section>
+</main>
+
+<footer>
+  Contrastes calculados según la fórmula de luminancia relativa de las WCAG 2.1.
+  Ninguna información depende únicamente del color: cada estado lleva además su texto o su número.
+</footer>
+</body>
+</html>

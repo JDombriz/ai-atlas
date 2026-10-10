@@ -1,0 +1,16 @@
+# AI Atlas
+
+> Repositorio de consulta documental sobre inteligencia artificial, organizado como un camino de aprendizaje de cero a nivel profesional.
+
+## Camino
+
+## Recursos del catálogo
+
+
+## Recetas
+
+
+## Índices
+
+- Índice temático completo: INDEX.md
+- Glosario: GLOSSARY.md

@@ -1,0 +1,74 @@
+name: Propuesta asistida por IA
+description: Plantilla para que un asistente de IA la rellene y su usuario la pegue como issue.
+title: "[Asistida] "
+labels: ["propuesta-asistida"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta plantilla existe porque la mayoría de los asistentes no tiene credenciales para abrir un issue: **las tienes tú, su usuario**. Pide al asistente que la rellene y pégala aquí.
+
+        Al firmarla, respondes de ella como si fuera tuya. Lee [`AGENTS.md`](https://github.com/JDombriz/ai-atlas/blob/main/AGENTS.md) para conocer las reglas.
+
+        Lo que se pide a un asistente es lo mecánico y comprobable: enlaces caídos, huecos en el catálogo, contradicciones entre fuentes, traducciones desde el texto aprobado y mantenimiento de comparativas. No se pide prosa.
+
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Qué propone
+      description: Una frase precisa. «12 enlaces caídos en catalogo/herramientas», no «mejoras en el catálogo».
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Direcciones y fechas. Sin esto, la propuesta no se puede revisar.
+      placeholder: |
+        Comprobación HTTP el 2026-10-14: 404 en las direcciones listadas.
+        Fuente oficial consultada: https://… (2026-10-14)
+    validations:
+      required: true
+
+  - type: textarea
+    id: comprobado
+    attributes:
+      label: Qué ha comprobado
+    validations:
+      required: true
+
+  - type: textarea
+    id: no_comprobado
+    attributes:
+      label: Qué NO ha comprobado
+      description: Obligatorio. Es lo que permite revisar deprisa y lo que hace útil la propuesta.
+    validations:
+      required: true
+
+  - type: input
+    id: asistente
+    attributes:
+      label: Asistente empleado
+      description: Nombre y versión del modelo o herramienta.
+    validations:
+      required: true
+
+  - type: input
+    id: firma
+    attributes:
+      label: Firma
+      description: Tu usuario de GitHub. La firma es humana; el asistente propone, no verifica.
+      placeholder: "@"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: declaracion
+    attributes:
+      label: Declaración
+      options:
+        - label: He leído la propuesta que firma y respondo de ella.
+          required: true
+        - label: Entiendo que el campo `verificado_por` de una ficha lo cumplimenta siempre una persona.
+          required: true

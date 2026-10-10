@@ -1,0 +1,22 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Herramientas
+.idea/
+.vscode/
+*.swp
+
+# Generado por la comprobación de enlaces
+lychee/
+lychee-out/
+
+# Sitio estático (Release v0.3)
+site/
+.cache/

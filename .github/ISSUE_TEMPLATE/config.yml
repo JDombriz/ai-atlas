@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Estado del proyecto y calendario
+    url: https://github.com/JDombriz/ai-atlas/blob/main/ROADMAP.md
+    about: Qué se publica y cuándo. Consúltalo antes de abrir una incidencia sobre contenido que aún no ha salido.
+  - name: Cómo contribuir
+    url: https://github.com/JDombriz/ai-atlas/blob/main/CONTRIBUTING.md
+    about: Qué se puede aportar en cada momento y qué se le pide a una ficha.

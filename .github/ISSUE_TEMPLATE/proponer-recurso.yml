@@ -1,0 +1,78 @@
+name: Proponer un recurso
+description: Propone una ficha nueva para el catálogo. Abierto a partir de la Release v0.2.
+title: "[Recurso] "
+labels: ["catalogo", "propuesta"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de proponer, comprueba que el recurso no esté ya en el catálogo: [`INDEX.md`](https://github.com/JDombriz/ai-atlas/blob/main/INDEX.md).
+
+        Una ficha sin el apartado **«cuándo no usarlo»** no se acepta.
+
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre del recurso
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Dirección
+      description: La dirección principal, accesible sin registro ni pago.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoría
+      options:
+        - catalogo/modelos
+        - catalogo/herramientas
+        - catalogo/aprendizaje
+        - catalogo/investigacion
+        - catalogo/operacion
+        - catalogo/comunidades
+        - catalogo/contexto
+    validations:
+      required: true
+
+  - type: dropdown
+    id: coste
+    attributes:
+      label: Coste
+      options:
+        - gratuito
+        - gratuito-con-limites
+        - pago
+        - prueba
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por qué está aquí
+      description: Para qué sirve y en qué caso conviene, en dos o tres frases.
+    validations:
+      required: true
+
+  - type: textarea
+    id: limites
+    attributes:
+      label: Cuándo no usarlo
+      description: El límite honesto de la recomendación. Obligatorio.
+    validations:
+      required: true
+
+  - type: textarea
+    id: verificacion
+    attributes:
+      label: Qué has comprobado
+      description: Qué se abrió, cuándo y con qué resultado. Indica también lo que no has comprobado.
+    validations:
+      required: true

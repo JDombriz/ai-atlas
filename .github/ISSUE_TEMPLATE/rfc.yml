@@ -1,0 +1,40 @@
+name: Propuesta de cambio (RFC)
+description: Cambio de criterio, de alcance o de estructura del camino. Abierto a partir de la Release v0.4.
+title: "[RFC] "
+labels: ["rfc"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Un RFC, un cambio. Se mantiene abierto un mínimo de 14 días antes de resolverse, y la decisión queda anotada con su razonamiento.
+
+  - type: textarea
+    id: cambio
+    attributes:
+      label: Qué se propone cambiar
+      description: Criterio de admisión, alcance, estructura del camino o gobernanza.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Motivo
+      description: El problema concreto que resuelve hoy. Sin problema concreto, no es un RFC.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+    validations:
+      required: true
+
+  - type: textarea
+    id: efecto
+    attributes:
+      label: Efecto sobre el contenido existente
+      description: Qué páginas o fichas habría que reescribir, mover o archivar.
+    validations:
+      required: true
