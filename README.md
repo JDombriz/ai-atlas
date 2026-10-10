@@ -21,6 +21,10 @@ propuesta, responde de ella como si fuera suya.
 Las reglas completas están en AGENTS.md.
 -->
 
+<p align="center">
+  <img src="assets/banner.png" alt="AI Atlas — de cero a nivel profesional en inteligencia artificial" width="100%">
+</p>
+
 # AI Atlas
 
 **Repositorio de consulta documental sobre inteligencia artificial, con un camino de cero a nivel profesional.**

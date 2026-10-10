@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --fondo:#12233A; --texto:#F0F6FC; --tenue:#A6C3E3; --kicker:#7BA3D2;
+    --e0:#E6EEF7; --e1:#CADCEF; --e2:#A6C3E3; --e3:#7BA3D2; --e4:#5687C4; --e5:#3B6FAF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1280px;background:var(--fondo);color:var(--texto);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+       overflow:hidden}
+  .lienzo{padding:52px 64px 48px;display:flex;flex-direction:column;justify-content:space-between}
+  .alto-cabecera{height:440px;text-align:center;padding:48px 64px 40px}
+  .alto-cabecera .rampa,.alto-cabecera .nombres{justify-content:center}
+  .alto-cabecera .pie{justify-content:center;gap:26px}
+  .alto-cabecera h1{font-size:74px}
+  .alto-cabecera .lema{font-size:24px}
+  .alto-social{height:640px}
+  .kicker{font-size:19px;letter-spacing:.24em;text-transform:uppercase;color:var(--kicker);font-weight:600}
+  h1{font-size:82px;font-weight:700;letter-spacing:-.025em;line-height:1}
+  h1 em{font-style:normal;font-weight:300;color:var(--tenue)}
+  .lema{margin-top:14px;font-size:27px;font-weight:300;color:var(--tenue);letter-spacing:-.005em}
+  .alto-social h1{font-size:96px}
+  .alto-social .lema{font-size:30px}
+  .rampa{display:flex;align-items:flex-end;gap:6px;margin-top:34px}
+  .tramo{width:104px;height:56px;border-radius:5px;display:flex;align-items:center;justify-content:center;
+         font-size:20px;font-weight:700;color:#12233A}
+  .tramo:last-child{color:#F0F6FC}
+  .nombres{display:flex;gap:6px;margin-top:12px}
+  .nombres span{width:104px;font-size:12.5px;line-height:1.25;color:var(--tenue);letter-spacing:.01em}
+  .pie{display:flex;justify-content:space-between;align-items:baseline;font-size:17px;color:var(--kicker)}
+  .pie b{font-weight:600;color:var(--tenue)}
+  .regla{height:1px;background:linear-gradient(90deg,#3B6FAF 0%,rgba(59,111,175,0) 100%);margin:26px 0 18px}
+  .pildora{display:inline-block;padding:9px 18px;border:1px solid rgba(166,195,227,.38);border-radius:999px;
+           font-size:17.5px;color:var(--tenue);letter-spacing:.005em}
+</style>
+</head>
+<body>
+  <!-- CABECERA: 1280x400 -->
+  <div class="lienzo alto-cabecera" id="cabecera">
+    <div>
+      <div class="kicker">Repositorio de consulta documental</div>
+      <h1 style="margin-top:22px">AI Atlas</h1>
+      <div class="lema">De cero a nivel profesional en inteligencia artificial</div>
+    </div>
+    <div>
+      <div class="rampa">
+        <div class="tramo" style="background:#E6EEF7">0</div>
+        <div class="tramo" style="background:#CADCEF">1</div>
+        <div class="tramo" style="background:#A6C3E3">2</div>
+        <div class="tramo" style="background:#7BA3D2">3</div>
+        <div class="tramo" style="background:#5687C4">4</div>
+        <div class="tramo" style="background:#3B6FAF">5</div>
+      </div>
+      <div class="nombres">
+        <span>Fundamentos</span><span>Uso profesional</span><span>Ingeniería</span>
+        <span>Patrones agénticos</span><span>Producción</span><span>Especialización</span>
+      </div>
+      <div class="regla"></div>
+      <div class="pie"><b>Documentación propia · recursos verificados con fecha</b></div>
+    </div>
+  </div>
+
+  <!-- PREVISUALIZACION SOCIAL: 1280x640 -->
+  <div class="lienzo alto-social" id="social" style="display:none">
+    <div>
+      <div class="kicker">Repositorio de consulta documental</div>
+      <h1 style="margin-top:30px">AI Atlas</h1>
+      <div class="lema">De cero a nivel profesional en inteligencia artificial</div>
+      <div style="margin-top:26px;font-size:22px;color:var(--kicker);max-width:900px;line-height:1.5">
+        Documentación propia, un catálogo de recursos con fecha de verificación
+        y un apartado en cada ficha que dice cuándo no conviene usarla.
+      </div>
+      <div style="display:flex;gap:12px;margin-top:34px">
+        <span class="pildora">Camino 0 → 5</span>
+        <span class="pildora">Fichas con fecha de verificación</span>
+        <span class="pildora">Recetas por tarea</span>
+        <span class="pildora">Una entrega cada lunes</span>
+      </div>
+    </div>
+    <div>
+      <div class="rampa">
+        <div class="tramo" style="background:#E6EEF7;height:64px;width:132px">0</div>
+        <div class="tramo" style="background:#CADCEF;height:64px;width:132px">1</div>
+        <div class="tramo" style="background:#A6C3E3;height:64px;width:132px">2</div>
+        <div class="tramo" style="background:#7BA3D2;height:64px;width:132px">3</div>
+        <div class="tramo" style="background:#5687C4;height:64px;width:132px">4</div>
+        <div class="tramo" style="background:#3B6FAF;height:64px;width:132px">5</div>
+      </div>
+      <div class="nombres" style="margin-top:14px">
+        <span style="width:132px;font-size:14px">Fundamentos</span>
+        <span style="width:132px;font-size:14px">Uso profesional</span>
+        <span style="width:132px;font-size:14px">Ingeniería</span>
+        <span style="width:132px;font-size:14px">Patrones agénticos</span>
+        <span style="width:132px;font-size:14px">Producción</span>
+        <span style="width:132px;font-size:14px">Especialización</span>
+      </div>
+      <div class="regla" style="margin:24px 0 16px"></div>
+      <div class="pie" style="font-size:18px">
+        <b>Proyecto de Pepe, asistido por IA · Cada página pasa por revisión humana</b>
+        <span>github.com/JDombriz/ai-atlas</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
