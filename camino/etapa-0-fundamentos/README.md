@@ -30,10 +30,11 @@ Entregar por escrito el análisis de tres procesos propios, indicando en cuáles
 ## Páginas previstas
 
 1. `01-que-es-la-inteligencia-artificial.md` — definición operativa, qué significa «modelo», «entrenamiento» e «inferencia», y qué se puede esperar de un sistema de este tipo. *(borrador pendiente)*
-2. `02-de-donde-viene-breve-historia.md` — de 1950 a hoy: los hitos que explican por qué el campo es como es, cada uno con su fuente primaria. Termina situando qué de todo eso cubre este atlas y qué deja fuera. *(borrador pendiente)*
-3. `03-que-es-y-que-no-es-un-agente.md` — la frontera entre automatización, asistente y sistema agéntico. *(borrador pendiente)*
-4. `04-donde-no-hace-falta-ia.md` — el criterio negativo: la «agentificación» forzada como primer anti-patrón, y qué alternativas hay. *(borrador pendiente)*
-5. `05-el-oficio-en-2026.md` — qué cambia y qué no para quien escribe software. *(borrador pendiente)*
+2. `02-historia-hasta-2012.md` — de Turing y Dartmouth a los inviernos, los sistemas expertos, el giro estadístico y la visión por computador. Cada hito con su consecuencia técnica, y cada fuente con su fecha de consulta. *(borrador pendiente)*
+3. `03-historia-desde-2012.md` — el salto del aprendizaje profundo, los transformadores, la etapa generativa y la agéntica. Cierra situando **qué de todo eso cubre este atlas y qué deja fuera**. *(borrador pendiente)*
+4. `04-que-es-y-que-no-es-un-agente.md` — la frontera entre automatización, asistente y sistema agéntico. *(borrador pendiente)*
+5. `05-donde-no-hace-falta-ia.md` — el criterio negativo: la «agentificación» forzada como primer anti-patrón, y qué alternativas hay. *(borrador pendiente)*
+6. `06-el-oficio-en-2026.md` — qué cambia y qué no para quien escribe software. *(borrador pendiente)*
 
 ## Práctica
 
@@ -45,7 +46,7 @@ Entregar por escrito el análisis de tres procesos propios, indicando en cuáles
 
 ## Notas de la etapa
 
-- **La página 2 es la de mayor carga de investigación del proyecto**: exige fuentes primarias accesibles y fechadas para cada hito, y sin ellas no se publica. Fuentes candidatas, todas pendientes de comprobación antes de escribirlas: el artículo de Turing de 1950, la propuesta de Dartmouth de 1955, el artículo de *Attention Is All You Need*, los artículos de referencia de aprendizaje profundo en visión y las notas oficiales de los fabricantes sobre sus modelos.
+- **Las páginas 2 y 3 son las de mayor carga de investigación del proyecto**: exigen fuentes primarias accesibles y fechadas para cada hito, y sin ellas no se publican. Se escriben juntas y se revisan juntas: el corte en 2012 es el que separa dos formas distintas de hacer las cosas, no una simple división por comodidad. Fuentes candidatas, todas pendientes de comprobación antes de escribirlas: el artículo de Turing de 1950, la propuesta de Dartmouth de 1955, el artículo de *Attention Is All You Need*, los artículos de referencia de aprendizaje profundo en visión y las notas oficiales de los fabricantes sobre sus modelos.
 - **Nada de épica.** La historia se cuenta por sus consecuencias técnicas y económicas, no por sus profetas: los inviernos de la IA explican tanto como los veranos.
 - 2026-10-10: etapa creada como borrador con la lista de páginas. Sin contenido redactado todavía.
 

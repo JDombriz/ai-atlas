@@ -11,6 +11,9 @@ Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026.
 - [ ] Repositorio, licencias, `README.md`, `CONTRIBUTING.md`, `AGENTS.md`.
 - [x] Plantillas de etapa, página, ficha, receta y RFC.
 - [x] `scripts/build_index.py` generando los tres índices.
+- [x] Imagen de cabecera y de previsualización social, en su versión inicial.
+- [ ] **Tarea pendiente:** generar un banner definitivo con una herramienta de imagen (Gemini o ChatGPT) y recomponerlo sobre `assets/banner.html`. El prompt, listo para pegar, está en `assets/prompt-banner.md`.
+- [ ] **Tarea pendiente (manual, en GitHub):** subir `assets/social-preview.png` en *Settings → Social preview*. Solo se puede hacer desde la interfaz.
 - [ ] `camino/00-punto-de-partida.md` y la Etapa 0 completa (documentación, práctica y recursos).
 - [ ] 12 fichas semilla y 1 receta.
 - [x] `ROADMAP.md` con las entregas siguientes.
