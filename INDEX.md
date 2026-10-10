@@ -1,12 +1,11 @@
 # Índice temático
 
-*Generado por `scripts/build_index.py`. Última generación: 2026-10-10.*
-
 Tres formas de usar este repositorio: recorrer el **camino** en orden, consultar **por tema** desde este índice, o resolver **por tarea** con una receta.
 
-## Camino 0 → hero
+## El camino, en orden
 
-### Etapa 0 — [Fundamentos](camino/etapa-0-fundamentos/README.md)  `borrador`
+### Etapa 0 — [Fundamentos](camino/etapa-0-fundamentos/README.md)
+*en preparación* · 6-8 h
 
 Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una automatización
 
@@ -19,7 +18,7 @@ Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué di
 - [Práctica — análisis de tres procesos propios](camino/etapa-0-fundamentos/practica.md) — ¿Cómo se decide, por escrito, en qué procesos propios no hace falta inteligencia artificial?
 - [Recursos de la Etapa 0](camino/etapa-0-fundamentos/recursos.md) — ¿Qué recursos externos conviene leer para cerrar los fundamentos y cuándo no conviene cada uno?
 
-## Por tarea (recetas)
+## Por tarea
 
 *(sin recetas publicadas todavía)*
 
@@ -43,5 +42,7 @@ Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué di
 
 ---
 
-Fichas activas: 0. Archivadas: 0. Páginas de camino: 9.
+Fichas activas: 0. Archivadas: 0. Páginas del camino: 9.
+
+*Índice actualizado el 10 de octubre de 2026. Se compone a partir del contenido del repositorio: las correcciones van a la página, no aquí.*
 

@@ -153,25 +153,42 @@ def recoger_glosario(root: Path) -> list[tuple[str, str, str]]:
     return [(t, d, r) for t, (d, r) in sorted(terminos.items(), key=lambda x: x[0].lower())]
 
 
+MESES = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+]
+
+ESTADOS_ETAPA = {
+    "borrador": "en preparación",
+    "publicado": "publicada",
+    "archivado": "archivada",
+}
+
+
+def fecha_en_espanol(d: date) -> str:
+    """Devuelve la fecha escrita como se lee: 10 de octubre de 2026."""
+    return f"{d.day} de {MESES[d.month - 1]} de {d.year}"
+
+
 def escribir_index(root: Path, etapas, fichas, recetas, comparativas, decisiones) -> str:
-    hoy = date.today().isoformat()
+    hoy = fecha_en_espanol(date.today())
     l: list[str] = []
     l.append("# Índice temático\n")
-    l.append(f"*Generado por `scripts/build_index.py`. Última generación: {hoy}.*\n")
     l.append(
         "Tres formas de usar este repositorio: recorrer el **camino** en orden, "
         "consultar **por tema** desde este índice, o resolver **por tarea** con una receta.\n"
     )
 
-    l.append("## Camino 0 → hero\n")
+    l.append("## El camino, en orden\n")
     if not etapas:
         l.append("*(sin etapas publicadas todavía)*\n")
     for e in etapas:
         c = e["campos"]
         num = c.get("etapa", "?")
         titulo = c.get("titulo") or e["dir"]
-        estado = c.get("estado", "borrador")
-        l.append(f"### Etapa {num} — [{titulo}]({e['paginas'][0]['ruta']})  `{estado}`\n")
+        estado = ESTADOS_ETAPA.get(c.get("estado", "borrador"), c.get("estado", ""))
+        l.append(f"### Etapa {num} — [{titulo}]({e['paginas'][0]['ruta']})")
+        l.append(f"*{estado}* · {c.get('dedicacion_orientativa', '')}".rstrip(" ·") + "\n")
         if c.get("objetivo"):
             l.append(f"Objetivo: {c['objetivo']}\n")
         for p in e["paginas"][1:]:
@@ -184,7 +201,7 @@ def escribir_index(root: Path, etapas, fichas, recetas, comparativas, decisiones
             l.append(linea)
         l.append("")
 
-    l.append("## Por tarea (recetas)\n")
+    l.append("## Por tarea\n")
     if not recetas:
         l.append("*(sin recetas publicadas todavía)*\n")
     for r in recetas:
@@ -234,14 +251,18 @@ def escribir_index(root: Path, etapas, fichas, recetas, comparativas, decisiones
 
     archivadas = [f for f in fichas if f.get("estado") == "archivado"]
     l.append(f"\n---\n\nFichas activas: {len(fichas) - len(archivadas)}. "
-             f"Archivadas: {len(archivadas)}. Páginas de camino: "
+             f"Archivadas: {len(archivadas)}. Páginas del camino: "
              f"{sum(len(e['paginas']) for e in etapas)}.\n")
+    l.append(
+        f"*Índice actualizado el {hoy}. Se compone a partir del contenido del "
+        "repositorio: las correcciones van a la página, no aquí.*\n"
+    )
     return "\n".join(l) + "\n"
 
 
 def escribir_glosario(terminos) -> str:
-    hoy = date.today().isoformat()
-    l = ["# Glosario\n", f"*Generado por `scripts/build_index.py`. Última generación: {hoy}.*\n"]
+    hoy = fecha_en_espanol(date.today())
+    l = ["# Glosario\n"]
     l.append(
         "Cada término procede de la sección «Definiciones» de una página; si dos páginas "
         "definen el mismo término, prevalece la primera por orden alfabético de ruta.\n"
@@ -249,7 +270,12 @@ def escribir_glosario(terminos) -> str:
     if not terminos:
         l.append("*(sin términos definidos todavía)*\n")
     for termino, definicion, ruta in terminos:
-        l.append(f"- **{termino}** — {definicion}  \n  → [`{ruta}`]({ruta})")
+        l.append(f"- **{termino}** — {definicion}  \n  → [{ruta}]({ruta})")
+    l.append("")
+    l.append(
+        f"---\n\n*Glosario actualizado el {hoy}. Se compone a partir de las definiciones "
+        "de las páginas: para cambiar una entrada, se cambia en la página.*\n"
+    )
     return "\n".join(l) + "\n"
 
 
