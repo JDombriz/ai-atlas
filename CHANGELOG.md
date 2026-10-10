@@ -4,6 +4,10 @@ Todas las entregas del proyecto, con su fecha y su contenido. Una entrada por Re
 
 ## Sin publicar
 
+### Cambiado
+
+- Cabecera e imagen de previsualización social rehechas sobre el arte cartográfico generado con una herramienta de imagen, con tipografía compuesta encima y velo degradado para garantizar la legibilidad. Guardadas en JPEG en lugar de PNG: la social superaba el megabyte que admite GitHub.
+
 ### Añadido
 
 - Estructura del repositorio: camino de seis etapas, catálogo de siete categorías, recetas y referencia.

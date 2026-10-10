@@ -22,7 +22,7 @@ Las reglas completas están en AGENTS.md.
 -->
 
 <p align="center">
-  <img src="assets/banner.png" alt="AI Atlas — de cero a nivel profesional en inteligencia artificial" width="100%">
+  <img src="assets/banner.jpg" alt="AI Atlas — de cero a nivel profesional en inteligencia artificial" width="100%">
 </p>
 
 # AI Atlas
