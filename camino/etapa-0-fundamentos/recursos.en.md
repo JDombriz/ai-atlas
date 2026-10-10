@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # Stage 0 resources
 
+
+<img src="../../assets/bandas/banda-recursos-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [recursos.md](recursos.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 ## How this page is organised
@@ -19,7 +21,8 @@ None of these resources is compulsory for closing the stage: the exit criterion 
 
 Each entry carries the reason it is here and the case in which it is not worth reading. The latter is as useful as the former: there are admirable documents that at this stage waste your time.
 
-**Delivery note.** The standardised catalogue cards for these resources, with their identifier and their status within the catalogue, are incorporated in the following delivery, together with the first twelve seed cards. In the meantime, this page links directly to the sources: all of them returned code 200 in the check of 2026-10-10.
+> [!NOTE]
+> **Delivery note.** The standardised catalogue cards for these resources, with their identifier and their status within the catalogue, are incorporated in the following delivery, together with the first twelve seed cards. In the meantime, this page links directly to the sources: all of them returned code 200 in the check of 2026-10-10.
 
 ## The sources that sustain the stage
 

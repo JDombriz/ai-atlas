@@ -9,6 +9,8 @@ traduccion_de: 2026-10-10
 
 # Starting point
 
+
+<img src="../assets/bandas/banda-00-en.svg" alt="The path · starting point" width="560">
 > English translation of the Spanish original: [00-punto-de-partida.md](00-punto-de-partida.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 ## What it is for
@@ -39,7 +41,8 @@ None of this is examined: it is the starting assumption. What is checked, stage 
 
 ## How to cover what is missing
 
-Public resources, in Spanish or with a Spanish version, accessible without registration. The timings are rough indications and correspond to sustained effort, not to quick reading.
+> [!TIP]
+> Public resources, in Spanish or with a Spanish version, accessible without registration. The timings are rough indications and correspond to sustained effort, not to quick reading.
 
 | Missing | Resource | Rough time |
 |:--|:--|:--|

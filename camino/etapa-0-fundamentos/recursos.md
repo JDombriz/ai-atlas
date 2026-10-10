@@ -11,6 +11,8 @@ traduccion_de:
 
 # Recursos de la Etapa 0
 
+
+<img src="../../assets/bandas/banda-recursos-es.svg" alt="recursos" width="560">
 > Versión en inglés: [`recursos.en.md`](recursos.en.md), traducción de esta revisión.
 
 ## Cómo está organizada esta página
@@ -19,7 +21,8 @@ Ninguno de estos recursos es obligatorio para cerrar la etapa: el criterio de sa
 
 Cada entrada lleva la razón por la que está y el caso en el que no conviene leerla. Eso último es tan útil como lo primero: hay documentos admirables que en esta etapa hacen perder el tiempo.
 
-**Nota de entrega.** Las fichas normalizadas de estos recursos, con su identificador y su estado dentro del catálogo, se incorporan en la entrega siguiente, junto con las primeras doce fichas semilla. Mientras tanto, esta página enlaza directamente a las fuentes: todas devolvieron código 200 en la comprobación del 2026-10-10.
+> [!NOTE]
+> **Nota de entrega.** Las fichas normalizadas de estos recursos, con su identificador y su estado dentro del catálogo, se incorporan en la entrega siguiente, junto con las primeras doce fichas semilla. Mientras tanto, esta página enlaza directamente a las fuentes: todas devolvieron código 200 en la comprobación del 2026-10-10.
 
 ## Las fuentes que sostienen la etapa
 

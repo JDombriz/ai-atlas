@@ -11,6 +11,8 @@ traduccion_de:
 
 # De AlexNet a los agentes: la historia desde 2012
 
+
+<img src="../../assets/bandas/banda-03-es.svg" alt="03" width="560">
 > Versión en inglés: [`03-historia-desde-2012.en.md`](03-historia-desde-2012.en.md), traducción de esta revisión.
 
 A partir de 2012 el vocabulario se llena de palabras que se usan sin definirlas: aprendizaje profundo, transformador, preentrenamiento, ajuste por preferencias, multimodal, modelo de razonamiento, agente. Este tramo sitúa cada una en su momento y explica qué permitió que las cosas se hicieran de otra manera. Es, también, la parte de la historia que más rápido envejece, y por eso lleva fecha de revisión en la cabecera. Lo anterior a 2012 ya no se mueve; lo de los últimos tres años, sí.
@@ -81,7 +83,8 @@ Dos cambios marcan este tramo. El primero es el uso deliberado de computación e
 
 **Qué cambió.** La frontera se desplaza de «qué sabe el modelo» a «qué puede hacer el sistema, con qué permisos y a qué coste». Es exactamente el terreno de las etapas 2 a 4. Y entra en juego la regulación: el reglamento europeo de inteligencia artificial, en vigor desde agosto de 2024, aplica sus obligaciones por fases y afecta sobre todo a quien despliega en dominios sensibles.
 
-Sobre el presente inmediato no se afirman cifras. No hay dato público consolidado que permita decir cuánto ha cambiado la productividad de los equipos, y los estudios disponibles miden cosas distintas en entornos distintos. El [estudio citado en la página 6](06-el-oficio-en-2026.md) es el mejor ejemplo de que estas medidas hay que leerlas con cuidado.
+> [!NOTE]
+> Sobre el presente inmediato no se afirman cifras. No hay dato público consolidado que permita decir cuánto ha cambiado la productividad de los equipos, y los estudios disponibles miden cosas distintas en entornos distintos. El [estudio citado en la página 6](06-el-oficio-en-2026.md) es el mejor ejemplo de que estas medidas hay que leerlas con cuidado.
 
 ## Qué cubre este material y qué deja fuera
 

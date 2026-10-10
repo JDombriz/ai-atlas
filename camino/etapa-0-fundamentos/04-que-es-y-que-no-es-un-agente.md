@@ -11,6 +11,8 @@ traduccion_de:
 
 # Qué es y qué no es un agente
 
+
+<img src="../../assets/bandas/banda-04-es.svg" alt="04" width="560">
 > Versión en inglés: [`04-que-es-y-que-no-es-un-agente.en.md`](04-que-es-y-que-no-es-un-agente.en.md), traducción de esta revisión.
 
 En el box del Jarama se habla de esto cada semana, aunque nadie use estas palabras. Un comercial vende «agentes» que hacen de todo, un proveedor de software promete que su herramienta «actúa sola» y en el taller se pregunta, con razón, si eso significa que algo va a tocar el coche sin que nadie lo mire. La palabra se ha vuelto tan elástica que ya no distingue nada.
@@ -35,7 +37,8 @@ Puestos en una tabla, las diferencias que importan son estas:
 | Qué hay que escribir antes | El procedimiento | El criterio de revisión | La condición de parada, el presupuesto y los permisos |
 | Cómo se comprueba | Pruebas deterministas | Muestreo y revisión | Evaluación por casos, traza y auditoría de lo ejecutado |
 
-Conviene fijarse en la última fila, porque es la que se olvida. Un sistema que actúa solo y no guarda rastro de lo que hizo no se puede revisar, y lo que no se puede revisar tarde o temprano se cae y nadie sabe por qué.
+> [!NOTE]
+> Conviene fijarse en la última fila, porque es la que se olvida. Un sistema que actúa solo y no guarda rastro de lo que hizo no se puede revisar, y lo que no se puede revisar tarde o temprano se cae y nadie sabe por qué.
 
 ## El bucle, por dentro
 

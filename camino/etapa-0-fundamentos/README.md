@@ -11,6 +11,8 @@ estado: publicado
 
 # Etapa 0 — Fundamentos
 
+
+<img src="../../assets/bandas/banda-indice-es.svg" alt="Etapa 0 · Fundamentos" width="560">
 > Versión en inglés: [`README.en.md`](README.en.md), traducción de esta revisión.
 
 > **Objetivo:** entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una simple automatización.

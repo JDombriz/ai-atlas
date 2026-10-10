@@ -11,6 +11,8 @@ traduccion_de:
 
 # Dónde no hace falta inteligencia artificial
 
+
+<img src="../../assets/bandas/banda-05-es.svg" alt="05" width="560">
 > Versión en inglés: [`05-donde-no-hace-falta-ia.en.md`](05-donde-no-hace-falta-ia.en.md), traducción de esta revisión.
 
 Esta es la página más rentable de la etapa, y va a contracorriente de casi todo lo que se lee sobre el tema. Elegir bien un modelo ahorra tiempo; descartar un sistema que no hacía falta ahorra un coste todos los meses, una superficie de fallo nueva y una discusión periódica sobre por qué el resultado cambia.
@@ -64,7 +66,8 @@ flowchart TD
   E -- "Sí" --> R5["Candidato a modelo,<br/>con evaluación y presupuesto"]
 ```
 
-Conviene acompañar el recorrido con una cuenta elemental, hecha con números propios y no estimados: cuánto cuesta construirlo, cuánto evaluarlo, cuánto cada uso, cuánto revisar los errores que cometa y cuánto cuesta hoy el proceso tal como está. En la Etapa 1 (Uso profesional, en preparación) se desarrolla ese cálculo. Aquí basta con una regla: una cifra sin origen no sirve para decidir.
+> [!NOTE]
+> Conviene acompañar el recorrido con una cuenta elemental, hecha con números propios y no estimados: cuánto cuesta construirlo, cuánto evaluarlo, cuánto cada uso, cuánto revisar los errores que cometa y cuánto cuesta hoy el proceso tal como está. En la Etapa 1 (Uso profesional, en preparación) se desarrolla ese cálculo. Aquí basta con una regla: una cifra sin origen no sirve para decidir.
 
 ## Lo que cuesta la agentificación forzada
 

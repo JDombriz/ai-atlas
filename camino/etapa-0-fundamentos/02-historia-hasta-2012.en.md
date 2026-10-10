@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # From Turing to AlexNet: the history up to 2012
 
+
+<img src="../../assets/bandas/banda-02-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [02-historia-hasta-2012.md](02-historia-hasta-2012.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 The errors of today are explained by decisions that were made sixty years ago. Almost every debate that keeps repeating — whether knowledge should be written by hand or learned from data, whether more computation is enough or more structure is needed, why the money comes and why it goes — was already had back then, and was resolved in a concrete way for reasons worth knowing. Whoever does not know that the winters existed is surprised every time the next one appears.
@@ -71,7 +73,10 @@ MYCIN, also at Stanford, advises on antimicrobial therapy with several hundred r
 
 At Digital Equipment Corporation, the R1 system — later XCON — configures orders for VAX systems: it checks compatibilities and produces the list of components. It was put into production and the company maintained its own knowledge engineering department to keep it going.
 
-**What changed.** Expert knowledge goes from being an object of research to being a commercial asset, and the cycle of the 1980s begins: boom, expert-tool companies, oversized expectations. The cycle broke for an economic and not a technical reason: the rule bases grew to thousands of rules, each change forced a review of the whole set, and product lines changed faster than the knowledge could be maintained. The savings figures cited from that period come from testimony and from the company itself, not from auditable accounts.
+**What changed.** Expert knowledge goes from being an object of research to being a commercial asset, and the cycle of the 1980s begins: boom, expert-tool companies, oversized expectations. The cycle broke for an economic and not a technical reason: the rule bases grew to thousands of rules, each change forced a review of the whole set, and product lines changed faster than the knowledge could be maintained.
+
+> [!WARNING]
+> The savings figures cited from that period come from testimony and from the company itself, not from auditable accounts.
 
 ## 1986 · Backpropagation brings learning back to the centre
 

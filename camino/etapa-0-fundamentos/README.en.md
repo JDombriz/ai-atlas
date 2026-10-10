@@ -12,6 +12,8 @@ traduccion_de: 2026-10-10
 
 # Stage 0 — Foundations
 
+
+<img src="../../assets/bandas/banda-indice-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [README.md](README.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 > **Objective:** to understand what artificial intelligence is, where it comes from, and what distinguishes an agentic system from a simple automation.

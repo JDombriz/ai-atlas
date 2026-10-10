@@ -11,6 +11,8 @@ traduccion_de:
 
 # El oficio en 2026
 
+
+<img src="../../assets/bandas/banda-06-es.svg" alt="06" width="560">
 > Versión en inglés: [`06-el-oficio-en-2026.en.md`](06-el-oficio-en-2026.en.md), traducción de esta revisión.
 
 Esta etapa cierra respondiendo a lo que más se pregunta quien ya programa: en qué se traduce todo esto en su trabajo diario. La respuesta tiene tres partes y conviene no mezclarlas: lo que cambia de forma observable, lo que no cambia y sigue siendo responsabilidad de quien despliega, y lo que la evidencia disponible permite afirmar hoy —que es bastante menos de lo que sugiere el ruido.
@@ -55,7 +57,10 @@ Aquí conviene ser más prudente que en el resto de la página, porque el ruido 
 | Productividad de desarrolladores experimentados en proyectos maduros, 2025 | Ensayo aleatorizado con 16 desarrolladores de código abierto, 246 tareas en repositorios que conocían desde hacía unos cinco años | Permitir la asistencia **aumentó** el tiempo de resolución un 19 %, frente a la previsión de mejora del 20 % que habían expresado los propios participantes | Muestra pequeña, proyectos maduros con estándares altos y herramientas de principios de 2025 |
 | SWE-bench, desde 2023 | Banco de pruebas con más de dos mil incidencias reales de repositorios de código abierto | Mide la proporción de incidencias resueltas de verdad, verificadas por sus propias pruebas | Mide una capacidad concreta, no la utilidad en un equipo ni el coste de mantener el resultado |
 
-Lo que se puede afirmar con esto: el rendimiento depende mucho del contexto; en tareas cerradas y verificables la mejora es grande; en proyectos maduros con estándares exigentes y conocimiento previo, la asistencia puede ralentizar. Lo que **no** se puede afirmar: cifras generales de mejora de la productividad, comparaciones entre herramientas ni que la tendencia sea estable.
+Lo que se puede afirmar con esto: el rendimiento depende mucho del contexto; en tareas cerradas y verificables la mejora es grande; en proyectos maduros con estándares exigentes y conocimiento previo, la asistencia puede ralentizar.
+
+> [!WARNING]
+> Lo que **no** se puede afirmar: cifras generales de mejora de la productividad, comparaciones entre herramientas ni que la tendencia sea estable.
 
 Los informes de industria, como los del programa DORA, aportan una visión de conjunto por encuestas y sirven para situar tendencias, no para decidir sobre un equipo concreto.
 

@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # What an agent is and what it is not
 
+
+<img src="../../assets/bandas/banda-04-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [04-que-es-y-que-no-es-un-agente.md](04-que-es-y-que-no-es-un-agente.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 In the pit box at Jarama this is talked about every week, even though nobody uses these words. A salesperson sells «agents» that do everything, a software vendor promises that its tool «acts on its own» and in the workshop people ask, rightly, whether that means something is going to touch the car without anybody watching. The word has become so elastic that it no longer distinguishes anything.
@@ -35,7 +37,8 @@ Put in a table, the differences that matter are these:
 | What has to be written beforehand | The procedure | The review criterion | The stopping condition, the budget and the permissions |
 | How it is checked | Deterministic tests | Sampling and review | Case-based evaluation, trace and audit of what was executed |
 
-It is worth looking at the last row, because it is the one that gets forgotten. A system that acts on its own and keeps no trace of what it did cannot be reviewed, and what cannot be reviewed sooner or later breaks and nobody knows why.
+> [!NOTE]
+> It is worth looking at the last row, because it is the one that gets forgotten. A system that acts on its own and keeps no trace of what it did cannot be reviewed, and what cannot be reviewed sooner or later breaks and nobody knows why.
 
 ## The loop, from the inside
 

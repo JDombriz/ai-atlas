@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # What Artificial Intelligence Is
 
+
+<img src="../../assets/bandas/banda-01-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [01-que-es-la-inteligencia-artificial.md](01-que-es-la-inteligencia-artificial.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 The company is in the racing business. Its own cars, clients' cars, its own drivers and drivers who hire it for a one-off race. Vaque has spent half his life at Jarama, first tuning cars and now running the box: he is the mechanic nobody argues with about a set-up. He is always in a hurry, answers short, and gets it right before the other person has finished explaining.
@@ -141,6 +143,9 @@ Vaque stayed quiet for a moment, which in him is a lot. Then he asked the questi
 Vaque took the delivery note, turned it over and wrote three lines with the pen he carried in his overalls. The first: that this calculates, it doesn't know. The second: that the model, the system, the product and the expectation are four different things, and that whoever signs answers. The third: that of the four kinds of answer, only the one with texts can't be checked on its own, and that this decides everything else.
 
 Then he taped the paper to the tool trolley with masking tape, switched off the light in the box and went to have dinner. The next day there was a race, and client number seven's car had spent two weeks crying out for a set-up that only he knew how to do. That isn't something any machine is going to learn for a long time. What is changing, and he knows it better than anyone, is that from now on part of the trade consists of knowing what to ask these contraptions and of checking everything they answer.
+
+> [!NOTE]
+> **What Vaque wrote down on the delivery note.** A model calculates, it does not know: it learns patterns from examples and returns whatever fits best. Model, system, product and expectation are four different things, and whoever signs is answerable. And of the four kinds of answer, only the one made of text cannot be checked on its own, and that decides how everything else is evaluated.
 
 ## Definitions
 

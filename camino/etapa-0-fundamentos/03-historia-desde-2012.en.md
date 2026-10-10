@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # From AlexNet to agents: the history since 2012
 
+
+<img src="../../assets/bandas/banda-03-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [03-historia-desde-2012.md](03-historia-desde-2012.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 From 2012 onwards the vocabulary fills up with words that are used without defining them: deep learning, transformer, pretraining, preference tuning, multimodal, reasoning model, agent. This stretch places each one in its moment and explains what made it possible for things to be done differently. It is, too, the part of the history that ages fastest, and that is why it carries a review date in the header. What came before 2012 no longer moves; what has happened in the last three years does.
@@ -81,7 +83,8 @@ Two changes mark this stretch. The first is the deliberate use of computation at
 
 **What changed.** The frontier shifts from "what the model knows" to "what the system can do, with which permissions and at what cost". It is exactly the ground of stages 2 to 4. And regulation comes into play: the European artificial intelligence regulation, in force since August 2024, applies its obligations in phases and affects above all those who deploy in sensitive domains.
 
-No figures are asserted about the immediate present. There is no consolidated public figure that allows us to say how much team productivity has changed, and the available studies measure different things in different settings. The [study cited on page 6](06-el-oficio-en-2026.en.md) is the best example that these measures have to be read with care.
+> [!NOTE]
+> No figures are asserted about the immediate present. There is no consolidated public figure that allows us to say how much team productivity has changed, and the available studies measure different things in different settings. The [study cited on page 6](06-el-oficio-en-2026.en.md) is the best example that these measures have to be read with care.
 
 ## What this material covers and what it leaves out
 

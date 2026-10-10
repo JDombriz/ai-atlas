@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # Exercise — analysis of three processes of your own
 
+
+<img src="../../assets/bandas/banda-practica-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [practica.md](practica.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 ## What has to be delivered
@@ -70,14 +72,13 @@ A simple case is included, from a racing workshop, to fix the level of detail ex
 
 ## How to know whether it is finished
 
-The exercise is finished when you can answer yes to all of the following without reading the pages again:
-
-- [ ] There are three processes described, with an owner and a volume.
-- [ ] At least one of the three concludes that a model is **not** needed, with the discard condition that decides it.
-- [ ] Each verdict names its alternative and, if it is another method, why it is preferable.
-- [ ] The cost and volume figures have an explicit basis: if they are estimates, it says what they are estimated from.
-- [ ] No section is left blank and no box is ticked without justification.
-
+> [!TIP]
+> **When it is finished**
+> - [ ] There are three processes described, with an owner and a volume.
+> - [ ] At least one of the three concludes that a model is **not** needed, with the discard condition that decides it.
+> - [ ] Each verdict names its alternative and, if it is another method, why it is preferable.
+> - [ ] The cost and volume figures have an explicit basis: if they are estimates, it says what they are estimated from.
+> - [ ] No section is left blank and no box is ticked without justification.
 The review of the document itself is deliberately severe, and on purpose: in this area, the difference between an analysis and an opinion is that the analysis can be argued point by point.
 
 ## The usual stumbling blocks

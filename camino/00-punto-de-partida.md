@@ -9,6 +9,8 @@ traduccion_de:
 
 # Punto de partida
 
+
+<img src="../assets/bandas/banda-00-es.svg" alt="El camino · punto de partida" width="560">
 > Versión en inglés: [`00-punto-de-partida.en.md`](00-punto-de-partida.en.md), traducción de esta revisión.
 
 ## Para qué sirve
@@ -39,7 +41,8 @@ Nada de esto se examina: es el supuesto de partida. Lo que sí se comprueba, eta
 
 ## Cómo cubrir lo que falte
 
-Recursos públicos, en español o con versión en español, accesibles sin registro. Los tiempos son orientativos y corresponden a dedicación continuada, no a lectura rápida.
+> [!TIP]
+> Recursos públicos, en español o con versión en español, accesibles sin registro. Los tiempos son orientativos y corresponden a dedicación continuada, no a lectura rápida.
 
 | Falta | Recurso | Dedicación orientativa |
 |:--|:--|:--|

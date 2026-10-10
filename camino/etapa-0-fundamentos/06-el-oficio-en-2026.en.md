@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # The craft in 2026
 
+
+<img src="../../assets/bandas/banda-06-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [06-el-oficio-en-2026.md](06-el-oficio-en-2026.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 This stage closes by answering what those who already program ask most: what all this translates into in their daily work. The answer has three parts, and it is worth not mixing them: what changes in an observable way, what does not change and remains the responsibility of whoever deploys, and what the available evidence allows us to assert today — which is considerably less than the noise suggests.
@@ -55,7 +57,10 @@ Here it is worth being more cautious than in the rest of the page, because the n
 | Productivity of experienced developers in mature projects, 2025 | Randomised trial with 16 open-source developers, 246 tasks in repositories they had known for about five years | Allowing assistance **increased** resolution time by 19 %, against the forecast of a 20 % improvement that the participants themselves had expressed | Small sample, mature projects with high standards and early-2025 tools |
 | SWE-bench, since 2023 | Test bench with more than two thousand real issues from open-source repositories | It measures the proportion of issues genuinely resolved, verified by their own tests | It measures a specific capability, not usefulness in a team nor the cost of maintaining the result |
 
-What can be asserted with this: performance depends greatly on the context; in closed and verifiable tasks the improvement is large; in mature projects with demanding standards and prior knowledge, assistance can slow things down. What **cannot** be asserted: general figures for productivity improvement, comparisons between tools, or that the trend is stable.
+What can be asserted with this: performance depends greatly on the context; in closed and verifiable tasks the improvement is large; in mature projects with demanding standards and prior knowledge, assistance can slow things down.
+
+> [!WARNING]
+> What **cannot** be asserted: general figures for productivity improvement, comparisons between tools, or that the trend is stable.
 
 Industry reports, such as those from the DORA programme, provide an overall view through surveys and serve to place trends, not to decide about a specific team.
 

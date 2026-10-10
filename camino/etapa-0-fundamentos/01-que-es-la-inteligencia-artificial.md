@@ -11,6 +11,9 @@ traduccion_de:
 
 # Qué es la inteligencia artificial
 
+
+<img src="../../assets/bandas/banda-01-es.svg" alt="01" width="560">
+
 > Versión en inglés: [`01-que-es-la-inteligencia-artificial.en.md`](01-que-es-la-inteligencia-artificial.en.md), traducción de esta revisión.
 
 La empresa se dedica a las carreras. Coches propios, coches de clientes, pilotos propios y pilotos que les contratan una carrera suelta. Vaque lleva media vida en el Jarama, primero poniendo a punto coches y ahora mandando en el box: es el mecánico con el que nadie discute una puesta a punto. Va siempre con prisa, contesta corto y acierta antes de que el otro termine de explicarse.
@@ -141,6 +144,9 @@ Vaque se quedó callado un momento, que en él es mucho. Después hizo la pregun
 Vaque cogió el albarán, le dio la vuelta y escribió tres líneas con el bolígrafo que llevaba en el mono. La primera: que esto calcula, no sabe. La segunda: que el modelo, el sistema, el producto y la expectativa son cuatro cosas distintas, y que quien firma responde. La tercera: que de los cuatro tipos de respuesta, solo el de los textos no se puede comprobar solo, y que eso decide todo lo demás.
 
 Luego pegó el papel con cinta de carrocero en el carro de herramientas, apagó la luz del box y se fue a cenar. Al día siguiente había carrera, y el coche del cliente número siete llevaba dos semanas pidiendo a gritos una puesta a punto que solo él sabía hacer. Eso no lo va a aprender ninguna máquina en mucho tiempo. Lo que cambia, y él lo sabe mejor que nadie, es que a partir de ahora parte del oficio consiste en saber qué preguntar a estos trastos y en comprobar todo lo que contestan.
+
+> [!NOTE]
+> **Lo que se llevó Vaque anotado en el albarán.** Un modelo calcula, no sabe: aprende patrones de ejemplos y devuelve lo que mejor encaja. Modelo, sistema, producto y expectativa son cuatro cosas distintas, y quien firma responde. Y de los cuatro tipos de respuesta, solo el de los textos no se comprueba solo, y eso decide cómo se evalúa todo lo demás.
 
 ## Definiciones
 

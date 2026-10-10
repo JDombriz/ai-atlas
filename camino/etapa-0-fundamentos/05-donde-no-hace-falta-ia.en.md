@@ -11,6 +11,8 @@ traduccion_de: 2026-10-10
 
 # Where artificial intelligence is not needed
 
+
+<img src="../../assets/bandas/banda-05-en.svg" alt="Stage 0" width="560">
 > English translation of the Spanish original: [05-donde-no-hace-falta-ia.md](05-donde-no-hace-falta-ia.md). Spanish is the canonical text; this version follows the revision of 10 October 2026.
 
 This is the most profitable page of the stage, and it goes against almost everything that is read on the subject. Choosing a model well saves time; ruling out a system that was not needed saves a cost every month, a new failure surface and a periodic discussion about why the result changes.
@@ -64,7 +66,8 @@ flowchart TD
   E -- "Yes" --> R5["Candidate for a model,<br/>with evaluation and budget"]
 ```
 
-It is worth accompanying the route with an elementary calculation, made with one's own numbers and not estimated: how much it costs to build it, how much to evaluate it, how much each use, how much to review the errors it makes and how much the process costs today as it stands. That calculation is developed in Stage 1 (Professional use, in preparation). Here a rule is enough: a figure without an origin is no use for deciding.
+> [!NOTE]
+> It is worth accompanying the route with an elementary calculation, made with one's own numbers and not estimated: how much it costs to build it, how much to evaluate it, how much each use, how much to review the errors it makes and how much the process costs today as it stands. That calculation is developed in Stage 1 (Professional use, in preparation). Here a rule is enough: a figure without an origin is no use for deciding.
 
 ## What forced agentification costs
 

@@ -11,6 +11,8 @@ traduccion_de:
 
 # De Turing a AlexNet: la historia hasta 2012
 
+
+<img src="../../assets/bandas/banda-02-es.svg" alt="02" width="560">
 > Versión en inglés: [`02-historia-hasta-2012.en.md`](02-historia-hasta-2012.en.md), traducción de esta revisión.
 
 Los errores de hoy se explican por decisiones que se tomaron hace sesenta años. Casi todos los debates que se repiten —si conviene escribir el conocimiento a mano o aprenderlo de los datos, si basta con más computación o hace falta más estructura, por qué llega el dinero y por qué se va— ya se dieron entonces, y se resolvieron de una manera concreta por razones que merece la pena conocer. Quien no sabe que los inviernos existieron se sorprende cada vez que aparece el siguiente.
@@ -71,7 +73,10 @@ MYCIN, también en Stanford, asesora sobre terapia antimicrobiana con varios cen
 
 En Digital Equipment Corporation, el sistema R1 —luego XCON— configura pedidos de sistemas VAX: comprueba compatibilidades y produce la lista de componentes. Se puso en explotación y la compañía sostuvo un departamento propio de ingeniería del conocimiento para mantenerlo.
 
-**Qué cambió.** El conocimiento experto pasa de ser objeto de investigación a ser activo comercial, y arranca el ciclo de los años ochenta: auge, empresas de herramientas expertas, expectativas desmedidas. El ciclo se rompió por una razón económica y no técnica: las bases de reglas crecieron hasta miles de reglas, cada cambio obligaba a revisar el conjunto, y las líneas de producto cambiaban más rápido de lo que el conocimiento se podía mantener. Las cifras de ahorro que se citan de aquella época proceden de testimonios y de la propia empresa, no de cuentas auditables.
+**Qué cambió.** El conocimiento experto pasa de ser objeto de investigación a ser activo comercial, y arranca el ciclo de los años ochenta: auge, empresas de herramientas expertas, expectativas desmedidas. El ciclo se rompió por una razón económica y no técnica: las bases de reglas crecieron hasta miles de reglas, cada cambio obligaba a revisar el conjunto, y las líneas de producto cambiaban más rápido de lo que el conocimiento se podía mantener.
+
+> [!WARNING]
+> Las cifras de ahorro que se citan de aquella época proceden de testimonios y de la propia empresa, no de cuentas auditables.
 
 ## 1986 · La retropropagación devuelve el aprendizaje al centro
 

@@ -11,6 +11,8 @@ traduccion_de:
 
 # Práctica — análisis de tres procesos propios
 
+
+<img src="../../assets/bandas/banda-practica-es.svg" alt="practica" width="560">
 > Versión en inglés: [`practica.en.md`](practica.en.md), traducción de esta revisión.
 
 ## Qué hay que entregar
@@ -70,14 +72,13 @@ Se incluye un caso sencillo, de un taller de carreras, para fijar el nivel de de
 
 ## Cómo saber si está cerrado
 
-La práctica está terminada cuando puede responder que sí a todo lo siguiente sin volver a leer las páginas:
-
-- [ ] Hay tres procesos descritos, con responsable y volumen.
-- [ ] Al menos uno de los tres concluye que **no** hace falta un modelo, con la condición de descarte que lo decide.
-- [ ] Cada veredicto nombra su alternativa y, si es otro método, por qué es preferible.
-- [ ] Las cifras de coste y volumen tienen una base explícita: si son estimaciones, se dice de qué se estiman.
-- [ ] No queda ningún apartado en blanco ni ninguna casilla marcada sin justificar.
-
+> [!TIP]
+> **Cuando está cerrada**
+> - [ ] Hay tres procesos descritos, con responsable y volumen.
+> - [ ] Al menos uno de los tres concluye que **no** hace falta un modelo, con la condición de descarte que lo decide.
+> - [ ] Cada veredicto nombra su alternativa y, si es otro método, por qué es preferible.
+> - [ ] Las cifras de coste y volumen tienen una base explícita: si son estimaciones, se dice de qué se estiman.
+> - [ ] No queda ningún apartado en blanco ni ninguna casilla marcada sin justificar.
 La revisión del propio documento es deliberadamente severa, y a propósito: en este terreno, la diferencia entre un análisis y una opinión es que el análisis se puede discutir punto por punto.
 
 ## Los tropiezos de siempre
