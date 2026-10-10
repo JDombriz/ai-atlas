@@ -29,11 +29,11 @@ Las reglas completas están en AGENTS.md.
 
 **Repositorio de consulta documental sobre inteligencia artificial, con un camino de cero a nivel profesional.**
 
-![estado](https://img.shields.io/badge/estado-v0.1%20en%20revisi%C3%B3n-1F4E79?style=flat-square)
+![estado](https://img.shields.io/badge/estado-v0.1%20publicada%20%C2%B7%2010%20de%20octubre%20de%202026-1F4E79?style=flat-square)
 ![entregas](https://img.shields.io/badge/entregas-una%20cada%20lunes-1F4E79?style=flat-square)
 ![licencia](https://img.shields.io/badge/licencia-MIT%20%2B%20CC%20BY%204.0-1F4E79?style=flat-square)
 
-> **En preparación.** La primera entrega —la Etapa 0 completa, con su práctica y sus recursos— está redactada y pasa por revisión humana. Se publica en cuanto la revisión cierre, dentro de la semana del 12 al 18 de octubre de 2026, y con ella el repositorio pasa a público. El calendario de las once entregas siguientes está en [`ROADMAP.md`](ROADMAP.md).
+> **Primera entrega publicada.** La Etapa 0 está completa: seis páginas, una práctica que la cierra y los recursos que la sostienen. La siguiente entrega, el lunes 26 de octubre, trae las doce fichas semilla del catálogo, la primera receta y las páginas 1 a 3 de la Etapa 1. El calendario completo está en [`ROADMAP.md`](ROADMAP.md).
 
 ## Qué es
 
@@ -80,13 +80,13 @@ Cada etapa consta de cuatro piezas: índice con criterio de salida, documentaci�
 
 ## Por dónde empezar hoy
 
-La Etapa 0 está redactada y en revisión humana; se publica en cuanto la revisión cierre. Hasta entonces, lo que hay en pie es el [índice temático](INDEX.md) y el [calendario](ROADMAP.md). Cuando el repositorio pase a público, el orden recomendado es: [`camino/00-punto-de-partida.md`](camino/00-punto-de-partida.md) —para comprobar que no falta el oficio— y la [Etapa 0](camino/etapa-0-fundamentos/README.md), de principio a fin.
+El orden recomendado es [`camino/00-punto-de-partida.md`](camino/00-punto-de-partida.md) —para comprobar que no falta el oficio— y después la [Etapa 0](camino/etapa-0-fundamentos/README.md), de principio a fin. Si se busca algo concreto, el [índice temático](INDEX.md) y el [glosario](GLOSSARY.md) están para eso; y la [práctica de la etapa](camino/etapa-0-fundamentos/practica.md) es la forma más rápida de comprobar si lo leído ha servido.
 
 ## Calendario
 
 | Publicación | Entrega |
 |:--|:--|
-| semana del 12 al 18 de octubre de 2026 | **Release v0.1** — Etapa 0 completa: documentación, práctica y recursos. Fecha fija el día de la aprobación |
+| **sáb 10 oct 2026** | **Release v0.1** — Etapa 0 completa: documentación, práctica y recursos. *Publicada* |
 | lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 |
 | lun 2 nov 2026 | Receta: elegir un modelo para una tarea concreta |
 | lun 9 nov 2026 | Etapa 1, páginas 4–5 + práctica + fichas de herramientas |

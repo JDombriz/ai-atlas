@@ -9,13 +9,11 @@ traduccion_de:
 
 # Punto de partida
 
-> **Pregunta que resuelve:** ¿qué se da por sabido antes de empezar el camino y dónde cubrirlo si falta?
-
 ## Para qué sirve
 
-Fija dónde empieza el «cero» de este material. El camino arranca en cero **en inteligencia artificial**: no presupone que se sepa nada de la materia. Sí presupone el oficio de programar, porque a partir de la Etapa 2 se leen y se escriben programas, se levantan servicios y se trabaja con repositorios.
+Fija dónde empieza el «cero» de este material. El camino arranca en cero **en inteligencia artificial**: no se presupone que se sepa nada de la materia. Sí se presupone el oficio de programar, porque a partir de la Etapa 2 se leen y se escriben programas, se levantan servicios y se trabaja con repositorios.
 
-Esta página existe para que nadie llegue a la Etapa 0 sin los rudimentos y lo descubra tres páginas más adelante. Si ya se maneja un editor, una terminal y Git, y se ha escrito algo de código, se puede pasar directamente a la [Etapa 0 — Fundamentos](etapa-0-fundamentos/README.md). Si no, aquí están los recursos mínimos para llegar en condiciones.
+Esta página existe para que nadie llegue a la Etapa 0 sin los rudimentos y lo descubra tres páginas más adelante. Si ya maneja un editor, una terminal y Git, y ha escrito algo de código, puede pasar directamente a la [Etapa 0 — Fundamentos](etapa-0-fundamentos/README.md). Si no, aquí está lo mínimo para llegar en condiciones, con tiempos orientativos y sin ceremonia.
 
 ## Qué se da por sabido
 
@@ -50,9 +48,9 @@ Recursos públicos, en español o con versión en español, accesibles sin regis
 
 Con esas bases, la Etapa 0 se puede empezar con garantías. Sin ellas, se puede leer igualmente: las páginas 1, 2, 3 y 5 no exigen escribir código.
 
-## Errores frecuentes
+## Los tropiezos de siempre
 
-- **Empezar por la herramienta.** Instalar un entorno, una biblioteca de agentes y un marco de trabajo antes de entender qué se está montando. El orden contrario —concepto, después herramienta— es el que este material propone, y por eso la Etapa 0 no pide instalar nada.
+- **Empezar por la herramienta.** Instalar un entorno, una biblioteca de agentes y un marco de trabajo antes de entender qué se está montando. El orden contrario —concepto primero, herramienta después— es el que este material propone, y por eso la Etapa 0 no pide instalar nada.
 - **Confundir el punto de partida con un examen.** Nadie va a corregir estas bases. La única consecuencia de no tenerlas es que las etapas 2 a 5 se vuelven más lentas de lo necesario.
 - **Saltar a la Etapa 3 por interés en los agentes.** Es la etapa que más se consulta y la que peor se aprovecha sin las anteriores: casi todos sus errores se deciden antes, al modelar el contexto y el estado.
 
@@ -77,3 +75,7 @@ Si el objetivo es tener una opinión informada sobre inteligencia artificial sin
 
 - Siguiente: [Etapa 0 — Fundamentos](etapa-0-fundamentos/README.md)
 - Índice temático: [`../INDEX.md`](../INDEX.md)
+
+---
+
+*Pepe, asistido por IA. Última revisión: 2026-10-10.*

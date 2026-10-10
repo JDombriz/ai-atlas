@@ -46,11 +46,13 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
 - **Criterio de descarte** — condición comprobable que, si se cumple, excluye el uso de un modelo como pieza principal.  
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
+- **Datos de entrenamiento** — conjunto de ejemplos con el que se ajustan los parámetros de un modelo; determina qué sabe hacer y qué no.  
+  → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Deuda de configuración** — mantenimiento acumulado en instrucciones, contextos, permisos y herramientas conectadas de un sistema con modelos.  
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
 - **Deuda técnica de sistemas de aprendizaje** — coste acumulado en lo que rodea al modelo —datos, configuración, integración, evaluación— más que en el modelo mismo.  
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
-- **Entrenamiento** — proceso de ajuste de los parámetros de un modelo mediante la comparación repetida entre la salida obtenida y la esperada.  
+- **Entrenamiento** — proceso de ajuste de los parámetros mediante la comparación repetida entre la salida obtenida y la esperada.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Evaluación por casos** — conjunto de casos definidos antes de conocer el resultado, con su criterio de aceptación.  
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
@@ -62,19 +64,19 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Ingeniería de características** — oficio de diseñar a mano las variables que un sistema usará para decidir, sustituido en parte por representaciones aprendidas.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
-- **Inteligencia artificial** — familia de técnicas que permiten que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener codificado cada caso.  
+- **Inteligencia artificial** — familia de técnicas que hacen que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener escrito el resultado de cada caso.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Invierno de la inteligencia artificial** — periodo de contracción de la financiación y del interés institucional, con causas económicas y de expectativas.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
 - **Juego de la imitación** — prueba propuesta por Turing en la que un interrogador debe distinguir, por escrito, entre una máquina y una persona.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
-- **Leyes de escala** — relaciones empíricas que describen cómo baja el error al aumentar datos, parámetros y cómputo de entrenamiento.  
+- **Leyes de escala** — relaciones empíricas que describen cómo baja el error al aumentar datos, parámetros y computación de entrenamiento.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
 - **Modelo** — conjunto de parámetros ajustados durante el entrenamiento que, dada una entrada, produce una salida.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Modelo de difusión** — modelo generativo que produce una imagen partiendo de ruido y aplicando pasos sucesivos de limpieza.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
-- **Modelo de razonamiento** — modelo entrenado para producir pasos intermedios extensos antes de responder, de modo que su calidad depende del cómputo que se le permite gastar.  
+- **Modelo de razonamiento** — modelo entrenado para producir pasos intermedios extensos antes de responder, de modo que su calidad depende de la computación que se le permite gastar.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
 - **Multimodal** — sistema capaz de trabajar con más de un tipo de contenido, por ejemplo texto e imagen.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
@@ -100,6 +102,8 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
 - **Revisión humana** — paso en el que una persona acepta, corrige o rechaza el resultado de un sistema antes de que tenga consecuencias.  
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
+- **Sistema** — el modelo junto con todo lo que lo rodea —datos, contexto, herramientas, permisos, registro— y la persona que responde de él.  
+  → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Sistema experto** — programa que resuelve un problema acotado reproduciendo el conocimiento de especialistas, escrito en forma de reglas.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
 - **Sistema híbrido** — combinación de reglas, modelos y revisión humana, cada pieza con una función y un límite declarados.  
@@ -110,7 +114,7 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Supervisión humana** — intervención prevista en el diseño por la que una persona aprueba o rechaza una acción antes o después de que ocurra.  
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
-- **Token** — unidad mínima de texto que un modelo procesa; su número determina el coste y la latencia de una consulta.  
+- **Token** — fragmento mínimo de texto que un modelo procesa; su número determina el coste y la latencia de una consulta.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Transformador** — arquitectura basada en autoatención que procesa la secuencia completa en paralelo; sostiene la mayor parte de los modelos actuales.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)

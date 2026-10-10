@@ -11,30 +11,51 @@ traduccion_de:
 
 # Qué es la inteligencia artificial
 
-> **Pregunta que resuelve:** ¿qué es, en términos operativos, un sistema de inteligencia artificial y qué se puede esperar de él?
+La empresa se dedica a las carreras. Coches propios, coches de clientes, pilotos propios y pilotos que les contratan una carrera suelta. Vaque lleva media vida en el Jarama, primero poniendo a punto coches y ahora mandando en el box: es el mecánico con el que nadie discute una puesta a punto. Va siempre con prisa, contesta corto y acierta antes de que el otro termine de explicarse.
 
-## Para qué sirve
+El viernes por la tarde, en la última sesión libre, el jefe de equipo le dejó caer que había que «meter inteligencia artificial» en el taller. Que todos lo están haciendo. Vaque resopló, dijo que sí con la cabeza y siguió con lo suyo. Pero antes de cerrar el box, con las herramientas ordenadas y el café de máquina en la mano, se sentó en el banco del fondo y abrió la conversación con T1000, el asistente que usa desde hace unos meses para los informes. Le puso ese nombre el primer día, medio en broma, por una película de los noventa.
 
-Ordena el vocabulario que se usa a diario de forma imprecisa. Cuando alguien dice «la IA ha hecho esto», normalmente se refiere a una de cuatro cosas distintas: un modelo, un sistema que lo envuelve, un producto que lo ofrece o una expectativa sobre lo que debería ser capaz de hacer. Distinguirlas evita la mayor parte de las discusiones estériles y, sobre todo, evita comprometerse a algo que la tecnología no sostiene.
+—Tú. En dos minutos. ¿Qué es la inteligencia artificial?
 
-Sirve también para lo contrario: reconocer cuándo una tarea **sí** encaja en este tipo de sistemas y cuándo no. Ese criterio se desarrolla en la [página 5](05-donde-no-hace-falta-ia.md).
+—En dos minutos no cabe entera, pero te doy lo importante. Cuando alguien dice «la IA», está hablando de cuatro cosas distintas y casi siempre cree que habla de una sola.
 
-## Definición operativa
+—A ver.
 
-Una definición que sirva para trabajar no puede apoyarse en «inteligencia», que no es medible. La que se usa aquí es más estrecha y más útil:
+—**El modelo**, que es el programa que calcula. **El sistema**, que es el modelo más todo lo que lo rodea: los datos que le llegan, las herramientas que puede usar, los permisos que tiene y quién responde si algo sale mal. **El producto**, que es lo que se contrata para tener todo eso funcionando. Y **la expectativa**, que es lo que cada uno se imagina cuando oye la palabra.
 
-> **Inteligencia artificial** es la familia de técnicas que permiten que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener codificado el resultado para cada caso concreto.
+—Como cuando el piloto baja del coche y dice «no va». No está diciendo si son las gomas, el motor o el reparto de pesos. Está diciendo que no va.
 
-Esa definición cubre dos ramas que conviene no mezclar, porque se comportan de forma muy distinta:
+—Exactamente eso. Y separar las cuatro cosas sirve para lo único que importa aquí: saber cuándo no hace falta nada de esto.
 
-1. **Sistemas de reglas.** El conocimiento se escribe: condiciones, consecuencias, excepciones. Son deterministas, explicables y predecibles, y su límite es el coste de escribirlas y mantenerlas a mano. Fueron la línea dominante hasta los años noventa y siguen siendo la respuesta correcta en muchos problemas actuales.
-2. **Sistemas que aprenden.** El comportamiento se ajusta a partir de datos. No hay reglas escritas: hay parámetros que se modifican hasta que la salida se parece a la esperada. Es la línea dominante hoy, y su límite es distinto: dependen de los datos con los que se ajustaron, de la tarea para la que se ajustaron y de una evaluación que casi nunca es tan limpia como parece.
+—Eso me interesa. Sigue.
 
-Cuando en este material se dice «modelo» sin más, se habla de la segunda rama. Cuando se dice «sistema», se habla del conjunto: modelo, datos, contexto, herramientas, control de acceso, registro y quien responde de él.
+—Antes hay que ver qué hay dentro, porque el interior decide lo que se puede esperar.
 
-## Cómo funciona
+—El otro día me dijeron que esto es como buscar en internet. Yo creo que no.
 
-El ciclo mínimo de un sistema que aprende tiene tres momentos:
+—No es buscar. Escribe lo que encaja. Y hay dos maneras de conseguir que un programa acierte, que se parecen tan poco que casi no deberían llamarse igual.
+
+—Corta.
+
+—Una es **escribir el conocimiento a mano**. Alguien redacta las condiciones, las consecuencias y las excepciones. Es tu tabla de pares de apriete: exacta, igual siempre, y solo cubre lo que alguien se sentó a escribir.
+
+—Y la otra.
+
+—**Deducirlo**. No hay reglas escritas: hay unos cuantos números que se van ajustando hasta que la respuesta se parece a la esperada.
+
+—O sea, el oído.
+
+—El oído. Tú escuchas un motor y sabes qué le pasa antes de levantar la tapa. Eres un perito con miles de horas. La diferencia está en que tú sabes explicar por qué, y esto no. Y en que si le cambias el contexto se equivoca con una seguridad que asusta.
+
+—Como el que dice que un motor está bien porque en el banco dio los números.
+
+—Justo. A la segunda manera se le llama aprendizaje automático, y cuando en este material se dice «modelo» sin más, se habla de una pieza de esa familia.
+
+—¿Y cómo aprende?
+
+—En dos momentos que conviene no mezclar, porque son cuentas distintas y las paga gente distinta.
+
+T1000 le pidió que le dejara el albarán de frenos que estaba en el banco y dibujó tres cajas en el reverso.
 
 ```mermaid
 flowchart LR
@@ -45,65 +66,94 @@ flowchart LR
   I --> R["Resultado"]
 ```
 
-1. **Entrenamiento.** Se parte de una arquitectura y de un conjunto de ejemplos. Se calcula la salida del modelo, se mide cuánto se aparta de la esperada y se corrigen los parámetros en la dirección que reduce ese error. Repetido muchas veces, el resultado es un conjunto de parámetros que acierta en los ejemplos vistos y, si el trabajo está bien hecho, en los no vistos.
-2. **Modelo.** El artefacto resultante: parámetros ajustados, sin memoria de los datos de entrenamiento en un sentido consultable, y con capacidad de generalizar de forma imperfecta. Un modelo grande de lenguaje es, en lo esencial, un estimador de la siguiente pieza de texto, y esa tarea —predecir lo que encaja— es la que produce la apariencia de comprensión.
-3. **Inferencia.** Cada consulta: se entrega una entrada, el modelo calcula y devuelve una salida. Aquí no se aprende nada. Lo que se paga —en tiempo y en dinero— ocurre en este paso, no en el anterior.
+—El **entrenamiento** es aprender. Se ven muchísimos ejemplos, se mide cuánto se aparta la respuesta de la esperada y se corrigen los números para reducir el error. Repetido miles de veces queda un ajuste que acierta en lo que ha visto y, si se ha hecho bien, en lo que no ha visto. Eso que queda es el **modelo**. No guarda los ejemplos como quien guarda fotos en un cajón; guarda el ajuste que esos ejemplos dejaron.
 
-Sobre ese ciclo se distinguen cuatro tipos de salida que conviene reconocer porque se corrigen de forma distinta:
+—¿Y lo de las vueltas?
 
-| Tipo | Qué produce | Cómo se comprueba |
-|:--|:--|:--|
-| Clasificación | Una etiqueta entre un conjunto cerrado | Matriz de confusión; falsos positivos y negativos por separado |
-| Regresión | Un número | Error medio, y sobre todo error en los extremos |
-| Ranking | Un orden | Precisión en los primeros resultados, no en el conjunto |
-| Generación | Texto, imagen, audio, código | Revisión por criterios y, cuando se puede, una prueba automática |
+—La **inferencia** es cada vez que le preguntas algo. Entra una pregunta, sale una respuesta, y no se aprende nada nuevo.
 
-La generación es la única que no admite una comprobación barata universal: no hay respuesta correcta única. Por eso las páginas del camino insisten tanto en definir el criterio antes de elegir el modelo, y por eso «la evaluación es el trabajo» es la idea que más peso tiene en la Etapa 4 (Producción, en preparación).
+—Tradúcemelo.
 
-### Qué es razonable esperar
+—Aprender es montar el motor en el banco: caro, lento y una vez. Preguntar es cada vuelta que das a partir de ahí: barata de una en una, pero se paga vuelta a vuelta y así toda la temporada. Y lo que se paga no es la utilidad, es el combustible.
 
-- **Acierto frecuente y no garantizado.** El sistema se equivocará. La pregunta útil no es si se equivoca, sino con qué frecuencia, de qué manera y a qué coste.
-- **Sensibilidad a la entrada.** Un cambio de formato o de redacción cambia el resultado. La misma pregunta, formulada de otro modo, no siempre recibe la misma respuesta.
-- **Coste variable y latencia variable.** Se paga por uso, y el uso depende del texto que se envía. Ambos crecen con el tamaño del problema.
-- **Mejora con contexto y con ejemplos, no con insistencia.** Repetir la petición no aporta; aportar el dato que faltaba, sí.
+—¿Combustible?
 
-### Qué no es razonable esperar
+—Se cobra por **tokens**, que son trozos de palabra. Pagas por lo que lees y por lo que escribes, como se paga la gasolina por litros. El mismo destino por el camino largo cuesta más que por el corto, y dando vueltas al mismo sitio se gasta igual.
 
-- **Exactitud aritmética o contable.** Un modelo de lenguaje calcula texto, no cuentas. Para aritmética hay una calculadora, una hoja de cálculo o una función.
-- **Conocimiento del estado actual del mundo** por el mero hecho de ser reciente. Lo que no estuvo en sus datos no lo sabe; lo que sí estuvo puede haber caducado.
-- **Determinismo.** Dos ejecuciones iguales pueden dar resultados distintos, y esa variación es una característica del método, no un defecto a corregir.
-- **Responsabilidad.** Ningún sistema responde de sus actos. Responde quien lo despliega. Esta frase parece obvia y es la que decide la mitad de los apartados de «cuándo no aplica» de todo el repositorio.
+—Vale. Y de esto, ¿qué me sirve a mí?
 
-### Dos palabras que conviene usar bien
+—Depende de qué parte de tu trabajo. Hay cuatro tipos de respuesta, y solo una se comprueba mal.
 
-**Alucinación.** Se llama así a una salida falsa con formato plausible. No es un fallo extraño: es el resultado previsible de pedirle a un sistema que genere lo que mejor encaja, cuando no tiene el dato. Se mitiga dando el dato, exigiendo la fuente y verificando la afirmación, no pidiéndole al modelo que «no invente».
+—Dispara.
 
-**Entender.** Se usa en dos sentidos incompatibles. En sentido técnico, un modelo no entiende: transforma representaciones numéricas. En sentido coloquial, produce respuestas útiles sobre un asunto. Las dos afirmaciones son ciertas a la vez, y confundirlas lleva a discutir sobre palabras en lugar de sobre comportamientos observables.
+—Puedo darte **una etiqueta**, por ejemplo qué avisos del correo son urgentes y cuáles pueden esperar al lunes. Puedo darte **un número**, por ejemplo cuántos kilómetros aguanta ese juego de gomas con ese piloto y ese circuito concreto. Puedo darte **un orden**, por ejemplo qué coche conviene atender primero cuando entran dos averías y una carrera a la vez. O puedo **redactar**: el informe que le mandas al cliente después de cada carrera, el correo al proveedor, el resumen del briefing.
 
-## Errores frecuentes
+—Ese informe me cuesta dos horas cada domingo.
 
-- **Confundir el modelo con el sistema.** Se cambia de modelo esperando resolver un problema que estaba en el tratamiento de los datos, en el contexto que se envía o en la falta de una salida estructurada.
-- **Tomar una salida por un hecho.** Que el texto esté bien escrito no dice nada sobre si es cierto. La regla de trabajo es sencilla: todo dato que vaya a tener consecuencias se comprueba en su fuente.
-- **Juzgar con ejemplos favorables.** Probar con tres casos que uno mismo ha elegido garantiza una impresión falsa. La evaluación empieza por escribir los casos difíciles.
-- **Suponer que el entrenamiento enseña la tarea.** Un modelo ajustado para continuar texto no está ajustado para clasificar incidencias ni para seguir instrucciones. Esas son capacidades que se añaden después, y no todas se añaden igual de bien.
-- **Tratar el tamaño como única variable.** El tamaño del modelo es una variable entre varias; los datos de ajuste, el formato de la salida y el contexto disponible pesan a menudo más en el resultado final.
+—Las tres primeras respuestas tienen algo contra lo que medirse: se puede comprobar si la etiqueta era la correcta, si la cifra se acercó y si el orden que propuse era el útil. La cuarta, no. No existe el informe bueno de una carrera, igual que no existe la versión perfecta de un correo. Dos personas pueden escribirlo bien y ninguna ser la verdadera.
 
-## Cuándo no aplica
+—¿Y eso cómo se arregla?
 
-Lo explicado aquí sirve para entender qué hay dentro y qué cabe esperar; no sirve para elegir un modelo concreto (Etapa 1), ni para diseñar un flujo con estado (Etapa 2), ni para decidir si un problema concreto merece un sistema de este tipo: eso es la [página 5](05-donde-no-hace-falta-ia.md). Cuando la regla es conocida, estable y barata de escribir, la rama correcta es la de sistemas de reglas, y aplicar un modelo sería un coste añadido sin contrapartida.
+—Escribiendo antes qué cuenta como bien. Si el resultado no se comprueba solo, la pregunta «¿lo hizo bien?» solo tiene respuesta si lo decidiste de antemano. Eso lleva su tiempo y es el trabajo de verdad; de eso va la etapa de producción del material.
+
+Vaque se levantó a comprobar una cosa del coche que estaba en el elevador. Volvió con una llave en la mano y la dejó sobre el albarán.
+
+—¿Y cuándo te equivocas?
+
+—De tres maneras, y las tres son previsibles. La primera: te contesto algo falso con una redacción impecable. Tiene nombre, **alucinación**, y no es una avería rara. Es lo que pasa cuando me pides que escriba lo que mejor encaja y no tengo el dato.
+
+—El mes pasado me citaste un artículo del reglamento técnico que no existe. Lo buscamos con el comisario y no estaba.
+
+—Ese es el caso exacto. Y no se arregla pidiéndome que no invente. Se arregla dándome el dato y comprobando lo que cuento. En tu oficio ya lo haces: la tabla de pares de apriete no se recita de memoria, se mira.
+
+—La segunda.
+
+—Que la misma pregunta no siempre recibe la misma respuesta. Dos veces seguidas, dos redacciones distintas, y ninguna explicación de por qué.
+
+—Eso en mi taller es un problema. Si pregunto una cifra, quiero la cifra.
+
+—Y ahí está el límite: para una cifra exacta no se me pregunta a mí. Si hay que sumar siete albaranes, se suman con una hoja de cálculo, no se me pide a mí que los sume.
+
+—La tercera.
+
+—Que no respondo de mis actos. Responde quien me pone a funcionar. Y en una ficha de coche, quien firma, responde.
+
+—Yo firmo.
+
+—Pues eso. Nada de lo que salga de aquí se firma sin pasar por tus manos.
+
+Vaque se quedó callado un momento, que en él es mucho. Después hizo la pregunta que casi nadie hace.
+
+—Entonces, ¿para qué te quiero?
+
+—Para lo que hoy te cuesta tiempo y no es tu oficio. Encontrar el patrón en los datos de telemetría de tres temporadas, sí. Clasificar el correo de proveedores por urgencia, sí. Ordenarte los coches cuando entran cinco a la vez, sí. Redactar el informe del cliente con los datos que tú le das, sí, y tú lo corriges antes de enviarlo.
+
+—¿Y para cuadrar los albaranes de las piezas?
+
+—Para eso no me necesitas. Miras referencia, cantidad y precio, y si coinciden las tres cosas, está bien. Eso es una regla conocida, estable y baratísima de escribir. Si te vendo lo contrario, te estoy vendiendo un coste fijo todos los meses por algo que ya te funciona.
+
+—Eso ya lo hago yo en cinco minutos.
+
+—Cinco minutos y bien. Ahí no hay nada que aprender.
+
+Vaque cogió el albarán, le dio la vuelta y escribió tres líneas con el bolígrafo que llevaba en el mono. La primera: que esto calcula, no sabe. La segunda: que el modelo, el sistema, el producto y la expectativa son cuatro cosas distintas, y que quien firma responde. La tercera: que de los cuatro tipos de respuesta, solo el de los textos no se puede comprobar solo, y que eso decide todo lo demás.
+
+Luego pegó el papel con cinta de carrocero en el carro de herramientas, apagó la luz del box y se fue a cenar. Al día siguiente había carrera, y el coche del cliente número siete llevaba dos semanas pidiendo a gritos una puesta a punto que solo él sabía hacer. Eso no lo va a aprender ninguna máquina en mucho tiempo. Lo que cambia, y él lo sabe mejor que nadie, es que a partir de ahora parte del oficio consiste en saber qué preguntar a estos trastos y en comprobar todo lo que contestan.
 
 ## Definiciones
 
-- **Inteligencia artificial**: familia de técnicas que permiten que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener codificado cada caso.
+- **Inteligencia artificial**: familia de técnicas que hacen que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener escrito el resultado de cada caso.
 - **Aprendizaje automático**: rama de la inteligencia artificial en la que el comportamiento se ajusta a partir de datos, sin escribir las reglas a mano.
 - **Modelo**: conjunto de parámetros ajustados durante el entrenamiento que, dada una entrada, produce una salida.
-- **Entrenamiento**: proceso de ajuste de los parámetros de un modelo mediante la comparación repetida entre la salida obtenida y la esperada.
+- **Entrenamiento**: proceso de ajuste de los parámetros mediante la comparación repetida entre la salida obtenida y la esperada.
 - **Inferencia**: uso del modelo ya entrenado para producir una salida a partir de una entrada nueva; es el paso que se paga por consulta.
 - **Parámetro**: valor interno del modelo que se modifica durante el entrenamiento y queda fijo después.
-- **Token**: unidad mínima de texto que un modelo procesa; su número determina el coste y la latencia de una consulta.
+- **Token**: fragmento mínimo de texto que un modelo procesa; su número determina el coste y la latencia de una consulta.
 - **Alucinación**: salida falsa con apariencia plausible, producida cuando el sistema genera lo que mejor encaja y carece del dato.
 - **Generalización**: capacidad de acertar en casos no vistos durante el entrenamiento; es el objetivo del aprendizaje y su resultado nunca es perfecto.
 - **Sobreajuste**: situación en la que el modelo acierta en los ejemplos de entrenamiento y falla en los nuevos.
+- **Sistema**: el modelo junto con todo lo que lo rodea —datos, contexto, herramientas, permisos, registro— y la persona que responde de él.
+- **Datos de entrenamiento**: conjunto de ejemplos con el que se ajustan los parámetros de un modelo; determina qué sabe hacer y qué no.
 
 ## Referencias
 
@@ -118,5 +168,11 @@ Lo explicado aquí sirve para entender qué hay dentro y qué cabe esperar; no s
 
 - Anterior: [Punto de partida](../00-punto-de-partida.md)
 - Siguiente: [De Turing a AlexNet: la historia hasta 2012](02-historia-hasta-2012.md)
+- Para decidir cuándo un problema no necesita nada de esto: [Dónde no hace falta inteligencia artificial](05-donde-no-hace-falta-ia.md)
+- Para lo que viene después —elegir modelo, diseñar flujos con estado, operar en producción—: etapas 1 a 4 del camino, en preparación
 - Índice de la etapa: [Etapa 0 — Fundamentos](README.md)
 - Índice temático: [`../../INDEX.md`](../../INDEX.md)
+
+---
+
+*Pepe, asistido por IA. Última revisión: 2026-10-10.*

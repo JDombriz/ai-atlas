@@ -6,7 +6,7 @@ Los estados posibles de una entrega son: `planificada`, `en investigación`, `re
 
 ## Fase 0 — Publicación mínima
 
-Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026.
+Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026. **Cerrada el sábado 10 de octubre de 2026: la Release v0.1 se publicó ese día y el repositorio pasó a público.**
 
 - [x] Repositorio, licencias, `README.md`, `CONTRIBUTING.md`, `AGENTS.md`.
 - [x] Plantillas de etapa, página, ficha, receta y RFC.
@@ -21,13 +21,13 @@ Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026.
 
 | Entrega | Revisión humana | Publicación | Estado |
 |:--|:--|:--|:--|
-| Release v0.1 — Etapa 0 completa (seis páginas, práctica y recursos) | abierta el sábado 10 de octubre | el día en que se apruebe, dentro de la semana del 12 al 18 de octubre de 2026 | `en revisión` |
+| Release v0.1 — Etapa 0 completa (seis páginas, práctica y recursos) | aprobada por el autor el sábado 10 de octubre de 2026 | **publicada el sábado 10 de octubre de 2026** | `publicada` |
 
-**Publicación adelantada.** La Etapa 0 quedó redactada y con las referencias comprobadas el 10 de octubre, antes de la fecha prevista. Por decisión del autor, la Release v0.1 se publica **en cuanto pase la revisión humana**, en lugar de esperar al lunes 19 de octubre, para que el cambio del repositorio a público llegue con contenido de valor y no con un esqueleto. La fecha de la entrega se fija el día de la aprobación y se anota aquí.
+**Publicación adelantada.** La Etapa 0 quedó redactada y aprobada el 10 de octubre, con una semana de antelación sobre la fecha prevista, para que el paso del repositorio a público llegara con contenido de valor y no con un esqueleto. Se publicó el mismo día de la aprobación.
 
-Las doce fichas semilla y la primera receta **no** bloquean esta publicación: quedan como primera entrega de la Fase 1 y se anuncian como tales. La Etapa 0 se publica con sus cuatro elementos —índice, documentación, práctica y recursos—, y `recursos.md` enlaza directamente a las fuentes mientras no existan sus fichas de catálogo.
+Las doce fichas semilla y la primera receta **no** entraron en esta publicación: son la primera entrega de la Fase 1, y así se anuncia. La Etapa 0 se publicó con sus cuatro elementos —índice, documentación, práctica y recursos—, y `recursos.md` enlaza directamente a las fuentes mientras no existan sus fichas de catálogo.
 
-El calendario de la Fase 1 **no se desplaza**: arranca con la semana 1 el lunes 26 de octubre, como estaba previsto.
+El calendario de la Fase 1 **no se desplaza** por este adelanto: arranca con la semana 1 el lunes 26 de octubre, como estaba previsto.
 
 ## Fase 1 — Primer trimestre
 
@@ -55,4 +55,4 @@ A partir de febrero de 2027: etapas 4 y 5, recetas cada tres semanas, fichas has
 
 | Versión | Fecha | Contenido |
 |:--|:--|:--|
-| *(ninguna todavía)* | | |
+| **v0.1** | sáb 10 oct 2026 | Etapa 0 completa —seis páginas, práctica y recursos— y la página de punto de partida. Repositorio abierto al público el mismo día |

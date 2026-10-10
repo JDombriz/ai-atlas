@@ -12,9 +12,11 @@ traduccion_de:
 <!-- estados: borrador | publicado | archivado. traduccion_de solo en los archivos
      .en.md, con la fecha de la revisión española de la que procede. -->
 
-# Título de la página
+<!-- La pregunta del campo `pregunta` no se repite en el cuerpo: aparece en el índice
+     temático y en llms.txt, que la leen del frontmatter. Nada de bloques «Pregunta que
+     resuelve» al principio de la página. -->
 
-> **Pregunta que resuelve:** fórmulala en una línea. Si necesitas dos, son dos páginas.
+# Título de la página
 
 ## Para qué sirve
 

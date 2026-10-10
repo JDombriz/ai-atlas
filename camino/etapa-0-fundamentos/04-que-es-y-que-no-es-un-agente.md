@@ -11,31 +11,31 @@ traduccion_de:
 
 # Qué es y qué no es un agente
 
-> **Pregunta que resuelve:** ¿dónde está la frontera entre una automatización, un asistente y un sistema agéntico?
+En el box del Jarama se habla de esto cada semana, aunque nadie use estas palabras. Un comercial vende «agentes» que hacen de todo, un proveedor de software promete que su herramienta «actúa sola» y en el taller se pregunta, con razón, si eso significa que algo va a tocar el coche sin que nadie lo mire. La palabra se ha vuelto tan elástica que ya no distingue nada.
 
-## Para qué sirve
+Y sin embargo la distinción es sencilla, y es la que decide quién responde de lo que pasa. No tiene que ver con lo listo que sea el sistema, sino con **quién decide el siguiente paso y quién lo ejecuta**.
 
-«Agente» se ha convertido en la palabra más elástica del sector: designa a la vez un asistente conversacional, un programa que rellena formularios y un sistema que modifica código en producción. La palabra no describe un nivel de inteligencia, sino un **reparto de decisiones**. Definir ese reparto con precisión es lo que permite saber a qué se está comprometiendo quien pone un sistema de estos en marcha.
+## Tres situaciones que se confunden a diario
 
-La página fija tres categorías —automatización, asistente y agente— y un criterio operativo para decidir en cuál está un caso concreto.
+**Automatización.** El procedimiento está escrito: qué hacer en cada situación, en qué orden y con qué condiciones. El sistema ejecuta y no decide nada que no estuviera previsto. Es determinista, se puede probar sin ejemplos y su fallo se reproduce a la primera. Aquí está todo el software de siempre: las reglas de negocio, las tareas programadas, los flujos de integración.
 
-## Las tres categorías
+**Asistente.** Un modelo genera una propuesta —un texto, un plan, un fragmento de código, una consulta— y **una persona decide** si se usa. El sistema no toca nada que importe: el único que ejecuta es el humano. Lo que define la frontera no es la calidad de la respuesta, sino quién aprieta el botón.
 
-**Automatización.** El procedimiento está escrito: qué hacer en cada situación, en qué orden y con qué condiciones. El sistema ejecuta y no decide nada que no estuviera previsto. Es determinista, se puede probar sin datos de ejemplo y su fallo es reproducible. Aquí entran los programas de siempre, las reglas de negocio, las tareas programadas y los flujos de integración.
+**Agente.** El sistema decide el siguiente paso y **lo ejecuta** sobre herramientas externas, en un bucle, hasta cumplir una condición de parada o agotar un presupuesto. Respecto al asistente hay tres cosas nuevas: la elección del paso, la ejecución de la acción y la duración de la ejecución sin nadie delante.
 
-**Asistente.** Un modelo genera una propuesta —un texto, un plan, un fragmento de código, una consulta— y **una persona decide** si se usa. El sistema no actúa sobre nada que importe: el único que ejecuta es el humano. La frontera no está en la calidad de la respuesta, sino en quién aprieta el botón.
-
-**Agente.** El sistema decide el siguiente paso y **lo ejecuta** sobre herramientas externas, en un bucle, hasta cumplir una condición de parada o agotar un presupuesto. Aquí hay tres cosas nuevas respecto al asistente: la elección del paso, la ejecución de la acción y la duración de la ejecución sin intervención humana.
+Puestos en una tabla, las diferencias que importan son estas:
 
 | Criterio | Automatización | Asistente | Agente |
 |:--|:--|:--|:--|
 | Quién decide el siguiente paso | El código, siempre igual | La persona | El modelo |
 | Quién ejecuta la acción | El código | La persona | El sistema |
 | Cuánto dura sin humano | Indefinido, pero acotado por diseño | Una interacción | Un número variable de pasos |
-| Qué necesita escrito antes | El procedimiento | El criterio de revisión | La condición de parada, el presupuesto y los permisos |
+| Qué hay que escribir antes | El procedimiento | El criterio de revisión | La condición de parada, el presupuesto y los permisos |
 | Cómo se comprueba | Pruebas deterministas | Muestreo y revisión | Evaluación por casos, traza y auditoría de lo ejecutado |
 
-## Cómo funciona un agente
+Conviene fijarse en la última fila, porque es la que se olvida. Un sistema que actúa solo y no guarda rastro de lo que hizo no se puede revisar, y lo que no se puede revisar tarde o temprano se cae y nadie sabe por qué.
+
+## El bucle, por dentro
 
 El patrón mínimo combina razonamiento y acción: el modelo propone un paso, el sistema lo ejecuta contra una herramienta, el resultado vuelve al modelo y el ciclo se repite.
 
@@ -51,30 +51,34 @@ flowchart TD
 
 Cuatro piezas sostienen ese bucle, y las cuatro son decisiones de diseño, no detalles de implementación:
 
-1. **Herramientas.** Lo que el sistema puede hacer: consultar una base de datos, leer un archivo, llamar a un servicio, modificar un registro. Una herramienta bien definida acota el espacio de acciones; una herramienta genérica —«ejecutar código»— lo abre entero.
-2. **Estado.** Lo que el sistema conserva entre pasos: qué ha intentado, qué ha fallado, qué ha averiguado. Sin estado, el bucle repite errores; con demasiado estado, el coste crece en cada paso.
-3. **Condición de parada.** Cuándo se considera terminado. Sin ella, el sistema no termina: gasta. La condición puede ser un objetivo cumplido, un número máximo de pasos, un tiempo o un gasto máximo.
-4. **Permisos y supervisión.** Qué puede modificar el sistema por su cuenta y qué necesita confirmación. Es el apartado que separa una demostración de un sistema en explotación, y el que se decide en la Etapa 4.
+**Las herramientas** son lo que el sistema puede hacer: consultar el almacén, leer una ficha de coche, escribir en el sistema de pedidos, avisar al proveedor. Una herramienta bien definida acota el espacio de acciones. Una herramienta genérica —«ejecutar código»— lo abre entero, con todo lo que eso significa.
 
-**La autonomía no es un nivel, es un compromiso.** No hay una escala de «más inteligente» que vaya de la automatización al agente. Lo que cambia al moverse hacia la derecha en esa escala es cuántas decisiones se delegan y cuánto tarda una persona en poder corregir un error. Un sistema con una autonomía amplia y una evaluación pobre es una forma cara de producir fallos rápidos.
+**El estado** es lo que se conserva entre pasos: qué se ha intentado, qué ha fallado, qué se ha averiguado. Sin estado, el bucle repite los mismos errores. Con demasiado estado, cada paso cuesta más que el anterior.
 
-## Errores frecuentes
+**La condición de parada** es cuándo se considera terminado. Sin ella el sistema no termina: gasta. Puede ser un objetivo cumplido, un número máximo de pasos, un tiempo o un importe.
 
-- **Llamar agente a un asistente con un buen mensaje de sistema.** Si el humano sigue ejecutando, no hay agente. La distinción no es de grado: es de quién actúa.
-- **Llamar inteligencia a la automatización.** Un flujo que aplica reglas claras no se vuelve agente porque una de sus ramas consulte a un modelo. Si el reparto de decisiones no cambia, la categoría no cambia.
-- **No escribir la condición de parada.** Es el error más caro y el más común: bucles que no terminan, gasto que crece sin control y acciones repetidas sobre el mismo registro.
+**Los permisos y la supervisión** son qué puede modificar por su cuenta y qué necesita confirmación. Es el apartado que separa una demostración de un sistema en explotación.
+
+De ahí sale la idea que más cuesta aceptar: **la autonomía no es un nivel, es un compromiso**. No hay una escala de «más listo» que vaya de la automatización al agente. Lo que cambia al moverse hacia la derecha es cuántas decisiones se delegan y cuánto tarda una persona en poder corregir un error. Un sistema con mucha autonomía y poca evaluación no es un sistema avanzado: es una forma cara de producir fallos deprisa.
+
+## Los tropiezos de siempre
+
+- **Llamar agente a un asistente con un buen mensaje de sistema.** Si el humano sigue ejecutando, no hay agente. No es una diferencia de grado, es una diferencia de quién actúa.
+- **Llamar inteligencia a la automatización.** Un flujo que aplica reglas no se vuelve agente porque una de sus ramas consulte a un modelo. Si el reparto de decisiones no cambia, la categoría no cambia.
+- **No escribir la condición de parada.** Es el error más caro y el más frecuente: bucles que no acaban, gasto que crece sin control y la misma acción repetida sobre el mismo registro.
 - **Confundir usar herramientas con ser autónomo.** Se puede consultar una API de forma completamente determinista, sin ninguna decisión delegada.
-- **Conceder permisos de escritura antes de tener evaluación.** La tentación es evidente: es lo que hace útil al sistema. El orden correcto es al contrario: primero observación y registro, después evaluación por casos, y solo entonces escritura con límites.
-- **Multiplicar agentes antes de necesitarlo.** Cada agente adicional añade coordinación, estado compartido y nuevas formas de fallar. La Etapa 3 (Patrones agénticos, en preparación) trata estos patrones y, en cada uno, el fallo que previene: si no hay un fallo identificado que justifique la arquitectura, la arquitectura sobra.
+- **Dar permisos de escritura antes de tener evaluación.** La tentación es evidente, porque escribir es lo que hace útil al sistema. El orden correcto es el contrario: primero observación y registro, después evaluación por casos y solo entonces escritura, con límites.
+- **Multiplicar agentes antes de necesitarlo.** Cada agente adicional añade coordinación, estado compartido y nuevas formas de fallar. La etapa 3 del camino trata estos patrones y, en cada uno, el fallo que previene: si no hay un fallo identificado que justifique la arquitectura, la arquitectura sobra.
 
 ## Cuándo no aplica
 
-Dos casos claros en los que la categoría «agente» no corresponde y forzarla encarece el sistema:
+Hay dos casos en los que la categoría «agente» no corresponde y forzarla encarece el sistema.
 
-1. **El procedimiento es fijo.** Si los pasos se conocen y no cambian con la entrada, la automatización es más barata, más rápida y más fácil de auditar. Un modelo añade variabilidad a cambio de nada.
-2. **No existe un criterio de éxito escrito.** Un agente persigue un objetivo; si ese objetivo no se puede enunciar de forma comprobable, el sistema no se puede evaluar, y sin evaluación no hay forma de saber si mejora o empeora. En ese caso el trabajo pendiente no es de arquitectura, es de definición.
+El primero: **el procedimiento es fijo**. Si los pasos se conocen y no cambian con la entrada, la automatización es más barata, más rápida y más fácil de auditar. Meter un modelo ahí es añadir variabilidad a cambio de nada.
 
-Tampoco es esta página un catálogo de patrones: describe la frontera conceptual. Las arquitecturas concretas —uso de herramientas, reflexión, planificación, colaboración entre agentes, supervisión humana y autorreparación— se estudian en la Etapa 3 (Patrones agénticos, en preparación), y su operación en producción, en la Etapa 4 (Producción, en preparación).
+El segundo: **no existe un criterio de éxito escrito**. Un agente persigue un objetivo; si ese objetivo no se puede enunciar de forma comprobable, no se puede evaluar, y sin evaluación no hay manera de saber si el sistema mejora o empeora. Cuando pasa eso, el trabajo pendiente no es de arquitectura, es de definición.
+
+Esta página describe la frontera conceptual, no un catálogo de patrones. Las arquitecturas concretas —uso de herramientas, reflexión, planificación, colaboración entre agentes, supervisión humana y autorreparación— se estudian en la Etapa 3 (Patrones agénticos, en preparación), y su operación, en la Etapa 4 (Producción, en preparación).
 
 ## Definiciones
 
@@ -94,7 +98,7 @@ Tampoco es esta página un catálogo de patrones: describe la frontera conceptua
 
 - *ReAct: Synergizing Reasoning and Acting in Language Models* — S. Yao y otros, 2022 — <https://arxiv.org/abs/2210.03629> (consultado 2026-10-10)
 - *Building effective agents* — Anthropic, 2024 (guía de ingeniería del fabricante; distingue flujos de trabajo de agentes) — <https://www.anthropic.com/engineering/building-effective-agents> (consultado 2026-10-10)
-- *AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges* — R. Sapkota y otros, 2025 (revisión conceptual de la terminología) — <https://arxiv.org/abs/2505.10468> (consultado 2026-10-10)
+- *AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges* — R. Sapkota, K. I. Roumeliotis y M. Karkee, 2025 (revisión conceptual de la terminología) — <https://arxiv.org/abs/2505.10468> (consultado 2026-10-10)
 - *Introducing the Model Context Protocol* y especificación — Anthropic / Model Context Protocol, 2024 — <https://www.anthropic.com/news/model-context-protocol> y <https://modelcontextprotocol.io/introduction> (consultado 2026-10-10)
 - *Artificial Intelligence Risk Management Framework (AI RMF 1.0)* — NIST, 2023 (trata la supervisión humana como requisito de gestión del riesgo) — <https://doi.org/10.6028/NIST.AI.100-1> (consultado 2026-10-10)
 - Comprobación propia — las direcciones anteriores devolvieron código 200 en una petición HTTP el 2026-10-10
@@ -105,3 +109,7 @@ Tampoco es esta página un catálogo de patrones: describe la frontera conceptua
 - Siguiente: [Dónde no hace falta inteligencia artificial](05-donde-no-hace-falta-ia.md)
 - Índice de la etapa: [Etapa 0 — Fundamentos](README.md)
 - Índice temático: [`../../INDEX.md`](../../INDEX.md)
+
+---
+
+*Pepe, asistido por IA. Última revisión: 2026-10-10.*

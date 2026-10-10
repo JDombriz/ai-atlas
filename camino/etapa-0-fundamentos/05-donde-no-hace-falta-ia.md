@@ -11,45 +11,41 @@ traduccion_de:
 
 # Dónde no hace falta inteligencia artificial
 
-> **Pregunta que resuelve:** ¿cuándo un problema no se resuelve con inteligencia artificial y qué se usa en su lugar?
+Esta es la página más rentable de la etapa, y va a contracorriente de casi todo lo que se lee sobre el tema. Elegir bien un modelo ahorra tiempo; descartar un sistema que no hacía falta ahorra un coste todos los meses, una superficie de fallo nueva y una discusión periódica sobre por qué el resultado cambia.
 
-## Para qué sirve
+Piense en el taller de carreras. Cada temporada alguien propone tres cosas «con inteligencia artificial»: cuadrar los albaranes de las piezas, decidir cuántos juegos de gomas cargar en el camión y redactar el informe que se le manda al cliente después de cada carrera. Las tres suenan igual y las tres son casos completamente distintos. Una se resuelve con una consulta, la segunda probablemente sí pide un modelo y la tercera es un asistente con revisión humana. Poner el mismo sistema en las tres es lo que en este material se llama **agentificación forzada**: meter un modelo delante de un procedimiento que ya funcionaba. Ocurre por dos caminos: por presión comercial —hay que ofrecer algo con inteligencia artificial— y por comodidad técnica, porque montar un agente entretiene más que leer un procedimiento y automatizarlo.
 
-Es la página más rentable de la etapa. Elegir bien un modelo ahorra tiempo; descartar un sistema que no hacía falta ahorra un presupuesto recurrente, una superficie de fallo nueva y una discusión mensual sobre por qué el resultado cambia.
+## Ocho condiciones que descartan un modelo
 
-El error que previene tiene nombre propio en este material: la **agentificación forzada**, poner un modelo delante de un procedimiento que ya funcionaba. Ocurre por dos caminos: por presión comercial —hay que ofrecer algo con inteligencia artificial— y por comodidad técnica, porque es más entretenido montar un agente que leer un procedimiento y automatizarlo.
+Cada una de estas condiciones, por sí sola, basta para no usar un modelo generativo como pieza principal. Están escritas como cosas que se pueden comprobar, no como opiniones.
 
-## Criterios de descarte
-
-Cada uno de estos criterios, por sí solo, basta para no usar un modelo generativo como pieza principal. Se enuncian como condiciones comprobables, no como opiniones.
-
-1. **La regla se conoce y es estable.** Si el procedimiento se puede escribir en condiciones, y esas condiciones cambian rara vez, la automatización es más rápida, más barata y auditable.
-2. **Se exige determinismo.** Facturación, nómina, cálculo de plazos, generación de identificadores: la misma entrada debe producir exactamente la misma salida, y eso un modelo no lo garantiza.
-3. **Se exige exactitud numérica.** Aritmética, contabilidad, agregaciones, búsqueda de un valor concreto. Un modelo de lenguaje produce texto plausible; para contar hay calculadora, hoja de cálculo o una consulta.
-4. **El coste del error es alto y no se puede verificar antes de actuar.** Una acción irreversible —un pago, un diagnóstico, un borrado, un cambio en producción— exige revisión humana y un camino de vuelta, no más capacidad del modelo.
-5. **El volumen no compensa el coste de construir y mantener el sistema.** Por debajo de unos cientos de casos al mes con criterio variable, una persona entrenada suele salir más barata; el sistema hay que construirlo, evaluarlo, mantenerlo y pagarlo cada vez que se usa.
-6. **No hay datos, o no se pueden usar.** Sin ejemplos representativos no hay evaluación posible, y sin evaluación no hay forma de saber si el sistema funciona. Añádase la restricción legal o contractual sobre los datos que se enviarían a un proveedor externo.
-7. **El problema no es de modelo, sino de datos, integración o proceso.** Si la información está repartida en cinco sistemas que no se comunican, o si nadie sabe hoy quién decide qué, ningún modelo resuelve eso. Es el error más caro de diagnóstico: se construye un sistema alrededor de un proceso que no estaba definido.
-8. **La latencia o el coste por operación no lo permiten.** Tiempo real estricto, millones de operaciones al día o coste por debajo del céntimo: un modelo por operación rara vez encaja.
+1. **La regla se conoce y es estable.** Si el procedimiento se puede escribir en condiciones, y esas condiciones cambian rara vez, la automatización es más rápida, más barata y auditable. Cuadrar un albarán es de este grupo: referencia, cantidad y precio.
+2. **Se exige determinismo.** Facturación, nómina, cálculo de plazos, numeración de documentos. La misma entrada tiene que producir exactamente la misma salida, y eso un modelo no lo garantiza.
+3. **Se exige exactitud numérica.** Aritmética, contabilidad, agregaciones, buscar un valor concreto. Un modelo de lenguaje produce texto plausible; para contar hay calculadora, hoja de cálculo o una consulta.
+4. **El coste del error es alto y no se puede verificar antes de actuar.** Un pago, un diagnóstico, un borrado, un cambio en producción. Eso exige supervisión humana y un camino de vuelta, no un modelo más capaz.
+5. **El volumen no compensa lo que cuesta construirlo y mantenerlo.** Por debajo de unos cientos de casos al mes con criterio variable, una persona entrenada suele salir más barata: hay que construir el sistema, evaluarlo, mantenerlo y pagar cada uso.
+6. **No hay datos, o no se pueden usar.** Sin ejemplos representativos no hay evaluación posible, y sin evaluación nadie puede decir si el sistema funciona. Añádase la restricción legal o contractual sobre los datos que saldrían hacia un proveedor externo.
+7. **El problema no es del modelo, sino de los datos, de la integración o del proceso.** Si el repuesto está en dos sistemas que no se hablan, o si nadie sabe hoy quién decide qué, ningún modelo arregla eso. Es el diagnóstico más caro de todos: se construye un sistema alrededor de un proceso que no estaba definido.
+8. **La latencia o el coste por operación no lo permiten.** Tiempo real estricto, millones de operaciones al día o un coste por debajo del céntimo: un modelo por operación rara vez encaja.
 
 ## Qué se usa en su lugar
 
-| Si el criterio es… | La alternativa razonable es… |
+| Si lo que manda es… | La alternativa razonable es… |
 |:--|:--|
-| Regla conocida y estable | Reglas de negocio, validaciones, flujo escrito o funciones |
+| Una regla conocida y estable | Reglas de negocio, validaciones, un flujo escrito o una función |
 | Determinismo y trazabilidad | Código determinista con registro de decisiones; revisión por excepción |
-| Exactitud numérica | Hoja de cálculo, consulta a base de datos, servicio de cálculo |
-| Recuperar un dato concreto | Índice de búsqueda, expresión regular o consulta directa |
-| Decidir entre opciones bajo restricciones | Optimización clásica o un solucionador, no un modelo generativo |
-| Predecir un número con datos históricos | Estadística clásica o un modelo pequeño y medido; a menudo basta con eso |
-| Clasificar con etiquetas conocidas | Clasificador entrenado, evaluado con falsos positivos y negativos por separado |
-| Tareas mecánicas en interfaces | Automatización de procesos, con sus límites documentados |
-| Criterio variable, volumen bajo | Una persona con una lista de comprobación |
-| Todo lo anterior con texto alrededor | Modelo como apoyo, con revisión humana y salida verificable |
+| Exactitud numérica | Hoja de cálculo, consulta a base de datos o servicio de cálculo |
+| Recuperar un dato concreto | Un índice de búsqueda, una expresión regular o una consulta directa |
+| Decidir entre opciones con restricciones | Optimización clásica o un solucionador, no un modelo generativo |
+| Predecir un número con datos históricos | Estadística clásica o un modelo pequeño y medido; muchas veces basta |
+| Clasificar con etiquetas conocidas | Un clasificador entrenado, evaluado con falsos positivos y negativos por separado |
+| Tareas mecánicas en pantallas | Automatización de procesos, con sus límites documentados |
+| Criterio variable y volumen bajo | Una persona con una lista de comprobación |
+| Todo lo anterior con texto alrededor | Un modelo como apoyo, con revisión humana y salida verificable |
 
 ## Cómo se decide
 
-La secuencia siguiente no pretende ser exhaustiva; está pensada para descartar rápido.
+La secuencia siguiente no pretende ser exhaustiva; está pensada para descartar rápido, que es lo que hace falta la mayoría de las veces.
 
 ```mermaid
 flowchart TD
@@ -66,35 +62,35 @@ flowchart TD
   E -- "Sí" --> R5["Candidato a modelo,<br/>con evaluación y presupuesto"]
 ```
 
-Conviene acompañar el recorrido con una cuenta elemental, con números propios y no estimados: coste de construir, coste de evaluar, coste por operación, coste de revisar los errores que el sistema comete y coste actual del proceso. En la Etapa 1 (Uso profesional, en preparación) se desarrolla ese cálculo; aquí basta con la regla de que una cifra sin origen no sirve para decidir.
+Conviene acompañar el recorrido con una cuenta elemental, hecha con números propios y no estimados: cuánto cuesta construirlo, cuánto evaluarlo, cuánto cada uso, cuánto revisar los errores que cometa y cuánto cuesta hoy el proceso tal como está. En la Etapa 1 (Uso profesional, en preparación) se desarrolla ese cálculo. Aquí basta con una regla: una cifra sin origen no sirve para decidir.
 
-## El anti-patrón: agentificación forzada
+## Lo que cuesta la agentificación forzada
 
-Poner un modelo donde había un procedimiento que funcionaba tiene consecuencias concretas, todas ellas previsibles:
+Poner un modelo donde había un procedimiento que funcionaba tiene consecuencias concretas, todas previsibles:
 
-- **Coste variable y difícil de presupuestar.** Se paga por uso, y el uso depende del texto de entrada. Un coste que crece con la conversación no se parece a un coste de infraestructura.
+- **Coste variable y difícil de presupuestar.** Se paga por uso, y el uso depende de lo que se escriba. Un coste que crece con la conversación no se parece a un coste de infraestructura.
 - **Latencia.** Cada operación pasa a tardar segundos en lugar de milisegundos.
-- **No determinismo.** Dos ejecuciones iguales pueden diferir. La reproducibilidad de una incidencia se pierde, y con ella la capacidad de arreglarla.
+- **No determinismo.** Dos ejecuciones iguales pueden diferir, y con ellas se pierde la capacidad de reproducir una incidencia.
 - **Superficie de fallo nueva.** Aparecen errores plausibles: salidas mal formadas, acciones repetidas, bucles. Son más difíciles de detectar que una excepción.
-- **Dependencia de proveedor.** El comportamiento del sistema depende de un servicio externo, de su versión y de sus condiciones.
-- **Evaluación pendiente para siempre.** Sin un criterio de éxito escrito, nadie podrá afirmar que la sustitución mejoró nada.
+- **Dependencia de proveedor.** El comportamiento depende de un servicio ajeno, de su versión y de sus condiciones.
+- **Evaluación pendiente para siempre.** Sin criterio de éxito escrito, nadie podrá afirmar que el cambio mejoró nada.
 - **Pérdida de comprensión del proceso.** Cuando el procedimiento vive dentro de una petición, el equipo deja de poder explicar por qué el sistema hizo lo que hizo.
 
-La literatura de ingeniería es explícita en los dos puntos que más se ignoran: que un sistema de aprendizaje automático es una parte pequeña de un sistema mayor, y que la deuda técnica se acumula sobre todo alrededor del modelo y no en el modelo.
+La literatura de ingeniería es explícita en los dos puntos que más se ignoran: que un sistema de aprendizaje automático es una parte pequeña de un sistema mayor, y que la deuda se acumula sobre todo alrededor del modelo, no dentro de él.
 
-## Errores frecuentes
+## Los tropiezos de siempre
 
-- **Empezar por la tecnología.** El orden útil es el contrario: primero el proceso, después el criterio de éxito, después la técnica.
+- **Empezar por la tecnología.** El orden útil es el contrario: primero el proceso, después el criterio de éxito y solo entonces la técnica.
 - **Confundir una demostración con una evaluación.** Una demostración elige los casos; una evaluación los elige antes de saber qué va a pasar con ellos.
-- **Justificar la decisión con la disponibilidad de una herramienta.** Que exista un producto que lo haga no significa que ese sea el camino más corto ni el más barato.
-- **Sustituir un sistema que funciona.** Si el proceso actual cumple y su coste es conocido, la carga de la prueba está en el que propone cambiarlo.
-- **Aplicar la regla al revés.** Esta página no dice «no uses inteligencia artificial»; dice que hay que poder justificar por qué se usa, con el coste y el fallo previstos por escrito.
+- **Justificar la decisión con la existencia de una herramienta.** Que haya un producto que lo haga no significa que sea el camino más corto ni el más barato.
+- **Sustituir un sistema que funciona.** Si el proceso actual cumple y su coste se conoce, la carga de la prueba la tiene quien propone cambiarlo.
+- **Leer esta página al revés.** Aquí no se dice «no uses inteligencia artificial»: se dice que hay que poder justificar por qué se usa, con el coste y el fallo previstos por escrito.
 
 ## Cuándo no aplica
 
-Los criterios anteriores sirven para descartar, no para prohibir. Hay casos híbridos que funcionan bien y son frecuentes: un modelo que propone y una regla que valida, un clasificador que filtra y una persona que decide, un modelo que redacta a partir de datos obtenidos por consulta. La combinación se elige igual que el resto: por el fallo que previene cada pieza.
+Las condiciones anteriores sirven para descartar, no para prohibir. Hay combinaciones que funcionan bien y son frecuentes: un modelo que propone y una regla que valida; un clasificador que filtra y una persona que decide; un modelo que redacta a partir de datos obtenidos por consulta. La mezcla se elige igual que el resto: por el fallo que previene cada pieza.
 
-Tampoco sirve esta página como argumento de venta ni en contra. Una decisión de este tipo se sostiene con números del caso concreto —volumen, coste, coste del error— y eso no se puede tomar prestado de una página genérica. La [práctica de la etapa](practica.md) consiste precisamente en hacer ese ejercicio sobre tres procesos propios.
+Tampoco sirve esta página como argumento de venta ni en contra. Una decisión así se sostiene con los números del caso concreto —volumen, coste, coste del error—, y esos no se pueden tomar prestados de una página genérica. La [práctica de la etapa](practica.md) consiste precisamente en hacer ese ejercicio sobre tres procesos propios.
 
 ## Definiciones
 
@@ -120,3 +116,7 @@ Tampoco sirve esta página como argumento de venta ni en contra. Una decisión d
 - Práctica de la etapa: [Análisis de tres procesos propios](practica.md)
 - Índice de la etapa: [Etapa 0 — Fundamentos](README.md)
 - Índice temático: [`../../INDEX.md`](../../INDEX.md)
+
+---
+
+*Pepe, asistido por IA. Última revisión: 2026-10-10.*

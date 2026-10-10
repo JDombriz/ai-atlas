@@ -6,7 +6,7 @@ prerrequisito: Manejo básico de editor, terminal y Git, y algo de Python o Java
 dedicacion_orientativa: 6-8 h
 criterio_salida: Explicar por escrito, con las definiciones de la etapa, dónde no hace falta IA en un caso concreto y por qué; distinguir un clasificador, un generador y un agente; y situar tres hitos históricos con su consecuencia
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 ---
 
 # Etapa 0 — Fundamentos
@@ -55,9 +55,14 @@ Entregar por escrito el análisis de tres procesos propios, indicando en cuáles
 - **El corte en 2012** no es una comodidad de paginación: separa dos formas distintas de trabajar, la que codifica el conocimiento y la que lo aprende de los datos.
 - **Lo que no se puede respaldar, no se afirma.** En la página 3 se declara expresamente que no hay cifras públicas consolidadas sobre productividad, y en la 2 se advierte de que las cifras de ahorro atribuidas a los sistemas expertos de los años ochenta proceden de testimonios y no de cuentas auditables.
 - 2026-10-10: etapa creada como borrador con la lista de páginas.
-- 2026-10-10: las seis páginas, la práctica y los recursos quedan redactados y con las referencias comprobadas, para revisión humana antes de la publicación adelantada de la Release v0.1.
+- 2026-10-10: las seis páginas, la práctica y los recursos quedan redactados y con las referencias comprobadas, para revisión humana.
+- 2026-10-10: **revisada y aprobada por el autor; Etapa 0 publicada** con la Release v0.1. El texto en inglés se traducirá desde esta revisión en la entrega siguiente.
 
 ## Continuar
 
 - Etapa anterior: ninguna. La precede el [punto de partida del camino](../00-punto-de-partida.md), que fija qué se da por sabido y dónde cubrirlo.
 - Etapa siguiente: Etapa 1 (Uso profesional, en preparación)
+
+---
+
+*Pepe, asistido por IA. Última revisión: 2026-10-10.*

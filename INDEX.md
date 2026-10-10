@@ -5,7 +5,7 @@ Tres formas de usar este repositorio: recorrer el **camino** en orden, consultar
 ## El camino, en orden
 
 ### Etapa 0 — [Fundamentos](camino/etapa-0-fundamentos/README.md)
-*en preparación* · 6-8 h
+*publicada* · 6-8 h
 
 Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una automatización
 
