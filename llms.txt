@@ -4,6 +4,11 @@
 
 ## Camino
 
+### Etapa 0 — Fundamentos
+Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una automatización
+Criterio de salida: Explicar por escrito, con las definiciones de la etapa, dónde no hace falta IA en un caso concreto y por qué; distinguir un clasificador, un generador y un agente; y situar tres hitos históricos con su consecuencia
+- Fundamentos: camino/etapa-0-fundamentos/README.md
+
 ## Recursos del catálogo
 
 

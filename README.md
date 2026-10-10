@@ -43,6 +43,22 @@ Se entra por donde convenga: por el camino, en orden, si se empieza de cero; por
 
 No es un curso con matrícula ni insignias, no es una lista de enlaces y no es un escaparate de ningún proveedor. La progresión se comprueba con lo que uno es capaz de hacer al cerrar cada etapa, no con lo que ha leído.
 
+## Para quién está pensado
+
+- **Quien empieza de cero en inteligencia artificial y sabe programar.** La Etapa 0 arranca en lo más básico —qué es y qué no es, de dónde viene todo esto— sin dar por sabido nada de la materia. Solo se presupone el oficio: editor, terminal, Git y algo de Python o JavaScript.
+- **Quien ya la usa a diario y quiere dejar de improvisar.** Sabe pedir cosas a un modelo; lo que le falta es diseñar el sistema que sostiene esas peticiones: contexto, estado, pasos, condición de salida y coste.
+- **Perfiles técnicos que tienen que decidir, montar o supervisar.** Desarrollo, datos, infraestructura, producto. Aquí no se vende entusiasmo: cada herramienta lleva su apartado de cuándo no usarla, y cada dato su fuente y su fecha.
+- **Quien forma o dirige equipos** y necesita material citable, con referencias comprobables, para ordenar el aprendizaje de otros.
+
+## Para quién no
+
+- **Quien busque un curso con matrícula, certificado o insignias.** La progresión se comprueba con lo que uno es capaz de hacer, no con lo que ha leído.
+- **Quien no programe ni quiera hacerlo.** El camino no enseña a programar, y las etapas 2 a 4 piden escribir y leer código.
+- **Quien busque novedades semanales.** La actualidad está fuera de alcance a propósito: caduca más rápido que cualquier calendario de publicación.
+- **Quien quiera solo recetas de producto.** El apartado de recetas existe, pero es la parte más pequeña del proyecto y siempre remite al criterio que hay detrás.
+
+La frontera exacta entre lo uno y lo otro se explica en `camino/00-punto-de-partida.md`, que se publica con la Etapa 0.
+
 ## El camino
 
 ```mermaid

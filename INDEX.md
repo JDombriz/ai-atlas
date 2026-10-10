@@ -6,7 +6,10 @@ Tres formas de usar este repositorio: recorrer el **camino** en orden, consultar
 
 ## Camino 0 → hero
 
-*(sin etapas publicadas todavía)*
+### Etapa 0 — [Fundamentos](camino/etapa-0-fundamentos/README.md)  `borrador`
+
+Objetivo: Entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una automatización
+
 
 ## Por tarea (recetas)
 
@@ -32,5 +35,5 @@ Tres formas de usar este repositorio: recorrer el **camino** en orden, consultar
 
 ---
 
-Fichas activas: 0. Archivadas: 0. Páginas de camino: 0.
+Fichas activas: 0. Archivadas: 0. Páginas de camino: 1.
 
