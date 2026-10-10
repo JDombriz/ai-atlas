@@ -3,11 +3,13 @@ titulo: Punto de partida
 orden: 0
 pregunta: ¿Qué se da por sabido antes de empezar y dónde cubrirlo si falta?
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Punto de partida
+
+> Versión en inglés: [`00-punto-de-partida.en.md`](00-punto-de-partida.en.md), traducción de esta revisión.
 
 ## Para qué sirve
 

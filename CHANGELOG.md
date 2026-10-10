@@ -7,7 +7,6 @@ Todas las entregas del proyecto, con su fecha y su contenido. Una entrada por Re
 ### Añadido
 
 - Doce fichas semilla del catálogo y la primera receta, previstas para la entrega del lunes 26 de octubre de 2026.
-- `GOVERNANCE.md`, `MAINTENANCE.md` y `CODE_OF_CONDUCT.md`.
 
 ## v0.1 — sábado 10 de octubre de 2026
 
@@ -35,3 +34,10 @@ Primera entrega publicada. El repositorio se abre al público con la Etapa 0 com
 
 - Cabecera e imagen de previsualización social rehechas sobre el arte cartográfico generado con una herramienta de imagen, con tipografía compuesta encima y velo degradado para garantizar la legibilidad. Guardadas en JPEG en lugar de PNG: la social superaba el megabyte que admite GitHub.
 - El orden de publicación se adelantó una semana respecto a la fecha prevista (lunes 19 de octubre): la entrega estaba redactada y aprobada el día 10. El calendario de la Fase 1 no se desplaza y arranca el lunes 26 de octubre.
+
+### Añadido el mismo día, con la aprobación del autor
+
+- **Documentos de gobierno**: `GOVERNANCE.md`, `MAINTENANCE.md` y `CODE_OF_CONDUCT.md`, enlazados desde `README.md` y `CONTRIBUTING.md`. Cierran el hueco más visible de un repositorio abierto: hasta ahora las reglas de participación remitían a un gobierno que no estaba escrito.
+- **Versión inglesa de la Etapa 0**, completa: diez archivos hermanos `*.en.md` —las seis páginas, el índice de la etapa, la práctica, los recursos y el punto de partida—, traducidos desde el texto español aprobado. Cada página española enlaza con su traducción y cada traducción avisa del original, con la fecha de la revisión de la que procede.
+- **Decisión D13: publicación bilingüe simultánea.** Desde esta entrega, todo lo que se publique del camino sale en español y en inglés el mismo día.
+- `scripts/build_index.py` excluye los archivos `*.en.md` del índice temático y del glosario, que son el mapa del texto español, y enlaza cada traducción junto a su página.

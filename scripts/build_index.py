@@ -70,7 +70,12 @@ def rel(path: Path, root: Path) -> str:
 
 
 def paginas_de_etapa(etapa_dir: Path) -> list[Path]:
-    """Orden de lectura: README, páginas numeradas, práctica, recursos."""
+    """Orden de lectura: README, páginas numeradas, práctica, recursos.
+
+    Los archivos hermanos de traducción (*.en.md) se excluyen: el índice temático y
+    el glosario son el mapa del texto español, que es el canónico. Las traducciones
+    se anuncian junto a su página, con un enlace."""
+    
     def clave(p: Path) -> tuple:
         n = p.name
         if n == "README.md":
@@ -81,7 +86,18 @@ def paginas_de_etapa(etapa_dir: Path) -> list[Path]:
             return (3, "")
         return (1, n)
 
-    return sorted((p for p in etapa_dir.glob("*.md")), key=clave)
+    paginas = [p for p in etapa_dir.glob("*.md") if not p.name.endswith(".en.md")]
+    return sorted(paginas, key=clave)
+
+
+def traducciones_de_etapa(etapa_dir: Path) -> dict[str, str]:
+    """Página en español -> archivo hermano en inglés, si existe."""
+    salida: dict[str, str] = {}
+    for p in sorted(etapa_dir.glob("*.en.md")):
+        original = etapa_dir / (p.name[: -len(".en.md")] + ".md")
+        if original.exists():
+            salida[original.name] = p.name
+    return salida
 
 
 def recoger_etapas(root: Path) -> list[dict]:
@@ -99,7 +115,14 @@ def recoger_etapas(root: Path) -> list[dict]:
         for p in paginas_de_etapa(d):
             c, _ = leer(p)
             paginas.append({"ruta": rel(p, root), "campos": c})
-        etapas.append({"dir": d.name, "campos": campos, "paginas": paginas})
+        etapas.append(
+            {
+                "dir": d.name,
+                "campos": campos,
+                "paginas": paginas,
+                "traducciones": traducciones_de_etapa(d),
+            }
+        )
     return etapas
 
 
@@ -138,6 +161,8 @@ def recoger_glosario(root: Path) -> list[tuple[str, str, str]]:
     terminos: dict[str, tuple[str, str]] = {}
     for p in sorted(root.rglob("*.md")):
         if any(part in {".github", "node_modules", ".git", "templates", "scripts"} for part in p.parts):
+            continue
+        if p.name.endswith(".en.md"):
             continue
         _, cuerpo = leer(p)
         for bloque in re.split(r"^##\s+", cuerpo, flags=re.M)[1:]:
@@ -198,6 +223,9 @@ def escribir_index(root: Path, etapas, fichas, recetas, comparativas, decisiones
             linea = f"- [{nombre}]({p['ruta']})"
             if pregunta:
                 linea += f" — {pregunta}"
+            en = e.get("traducciones", {}).get(Path(p["ruta"]).name)
+            if en:
+                linea += f" · [English]({Path(p['ruta']).with_name(en).as_posix()})"
             l.append(linea)
         l.append("")
 

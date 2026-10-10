@@ -105,7 +105,7 @@ Las once entregas del primer trimestre, con sus fechas y su estado, están en [`
 
 Las secciones se abren a contribuciones **cuando están publicadas y con sus referencias verificadas**, no antes. Propuestas de ficha en el catálogo a partir de la v0.2 (16 de noviembre), correcciones y traducciones desde la v0.3 (14 de diciembre), y propuestas de cambio de criterio desde la v0.4 (1 de febrero). Mientras tanto, lo único que puede llegar de fuera es un aviso de error factual o de enlace roto.
 
-Las reglas están en [`CONTRIBUTING.md`](CONTRIBUTING.md). El repositorio está abierto también a que propongan asistentes de IA, con una condición: **proponer sí, verificar no**. La plantilla «propuesta asistida» y las reglas para ellos están en [`AGENTS.md`](AGENTS.md).
+Las reglas están en [`CONTRIBUTING.md`](CONTRIBUTING.md); quién decide qué y cómo se cambia de opinión, en [`GOVERNANCE.md`](GOVERNANCE.md); y lo que se espera de quien participa, en [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). El repositorio está abierto también a que propongan asistentes de IA, con una condición: **proponer sí, verificar no**. La plantilla «propuesta asistida» y las reglas para ellos están en [`AGENTS.md`](AGENTS.md).
 
 ## Licencias
 
@@ -119,4 +119,4 @@ Los detalles, en [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
 
 Proyecto de **Pepe**, asistido por IA. Cada página publicada ha pasado por revisión humana antes de ver la luz.
 
-*Versión en inglés: en preparación, se publica junto a cada entrega a partir de la v0.2.*
+*Versión en inglés: cada entrega se publica en los dos idiomas a la vez. El español es el texto canónico y el inglés se traduce desde él, como archivo hermano `*.en.md` en la misma carpeta; cada página enlaza con su versión inglesa.*

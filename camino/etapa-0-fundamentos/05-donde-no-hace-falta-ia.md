@@ -5,11 +5,13 @@ orden: 5
 pregunta: ¿Cuándo un problema no se resuelve con inteligencia artificial y qué se usa en su lugar?
 prerrequisitos: [01-que-es-la-inteligencia-artificial.md, 04-que-es-y-que-no-es-un-agente.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Dónde no hace falta inteligencia artificial
+
+> Versión en inglés: [`05-donde-no-hace-falta-ia.en.md`](05-donde-no-hace-falta-ia.en.md), traducción de esta revisión.
 
 Esta es la página más rentable de la etapa, y va a contracorriente de casi todo lo que se lee sobre el tema. Elegir bien un modelo ahorra tiempo; descartar un sistema que no hacía falta ahorra un coste todos los meses, una superficie de fallo nueva y una discusión periódica sobre por qué el resultado cambia.
 

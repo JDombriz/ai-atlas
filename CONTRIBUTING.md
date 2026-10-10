@@ -20,7 +20,7 @@ La razón es práctica: admitir propuestas sobre un borrador obliga a revisar do
 - **Error factual o enlace roto:** abre un issue con la plantilla correspondiente. No hace falta cortesía previa ni justificar la aportación.
 - **Ficha nueva para el catálogo:** issue con la plantilla «proponer recurso». Se acepta si cumple los criterios, no si el mantenedor conoce el recurso.
 - **Corrección de texto:** pull request directo. Para erratas, no hace falta issue previo.
-- **Cambio de criterio, alcance o estructura:** issue con la plantilla `rfc`, abierta un mínimo de 14 días antes de resolverse. La decisión y su razonamiento quedan anotados.
+- **Cambio de criterio, alcance o estructura:** issue con la plantilla `rfc`, abierta un mínimo de 14 días antes de resolverse. La decisión y su razonamiento quedan anotados. Quién decide qué, y cómo se cambia de opinión, está en [`GOVERNANCE.md`](GOVERNANCE.md); lo que se espera de quien participa, en [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
 
 ## Qué se le pide a una ficha
 

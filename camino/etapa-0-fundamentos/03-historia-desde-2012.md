@@ -5,11 +5,13 @@ orden: 3
 pregunta: ¿Qué cambió a partir de 2012, qué es cada pieza que se usa hoy y qué de todo esto cubre el atlas?
 prerrequisitos: [02-historia-hasta-2012.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # De AlexNet a los agentes: la historia desde 2012
+
+> Versión en inglés: [`03-historia-desde-2012.en.md`](03-historia-desde-2012.en.md), traducción de esta revisión.
 
 A partir de 2012 el vocabulario se llena de palabras que se usan sin definirlas: aprendizaje profundo, transformador, preentrenamiento, ajuste por preferencias, multimodal, modelo de razonamiento, agente. Este tramo sitúa cada una en su momento y explica qué permitió que las cosas se hicieran de otra manera. Es, también, la parte de la historia que más rápido envejece, y por eso lleva fecha de revisión en la cabecera. Lo anterior a 2012 ya no se mueve; lo de los últimos tres años, sí.
 

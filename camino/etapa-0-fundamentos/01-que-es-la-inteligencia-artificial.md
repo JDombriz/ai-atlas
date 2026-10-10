@@ -5,11 +5,13 @@ orden: 1
 pregunta: ¿Qué es, en términos operativos, un sistema de inteligencia artificial y qué se puede esperar de él?
 prerrequisitos: [ninguno]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Qué es la inteligencia artificial
+
+> Versión en inglés: [`01-que-es-la-inteligencia-artificial.en.md`](01-que-es-la-inteligencia-artificial.en.md), traducción de esta revisión.
 
 La empresa se dedica a las carreras. Coches propios, coches de clientes, pilotos propios y pilotos que les contratan una carrera suelta. Vaque lleva media vida en el Jarama, primero poniendo a punto coches y ahora mandando en el box: es el mecánico con el que nadie discute una puesta a punto. Va siempre con prisa, contesta corto y acierta antes de que el otro termine de explicarse.
 

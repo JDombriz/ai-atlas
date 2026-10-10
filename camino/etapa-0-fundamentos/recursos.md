@@ -5,11 +5,13 @@ orden: 100
 pregunta: ¿Qué recursos externos conviene leer para cerrar los fundamentos y cuándo no conviene cada uno?
 prerrequisitos: [01-que-es-la-inteligencia-artificial.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Recursos de la Etapa 0
+
+> Versión en inglés: [`recursos.en.md`](recursos.en.md), traducción de esta revisión.
 
 ## Cómo está organizada esta página
 

@@ -5,11 +5,13 @@ orden: 4
 pregunta: ¿Dónde está la frontera entre una automatización, un asistente y un sistema agéntico?
 prerrequisitos: [01-que-es-la-inteligencia-artificial.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Qué es y qué no es un agente
+
+> Versión en inglés: [`04-que-es-y-que-no-es-un-agente.en.md`](04-que-es-y-que-no-es-un-agente.en.md), traducción de esta revisión.
 
 En el box del Jarama se habla de esto cada semana, aunque nadie use estas palabras. Un comercial vende «agentes» que hacen de todo, un proveedor de software promete que su herramienta «actúa sola» y en el taller se pregunta, con razón, si eso significa que algo va a tocar el coche sin que nadie lo mire. La palabra se ha vuelto tan elástica que ya no distingue nada.
 

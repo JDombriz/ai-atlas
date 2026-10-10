@@ -11,6 +11,8 @@ estado: publicado
 
 # Etapa 0 — Fundamentos
 
+> Versión en inglés: [`README.en.md`](README.en.md), traducción de esta revisión.
+
 > **Objetivo:** entender qué es la inteligencia artificial, de dónde viene y qué distingue a un sistema agéntico de una simple automatización.
 
 Esta etapa arranca en el principio, sin dar por sabido nada de la materia. Al terminarla no se sabrá construir un sistema; se sabrá de qué se está hablando cuando se habla de inteligencia artificial, qué se puede esperar y qué no, y —lo más útil de todo— cuándo no hace falta.
@@ -56,7 +58,7 @@ Entregar por escrito el análisis de tres procesos propios, indicando en cuáles
 - **Lo que no se puede respaldar, no se afirma.** En la página 3 se declara expresamente que no hay cifras públicas consolidadas sobre productividad, y en la 2 se advierte de que las cifras de ahorro atribuidas a los sistemas expertos de los años ochenta proceden de testimonios y no de cuentas auditables.
 - 2026-10-10: etapa creada como borrador con la lista de páginas.
 - 2026-10-10: las seis páginas, la práctica y los recursos quedan redactados y con las referencias comprobadas, para revisión humana.
-- 2026-10-10: **revisada y aprobada por el autor; Etapa 0 publicada** con la Release v0.1. El texto en inglés se traducirá desde esta revisión en la entrega siguiente.
+- 2026-10-10: **revisada y aprobada por el autor; Etapa 0 publicada** con la Release v0.1. El texto en inglés se publica con esta misma entrega, en los archivos hermanos `*.en.md`.
 
 ## Continuar
 

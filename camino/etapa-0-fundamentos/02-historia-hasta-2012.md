@@ -5,11 +5,13 @@ orden: 2
 pregunta: ¿De dónde viene la inteligencia artificial y qué consecuencia técnica dejó cada hito anterior a 2012?
 prerrequisitos: [01-que-es-la-inteligencia-artificial.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # De Turing a AlexNet: la historia hasta 2012
+
+> Versión en inglés: [`02-historia-hasta-2012.en.md`](02-historia-hasta-2012.en.md), traducción de esta revisión.
 
 Los errores de hoy se explican por decisiones que se tomaron hace sesenta años. Casi todos los debates que se repiten —si conviene escribir el conocimiento a mano o aprenderlo de los datos, si basta con más computación o hace falta más estructura, por qué llega el dinero y por qué se va— ya se dieron entonces, y se resolvieron de una manera concreta por razones que merece la pena conocer. Quien no sabe que los inviernos existieron se sorprende cada vez que aparece el siguiente.
 

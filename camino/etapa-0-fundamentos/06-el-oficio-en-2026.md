@@ -5,11 +5,13 @@ orden: 6
 pregunta: ¿Qué cambia y qué no cambia para quien escribe software, según la evidencia disponible?
 prerrequisitos: [01-que-es-la-inteligencia-artificial.md, 04-que-es-y-que-no-es-un-agente.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # El oficio en 2026
+
+> Versión en inglés: [`06-el-oficio-en-2026.en.md`](06-el-oficio-en-2026.en.md), traducción de esta revisión.
 
 Esta etapa cierra respondiendo a lo que más se pregunta quien ya programa: en qué se traduce todo esto en su trabajo diario. La respuesta tiene tres partes y conviene no mezclarlas: lo que cambia de forma observable, lo que no cambia y sigue siendo responsabilidad de quien despliega, y lo que la evidencia disponible permite afirmar hoy —que es bastante menos de lo que sugiere el ruido.
 

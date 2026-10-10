@@ -5,11 +5,13 @@ orden: 99
 pregunta: ¿Cómo se decide, por escrito, en qué procesos propios no hace falta inteligencia artificial?
 prerrequisitos: [05-donde-no-hace-falta-ia.md]
 ultima_revision: 2026-10-10
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
 # Práctica — análisis de tres procesos propios
+
+> Versión en inglés: [`practica.en.md`](practica.en.md), traducción de esta revisión.
 
 ## Qué hay que entregar
 
