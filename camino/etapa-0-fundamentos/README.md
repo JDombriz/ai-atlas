@@ -69,4 +69,4 @@ Entregar por escrito el análisis de tres procesos propios, indicando en cuáles
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

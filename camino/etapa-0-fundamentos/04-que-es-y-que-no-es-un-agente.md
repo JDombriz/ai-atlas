@@ -117,4 +117,4 @@ Esta página describe la frontera conceptual, no un catálogo de patrones. Las a
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

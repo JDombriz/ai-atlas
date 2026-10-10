@@ -154,4 +154,4 @@ The ImageNet dataset gathers millions of labelled images and, since 2010, an ann
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

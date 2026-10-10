@@ -1,5 +1,7 @@
 # Cómo contribuir
 
+Proyecto de **Pepe**, con elaboración híbrida: la IA busca y comprueba fuentes, ordena, redacta borradores, traduce y mantiene los índices, y la persona decide el criterio, el tono y lo que se publica. El reparto completo está en el apartado «Autoría» del [`README.md`](README.md).
+
 Gracias por el interés. Antes de nada, la regla que ordena todo lo demás:
 
 > **Una sección se abre a contribuciones cuando está publicada y con sus referencias verificadas.** Mientras se redacta, lo único que puede llegar de fuera es un aviso de error factual o de enlace roto.

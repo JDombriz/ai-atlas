@@ -114,4 +114,4 @@ This exercise does not replace a business analysis or a formal risk assessment: 
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

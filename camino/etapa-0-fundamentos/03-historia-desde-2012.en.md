@@ -154,4 +154,4 @@ It deliberately leaves out: original research and training models from scratch; 
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

@@ -114,4 +114,4 @@ Esta práctica no sustituye a un análisis de negocio ni a una valoración forma
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

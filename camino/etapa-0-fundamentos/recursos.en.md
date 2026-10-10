@@ -90,4 +90,4 @@ This selection covers the fundamentals and the general criteria. It is no use fo
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

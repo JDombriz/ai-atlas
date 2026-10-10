@@ -183,4 +183,4 @@ Luego pegó el papel con cinta de carrocero en el carro de herramientas, apagó 
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

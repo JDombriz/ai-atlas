@@ -124,4 +124,4 @@ Tampoco sirve esta página como argumento de venta ni en contra. Una decisión a
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

@@ -182,4 +182,4 @@ Then he taped the paper to the tool trolley with masking tape, switched off the 
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

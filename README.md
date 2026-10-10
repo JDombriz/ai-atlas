@@ -117,6 +117,8 @@ Los detalles, en [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
 
 ## Autoría
 
-Proyecto de **Pepe**, asistido por IA. Cada página publicada ha pasado por revisión humana antes de ver la luz.
+**Quién lo hace.** La idea, el enfoque y el criterio son de **Pepe**: qué entra, en qué orden y con qué tono. El texto pasa por su mano —hay secciones reescritas, otras corregidas línea a línea y otras descartadas— y no se publica ninguna página sin su aprobación.
+
+La elaboración es **híbrida**: la IA busca y comprueba fuentes, ordena, redacta borradores, traduce y mantiene los índices; la persona decide qué merece estar y de qué responde. Cada página ha pasado por revisión humana antes de ver la luz.
 
 *Versión en inglés: cada entrega se publica en los dos idiomas a la vez. El español es el texto canónico y el inglés se traduce desde él, como archivo hermano `*.en.md` en la misma carpeta; cada página enlaza con su versión inglesa.*

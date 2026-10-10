@@ -117,4 +117,4 @@ This page describes the conceptual boundary, not a catalogue of patterns. The co
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

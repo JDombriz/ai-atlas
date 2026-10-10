@@ -123,4 +123,4 @@ Nor does it claim to predict the near future. Recent years discourage any extrap
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

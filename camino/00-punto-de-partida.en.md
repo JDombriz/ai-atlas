@@ -83,4 +83,4 @@ If the goal is to have an informed opinion about artificial intelligence without
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

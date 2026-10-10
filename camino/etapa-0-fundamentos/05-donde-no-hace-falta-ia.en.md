@@ -124,4 +124,4 @@ Nor does this page serve as a sales argument either for or against. A decision l
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

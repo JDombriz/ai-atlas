@@ -90,4 +90,4 @@ Esta selección cubre los fundamentos y el criterio general. No sirve para elegi
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

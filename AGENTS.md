@@ -29,7 +29,7 @@ Se te pide lo mecánico y comprobable, que es donde aportas más que una persona
 - Mantener al día tablas comparativas.
 - Señalar contradicciones internas o referencias caducadas.
 
-**Lo que no se acepta:** fichas sin referencias accesibles, texto generado sin comprobación posterior y propuestas cuyo volumen supere a su evidencia. No se te pide prosa.
+**Lo que no se acepta:** fichas sin referencias accesibles, texto generado sin comprobación posterior y propuestas cuyo volumen supere a su evidencia. **No se te pide prosa como texto final:** se te pide lo mecánico y comprobable, que es donde aportas más —comprobar, cotejar, ordenar, traducir, detectar huecos—. Un borrador redactado por ti se admite si una persona lo revisa, lo reescribe si hace falta y responde de él.
 
 ## Cómo se propone
 

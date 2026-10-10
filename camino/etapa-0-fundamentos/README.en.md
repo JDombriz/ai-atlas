@@ -70,4 +70,4 @@ Submit a written analysis of three processes of your own, saying in which of the
 
 ---
 
-*Pepe, assisted by AI. Last reviewed: 2026-10-10.*
+*Pepe. Last reviewed: 2026-10-10.*

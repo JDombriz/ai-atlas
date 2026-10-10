@@ -154,4 +154,4 @@ El conjunto de datos ImageNet reúne millones de imágenes etiquetadas y, desde 
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

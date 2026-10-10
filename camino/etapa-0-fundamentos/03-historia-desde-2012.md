@@ -154,4 +154,4 @@ Deja fuera, a propósito: la investigación original y el entrenamiento de model
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*

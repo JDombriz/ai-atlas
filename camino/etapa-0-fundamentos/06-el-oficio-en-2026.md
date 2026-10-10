@@ -123,4 +123,4 @@ Tampoco pretende predecir el futuro próximo. Los años recientes desaconsejan c
 
 ---
 
-*Pepe, asistido por IA. Última revisión: 2026-10-10.*
+*Pepe. Última revisión: 2026-10-10.*
