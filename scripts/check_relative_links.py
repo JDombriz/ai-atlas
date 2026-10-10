@@ -15,6 +15,10 @@ import re
 from pathlib import Path
 
 LINK_RE = re.compile(r"\[[^\]]*\]\((?P<dest>[^)\s]+)\)")
+IMG_RE = re.compile(r"<img[^>]+src=\"(?P<dest>[^\"]+)\"")
+
+# Las rutas de las imágenes también se comprueban: las bandas de color se insertan con
+# etiquetas <img> dentro del Markdown, y un cambio de carpeta las dejaría rotas en silencio.
 EXCLUIDOS = {"templates", ".github", ".git"}
 
 
@@ -30,7 +34,7 @@ def main() -> int:
         if any(parte in EXCLUIDOS for parte in fichero.relative_to(root).parts):
             continue
         texto = fichero.read_text(encoding="utf-8")
-        for m in LINK_RE.finditer(texto):
+        for m in list(LINK_RE.finditer(texto)) + list(IMG_RE.finditer(texto)):
             destino = m.group("dest")
             if destino.startswith(("http://", "https://", "mailto:", "#")):
                 continue
