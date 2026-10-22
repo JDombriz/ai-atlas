@@ -30,6 +30,10 @@ BANDAS = [
     ("banda-practica", "ETAPA 0 · PRÁCTICA", "cierre de la etapa", "STAGE 0 · EXERCISE", "closing the stage"),
     ("banda-recursos", "ETAPA 0 · RECURSOS", "fuentes y lecturas", "STAGE 0 · RESOURCES", "sources and readings"),
     ("banda-indice", "ETAPA 0 · FUNDAMENTOS", "índice de la etapa", "STAGE 0 · FOUNDATIONS", "stage index"),
+    ("banda-e1-indice", "ETAPA 1 · USO PROFESIONAL", "índice de la etapa", "STAGE 1 · PROFESSIONAL USE", "stage index"),
+    ("banda-e1-01", "ETAPA 1 · USO PROFESIONAL", "página 1 de 5", "STAGE 1 · PROFESSIONAL USE", "page 1 of 5"),
+    ("banda-e1-02", "ETAPA 1 · USO PROFESIONAL", "página 2 de 5", "STAGE 1 · PROFESSIONAL USE", "page 2 of 5"),
+    ("banda-e1-03", "ETAPA 1 · USO PROFESIONAL", "página 3 de 5", "STAGE 1 · PROFESSIONAL USE", "page 3 of 5"),
 ]
 
 PLANTILLA = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 34" width="560" height="34" role="img" aria-label="{izq}">

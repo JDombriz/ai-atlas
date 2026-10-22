@@ -28,22 +28,30 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
 - **Autonomía** — medida de cuántas decisiones se delegan en el sistema y de cuánto tarda una persona en poder corregir un error, no de la capacidad del modelo.  
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
+- **Banco de casos** — conjunto pequeño y fijo de ejemplos con respuesta esperada, usado para comparar modelos con la misma vara.  
+  → [camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md](camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md)
 - **Base de la estimación** — dato del que procede una cifra; si no procede de ninguna medición, se declara la estimación y su origen.  
   → [camino/etapa-0-fundamentos/practica.md](camino/etapa-0-fundamentos/practica.md)
 - **Brecha de adquisición de conocimiento** — dificultad de extraer de un especialista su conocimiento y escribirlo en forma utilizable por un programa.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
 - **Bucle de agente** — ciclo de decidir, ejecutar y observar que se repite hasta la condición de parada.  
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
+- **Caché de prompt** — descuento que aplica el proveedor cuando el prefijo de la petición es idéntico al de la anterior.  
+  → [camino/etapa-1-uso-profesional/03-el-contexto.md](camino/etapa-1-uso-profesional/03-el-contexto.md)
 - **Candidato a automatización** — proceso repetitivo, con responsable, entradas y salidas identificables, apto para comparar métodos.  
   → [camino/etapa-0-fundamentos/practica.md](camino/etapa-0-fundamentos/practica.md)
 - **Condición de parada** — criterio explícito que termina la ejecución: objetivo cumplido, número de pasos, tiempo o gasto.  
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
 - **Conexionismo** — línea de trabajo que modela el aprendizaje con redes de unidades simples conectadas, frente a la manipulación de símbolos.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
+- **Contexto** — todo el texto que se entrega al modelo en una llamada: instrucción, historial, documentos y pregunta.  
+  → [camino/etapa-1-uso-profesional/03-el-contexto.md](camino/etapa-1-uso-profesional/03-el-contexto.md)
 - **Coste de revisión** — tiempo y esfuerzo de comprobar los resultados; se suma al coste de producirlos y a menudo lo supera.  
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
 - **Coste por operación** — coste total de resolver un caso, incluido el gasto de revisar y corregir los errores del sistema.  
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
+- **Criterio de aceptación** — la condición que permite decidir si la respuesta sirve; incluye qué hacer cuando falta un dato.  
+  → [camino/etapa-1-uso-profesional/02-la-instruccion.md](camino/etapa-1-uso-profesional/02-la-instruccion.md)
 - **Criterio de descarte** — condición comprobable que, si se cumple, excluye el uso de un modelo como pieza principal.  
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
 - **Datos de entrenamiento** — conjunto de ejemplos con el que se ajustan los parámetros de un modelo; determina qué sabe hacer y qué no.  
@@ -52,10 +60,14 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
 - **Deuda técnica de sistemas de aprendizaje** — coste acumulado en lo que rodea al modelo —datos, configuración, integración, evaluación— más que en el modelo mismo.  
   → [camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md](camino/etapa-0-fundamentos/05-donde-no-hace-falta-ia.md)
+- **Ejemplo (uno o pocos disparos)** — par de entrada y salida correcta incluido en la instrucción para fijar formato y criterio.  
+  → [camino/etapa-1-uso-profesional/02-la-instruccion.md](camino/etapa-1-uso-profesional/02-la-instruccion.md)
 - **Entrenamiento** — proceso de ajuste de los parámetros mediante la comparación repetida entre la salida obtenida y la esperada.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Evaluación por casos** — conjunto de casos definidos antes de conocer el resultado, con su criterio de aceptación.  
   → [camino/etapa-0-fundamentos/06-el-oficio-en-2026.md](camino/etapa-0-fundamentos/06-el-oficio-en-2026.md)
+- **Formato de salida** — la forma exigida a la respuesta —tabla, JSON, lista con separador— para que se pueda usar sin reescribirla.  
+  → [camino/etapa-1-uso-profesional/02-la-instruccion.md](camino/etapa-1-uso-profesional/02-la-instruccion.md)
 - **Generalización** — capacidad de acertar en casos no vistos durante el entrenamiento; es el objetivo del aprendizaje y su resultado nunca es perfecto.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Herramienta** — acción concreta que un sistema puede ejecutar sobre el exterior, con una interfaz definida y unos permisos asociados.  
@@ -64,6 +76,8 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Ingeniería de características** — oficio de diseñar a mano las variables que un sistema usará para decidir, sustituido en parte por representaciones aprendidas.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
+- **Instrucción de sistema** — mensaje que fija papel, reglas y formato, y que se mantiene igual entre llamadas.  
+  → [camino/etapa-1-uso-profesional/02-la-instruccion.md](camino/etapa-1-uso-profesional/02-la-instruccion.md)
 - **Inteligencia artificial** — familia de técnicas que hacen que un programa produzca una salida a partir de ejemplos o de reglas generales, en lugar de tener escrito el resultado de cada caso.  
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Invierno de la inteligencia artificial** — periodo de contracción de la financiación y del interés institucional, con causas económicas y de expectativas.  
@@ -78,6 +92,8 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
 - **Modelo de razonamiento** — modelo entrenado para producir pasos intermedios extensos antes de responder, de modo que su calidad depende de la computación que se le permite gastar.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
+- **Modelo propietario** — modelo al que solo se accede por la API del fabricante, bajo sus condiciones.  
+  → [camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md](camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md)
 - **Multimodal** — sistema capaz de trabajar con más de un tipo de contenido, por ejemplo texto e imagen.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
 - **Oficio** — manejo de editor, terminal, Git, un lenguaje de programación y el consumo de servicios web.  
@@ -86,14 +102,24 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
   → [camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md](camino/etapa-0-fundamentos/01-que-es-la-inteligencia-artificial.md)
 - **Perceptrón** — clasificador de una sola capa que aprende sus pesos a partir de ejemplos.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
+- **Pesos abiertos** — modelo cuyos parámetros se distribuyen con una licencia que permite descargarlos y ejecutarlos en infraestructura propia.  
+  → [camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md](camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md)
+- **Precio por millón de tokens** — unidad de facturación de los modelos servidos por API, con tarifas distintas para entrada y salida.  
+  → [camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md](camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md)
 - **Preentrenamiento** — entrenamiento general sobre grandes volúmenes de datos sin etiquetar, previo a cualquier adaptación a una tarea.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
+- **Presupuesto de contexto** — el reparto del espacio disponible entre esas partes, con su coste en tokens.  
+  → [camino/etapa-1-uso-profesional/03-el-contexto.md](camino/etapa-1-uso-profesional/03-el-contexto.md)
 - **Presupuesto de ejecución** — límite de cómputo, tiempo o dinero asignado a una ejecución antes de que se detenga por sí sola.  
   → [camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md](camino/etapa-0-fundamentos/04-que-es-y-que-no-es-un-agente.md)
 - **Protocolo de contexto de modelos (MCP)** — especificación abierta para conectar un modelo con herramientas y fuentes de datos de forma reutilizable entre productos.  
   → [camino/etapa-0-fundamentos/03-historia-desde-2012.md](camino/etapa-0-fundamentos/03-historia-desde-2012.md)
 - **Punto de partida** — conjunto de conocimientos que se presuponen antes de la Etapa 0, limitados al oficio de programar y no a la materia.  
   → [camino/00-punto-de-partida.md](camino/00-punto-de-partida.md)
+- **Recorte** — descarte de los mensajes más antiguos cuando la conversación excede la ventana.  
+  → [camino/etapa-1-uso-profesional/03-el-contexto.md](camino/etapa-1-uso-profesional/03-el-contexto.md)
+- **Recuperación** — localizar el fragmento relevante antes de llamar al modelo, en lugar de enviarle todo el documento.  
+  → [camino/etapa-1-uso-profesional/03-el-contexto.md](camino/etapa-1-uso-profesional/03-el-contexto.md)
 - **Red convolucional** — red que explota la estructura espacial de la entrada, aplicando el mismo filtro en distintas posiciones.  
   → [camino/etapa-0-fundamentos/02-historia-hasta-2012.md](camino/etapa-0-fundamentos/02-historia-hasta-2012.md)
 - **Retropropagación** — método para calcular cómo contribuye cada peso de una red multicapa al error final, lo que permite ajustarlos.  
@@ -129,5 +155,5 @@ Cada término procede de la sección «Definiciones» de una página; si dos pá
 
 ---
 
-*Glosario actualizado el 10 de octubre de 2026. Se compone a partir de las definiciones de las páginas: para cambiar una entrada, se cambia en la página.*
+*Glosario actualizado el 22 de octubre de 2026. Se compone a partir de las definiciones de las páginas: para cambiar una entrada, se cambia en la página.*
 

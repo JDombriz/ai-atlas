@@ -151,6 +151,10 @@ def recoger_simples(root: Path, subdir: str) -> list[dict]:
     for p in sorted(d.rglob("*.md")):
         if p.name == "README.md":
             continue
+        if p.name.endswith(".en.md"):
+            # Los hermanos de traducción no entran en el índice, que es el mapa
+            # del texto español (D13).
+            continue
         c, _ = leer(p)
         salida.append({"ruta": rel(p, root), "campos": c})
     return salida

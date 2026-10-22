@@ -4,9 +4,23 @@ Todas las entregas del proyecto, con su fecha y su contenido. Una entrada por Re
 
 ## Sin publicar
 
+Sin publicar. Redactado para la entrega del lunes 26 de octubre de 2026.
+
 ### Añadido
 
-- Doce fichas semilla del catálogo y la primera receta, previstas para la entrega del lunes 26 de octubre de 2026.
+- **Doce fichas semilla del catálogo** (`catalogo/investigacion/`): las ocho fuentes históricas que sostienen la Etapa 0 —Turing, Dartmouth, ALPAC, Lighthill, MYCIN, R1, Brock y la traducción estadística— y las cuatro de evidencia sobre el oficio —productividad con Copilot, METR, SWE-bench y la investigación de DORA—. Cada una con sus datos comprobados, sus límites de uso y su firma.
+- **Ocho fichas de modelos** (`catalogo/modelos/`): la frontera de Anthropic, su caballo de batalla, los dos extremos de OpenAI, el modelo de contexto largo de Google, el abierto de Meta, el europeo y el pequeño de Mistral. Con precios y ventanas verificados en las páginas de cada fabricante, y las trampas de facturación dentro de la ficha.
+- **Etapa 1 — Uso profesional, páginas 1 a 3**: elegir modelo para una tarea, la instrucción y el contexto, más el índice de la etapa. Las páginas 4 y 5 se publican con el cierre de la etapa.
+- **La primera receta**, `recetas/banco-de-diez-casos.md`: montar una prueba de diez casos con respuesta conocida antes de elegir modelo.
+- Cuatro bandas nuevas en `assets/bandas/` para la Etapa 1, generadas con `scripts/make_bands.py`, cuya tabla se ha ampliado con los rótulos de la etapa.
+- En la página de recursos de la Etapa 0, el título de cada fuente enlaza ya a su ficha del catálogo, con el enlace original al lado.
+
+### Comprobado antes de publicar
+
+- **26 direcciones comprobadas por HTTP el 2026-10-22** —las 18 de la Etapa 0 y las 8 páginas de modelo—: todas respondieron 200 salvo dos. El alojamiento de la propuesta del taller de Dartmouth (`jmc.stanford.edu`) no acepta conexiones ese día, aunque el 10 de octubre respondía: la ficha lo dice y acompaña la copia del Internet Archive. El Reglamento europeo responde 202 con un desafío anti-automatización; el texto se comprobó en un navegador.
+- **380 enlaces relativos** entre páginas, comprobados por ejecución: ninguno roto.
+- Los tres índices, regenerados por ejecución: 20 fichas, 1 receta, 2 etapas y 75 términos de glosario.
+- Los precios y las ventanas de contexto son los que declaran los fabricantes esa fecha, y constan con fecha en cada ficha y en la página 1 de la Etapa 1: son el dato más perecedero de todo el repositorio.
 
 ## v0.1 — sábado 10 de octubre de 2026
 

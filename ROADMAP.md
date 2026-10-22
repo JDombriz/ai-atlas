@@ -33,7 +33,7 @@ El calendario de la Fase 1 **no se desplaza** por este adelanto: arranca con la 
 
 | Semana | Revisión | Publicación | Entrega | Estado |
 |--:|:--|:--|:--|:--|
-| 1 | jue 22 oct 2026 | lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 y 8 fichas de `catalogo/modelos/` | planificada |
+| 1 | jue 22 oct 2026 | lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 y 8 fichas de `catalogo/modelos/` | en revisión |
 | 2 | jue 29 oct 2026 | lun 2 nov 2026 | Receta: elegir un modelo para una tarea concreta | planificada |
 | 3 | jue 5 nov 2026 | lun 9 nov 2026 | Etapa 1, páginas 4–5 + práctica + 8 fichas de `catalogo/herramientas/` | planificada |
 | 4 | jue 12 nov 2026 | lun 16 nov 2026 | Receta: estimar el coste por tarea · **Release v0.2** — Etapa 1 cerrada | planificada |

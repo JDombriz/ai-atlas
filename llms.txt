@@ -17,11 +17,40 @@ Criterio de salida: Explicar por escrito, con las definiciones de la etapa, dón
 - Práctica — análisis de tres procesos propios: camino/etapa-0-fundamentos/practica.md
 - Recursos de la Etapa 0: camino/etapa-0-fundamentos/recursos.md
 
+### Etapa 1 — Uso profesional
+Objetivo: Trabajar con modelos como herramienta diaria, con criterio para elegirlos, para darles contexto y para saber lo que cuesta cada uso
+Criterio de salida: Elegir modelo para una tarea concreta y justificarlo con una prueba propia; construir y mantener el contexto que esa tarea necesita; y estimar el coste de un uso repetido antes de comprometerlo
+- Uso profesional: camino/etapa-1-uso-profesional/README.md
+- Cómo elegir un modelo para una tarea: camino/etapa-1-uso-profesional/01-como-elegir-un-modelo.md
+- La instrucción: pedir bien y obtener algo usable: camino/etapa-1-uso-profesional/02-la-instruccion.md
+- El contexto: qué se le da y en qué orden: camino/etapa-1-uso-profesional/03-el-contexto.md
+
 ## Recursos del catálogo
 
+- Claude Fable 5.1 (modelo, etapa-1, pago, idioma en): https://platform.claude.com/docs/en/models/fable-5-1/overview [ficha: catalogo/modelos/claude-fable-5-1.md, verificado 2026-10-22, estado activo]
+- Claude Opus 5.5 (modelo, etapa-1, pago, idioma en): https://platform.claude.com/docs/en/models/opus-5-5/overview [ficha: catalogo/modelos/claude-opus-5-5.md, verificado 2026-10-22, estado activo]
+- Gemini 4 Argon (modelo, etapa-1, pago, idioma en): https://ai.google.dev/gemini-api/docs/models/gemini-4-argon [ficha: catalogo/modelos/gemini-4-argon.md, verificado 2026-10-22, estado activo]
+- GPT-6.1 Sol (modelo, etapa-1, pago, idioma en): https://developers.openai.com/api/docs/models/gpt-6.1-sol [ficha: catalogo/modelos/gpt-6-1-sol.md, verificado 2026-10-22, estado activo]
+- GPT-6 Luna (modelo, etapa-1, pago, idioma en): https://developers.openai.com/api/docs/models/gpt-6-luna [ficha: catalogo/modelos/gpt-6-luna.md, verificado 2026-10-22, estado activo]
+- Llama 4 Scout (modelo, etapa-1, gratuito-con-limites, idioma en): https://llama.com/models/llama-4 [ficha: catalogo/modelos/llama-4-scout.md, verificado 2026-10-22, estado activo]
+- Ministral 3 3B (modelo, etapa-1, gratuito-con-limites, idioma en): https://docs.mistral.ai/models/ministral-3-3b-25-12 [ficha: catalogo/modelos/ministral-3-3b.md, verificado 2026-10-22, estado activo]
+- Mistral Large 3 (modelo, etapa-1, gratuito-con-limites, idioma en): https://mistral.ai/news/mistral-3/ [ficha: catalogo/modelos/mistral-large-3.md, verificado 2026-10-22, estado activo]
+- Lenguaje y máquinas: ordenadores en la traducción y la lingüística (informe, etapa-0, gratuito, idioma en): https://www.mt-archive.net/ALPAC-1966.pdf [ficha: catalogo/investigacion/alpac-1966.md, verificado 2026-10-22, estado activo]
+- Aprender de los despertares anteriores de la inteligencia artificial (articulo, etapa-0, gratuito, idioma en): https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2809 [ficha: catalogo/investigacion/brock-2018.md, verificado 2026-10-22, estado activo]
+- La matemática de la traducción automática estadística (articulo, etapa-0, gratuito, idioma en): https://aclanthology.org/J93-2004/ [ficha: catalogo/investigacion/brown-1993.md, verificado 2026-10-22, estado activo]
+- El impacto de la IA en la productividad de los desarrolladores (estudio, etapa-0, gratuito, idioma en): https://arxiv.org/abs/2302.06590 [ficha: catalogo/investigacion/copilot-devprod-2023.md, verificado 2026-10-22, estado activo]
+- Propuesta del taller de Dartmouth (propuesta, etapa-0, gratuito, idioma en): http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf [ficha: catalogo/investigacion/dartmouth-1955.md, verificado 2026-10-22, estado activo]
+- Investigación de DORA (estudio, etapa-0, gratuito, idioma en): https://dora.dev/research/ [ficha: catalogo/investigacion/dora-research.md, verificado 2026-10-22, estado activo]
+- Informe Lighthill: la inteligencia artificial, examen general (informe, etapa-0, gratuito, idioma en): https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm [ficha: catalogo/investigacion/lighthill-1973.md, verificado 2026-10-22, estado activo]
+- Medir el impacto de la IA de principios de 2025 en la productividad de desarrolladores experimentados de código abierto (estudio, etapa-0, gratuito, idioma en): https://arxiv.org/abs/2507.09089 [ficha: catalogo/investigacion/metr-2025.md, verificado 2026-10-16, estado activo]
+- Sistemas expertos basados en reglas: los experimentos MYCIN (libro, etapa-0, gratuito, idioma en): https://shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm [ficha: catalogo/investigacion/mycin-1984.md, verificado 2026-10-22, estado activo]
+- R1: un experto en el dominio de los sistemas informáticos (ponencia, etapa-0, gratuito, idioma en): https://web.archive.org/web/20171116060857/http:/aaai.org/Papers/AAAI/1980/AAAI80-076.pdf [ficha: catalogo/investigacion/r1-1980.md, verificado 2026-10-22, estado activo]
+- SWE-bench: ¿pueden los modelos de lenguaje resolver incidencias reales de GitHub? (estudio, etapa-0, gratuito, idioma en): https://arxiv.org/abs/2310.06770 [ficha: catalogo/investigacion/swe-bench-2023.md, verificado 2026-10-22, estado activo]
+- Maquinaria computacional e inteligencia (articulo, etapa-0, gratuito-con-limites, idioma en): https://www.csee.umbc.edu/courses/471/papers/turing.pdf [ficha: catalogo/investigacion/turing-1950.md, verificado 2026-10-22, estado activo]
 
 ## Recetas
 
+- Montar un banco de diez casos antes de elegir modelo: recetas/banco-de-diez-casos.md
 
 ## Índices
 

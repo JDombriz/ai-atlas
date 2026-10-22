@@ -1,3 +1,8 @@
+<!-- Vocabulario cerrado (D15):
+     categoria: modelos | herramientas | contexto | aprendizaje | investigacion | comunidades | operacion
+     tipo: modelo | articulo | ponencia | informe | libro | propuesta | ensayo | guia | estudio | marco | reglamento
+     estado: activo (firmada) | en-revision (espera firma) | archivado
+     coste: gratuito | gratuito-con-limites | pago | prueba -->
 ---
 id: 
 title_es: 

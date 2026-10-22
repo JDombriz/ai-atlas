@@ -119,7 +119,7 @@ Nor does this page serve as a sales argument either for or against. A decision l
 - Previous: [What an agent is and what it is not](04-que-es-y-que-no-es-un-agente.en.md)
 - Next: [The trade in 2026](06-el-oficio-en-2026.en.md)
 - Practice of the stage: [Analysis of three processes of one's own](practica.en.md)
-- Stage index: [Stage 0 — Foundations](README.md)
+- Stage index: [Stage 0 — Foundations](README.en.md)
 - Subject index: [`../../INDEX.md`](../../INDEX.md)
 
 ---

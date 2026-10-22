@@ -177,7 +177,7 @@ Then he taped the paper to the tool trolley with masking tape, switched off the 
 - Next: [From Turing to AlexNet: the history up to 2012](02-historia-hasta-2012.en.md)
 - For deciding when a problem needs none of this: [Where Artificial Intelligence Is Not Needed](05-donde-no-hace-falta-ia.en.md)
 - For what comes next —choosing a model, designing stateful flows, operating in production—: stages 1 to 4 of the path, in preparation
-- Stage index: [Stage 0 — Foundations](README.md)
+- Stage index: [Stage 0 — Foundations](README.en.md)
 - Subject index: [`../../INDEX.md`](../../INDEX.md)
 
 ---

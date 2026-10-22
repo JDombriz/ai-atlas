@@ -112,7 +112,7 @@ This page describes the conceptual boundary, not a catalogue of patterns. The co
 
 - Previous: [From AlexNet to agents: the history since 2012](03-historia-desde-2012.en.md)
 - Next: [Where artificial intelligence is not needed](05-donde-no-hace-falta-ia.en.md)
-- Stage index: [Stage 0 — Foundations](README.md)
+- Stage index: [Stage 0 — Foundations](README.en.md)
 - Subject index: [`../../INDEX.md`](../../INDEX.md)
 
 ---

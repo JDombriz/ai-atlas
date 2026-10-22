@@ -149,7 +149,7 @@ The ImageNet dataset gathers millions of labelled images and, since 2010, an ann
 
 - Previous: [What artificial intelligence is](01-que-es-la-inteligencia-artificial.en.md)
 - Next: [From AlexNet to agents: the history since 2012](03-historia-desde-2012.en.md)
-- Stage index: [Stage 0 — Foundations](README.md)
+- Stage index: [Stage 0 — Foundations](README.en.md)
 - Thematic index: [`../../INDEX.md`](../../INDEX.md)
 
 ---

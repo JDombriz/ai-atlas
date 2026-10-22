@@ -22,20 +22,20 @@ Ninguno de estos recursos es obligatorio para cerrar la etapa: el criterio de sa
 Cada entrada lleva la razón por la que está y el caso en el que no conviene leerla. Eso último es tan útil como lo primero: hay documentos admirables que en esta etapa hacen perder el tiempo.
 
 > [!NOTE]
-> **Nota de entrega.** Las fichas normalizadas de estos recursos, con su identificador y su estado dentro del catálogo, se incorporan en la entrega siguiente, junto con las primeras doce fichas semilla. Mientras tanto, esta página enlaza directamente a las fuentes: todas devolvieron código 200 en la comprobación del 2026-10-10.
+> **Nota de entrega (26 de octubre de 2026).** Ya están en el catálogo las doce fichas semilla: las ocho fuentes de «Las fuentes que sostienen la etapa» y las cuatro de «Evidencia sobre el oficio». El título de cada una enlaza a su ficha, y el enlace a la fuente se conserva al lado. Las seis lecturas de criterio se incorporan en una entrega posterior.
 
 ## Las fuentes que sostienen la etapa
 
 | Recurso | Por qué está aquí | Cuándo no leerlo |
 |:--|:--|:--|
-| *Computing Machinery and Intelligence* — Turing, 1950 ([copia accesible](https://www.csee.umbc.edu/courses/471/papers/turing.pdf)) | El texto donde el problema se plantea de forma comprobable y donde aparece la idea de aprender en lugar de programar el conocimiento | Si se busca una introducción técnica: es un artículo de discusión, con secciones matemáticas incluidas |
-| [Propuesta del taller de Dartmouth](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf) — 1955 | El origen documental del término y de la expectativa que fija el tono de las dos décadas siguientes | Si no interesa la historia: se entiende mucho mejor contada en la [página 2](02-historia-hasta-2012.md) |
-| *Language and Machines* — informe ALPAC, 1966 ([PDF](https://www.mt-archive.net/ALPAC-1966.pdf)) | Explica, con un caso concreto, por qué la financiación sigue a los resultados demostrables | Si se busca el estado actual de la traducción automática: es un documento histórico |
-| [Informe Lighthill](https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm) — 1973 | El origen documental del primer invierno: qué se le reprochaba al área y con qué argumentos | Leído aislado se toma por una sentencia definitiva sobre la inteligencia artificial; conviene acompañarlo del contexto de la [página 2](02-historia-hasta-2012.md) |
-| *Rule-Based Expert Systems: The MYCIN Experiments* — Buchanan y Shortliffe, 1984 ([texto completo](https://shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm)) | El mejor caso documentado de conocimiento escrito a mano: qué funcionó, qué costaba mantenerlo y por qué no llegó al uso diario | Es un libro: se consulta por capítulos, no se lee entero en esta etapa |
-| *R1: An Expert in the Computer Systems Domain* — McDermott, 1980 ([PDF archivado](https://web.archive.org/web/20171116060857/http:/aaai.org/Papers/AAAI/1980/AAAI80-076.pdf)) | El paso de los sistemas expertos a la industria, con el problema real que resolvían | Si se busca una evaluación moderna: es un informe técnico de su época |
-| *Learning from Artificial Intelligence's Previous Awakenings* — Brock, *AI Magazine*, 2018 ([artículo](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2809)) | Una síntesis del auge y el declive del ciclo de los sistemas expertos, con su economía | Es una revisión histórica, no una fuente primaria: ordena muy bien, pero no sirve para citar el dato original |
-| *The Mathematics of Statistical Machine Translation* — Brown y otros, 1993 ([ACL Anthology](https://aclanthology.org/J93-2004/)) | El trabajo que muestra a los datos desplazando al conocimiento lingüístico escrito a mano | Es denso en notación; la idea se puede tomar de la [página 2](02-historia-hasta-2012.md) |
+| [*Computing Machinery and Intelligence*](../../catalogo/investigacion/turing-1950.md) — Turing, 1950 ([copia accesible](https://www.csee.umbc.edu/courses/471/papers/turing.pdf)) | El texto donde el problema se plantea de forma comprobable y donde aparece la idea de aprender en lugar de programar el conocimiento | Si se busca una introducción técnica: es un artículo de discusión, con secciones matemáticas incluidas |
+| [Propuesta del taller de Dartmouth](../../catalogo/investigacion/dartmouth-1955.md) — 1955 ([documento](http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf)) | El origen documental del término y de la expectativa que fija el tono de las dos décadas siguientes | Si no interesa la historia: se entiende mucho mejor contada en la [página 2](02-historia-hasta-2012.md) |
+| [*Language and Machines*](../../catalogo/investigacion/alpac-1966.md) — informe ALPAC, 1966 ([PDF](https://www.mt-archive.net/ALPAC-1966.pdf)) | Explica, con un caso concreto, por qué la financiación sigue a los resultados demostrables | Si se busca el estado actual de la traducción automática: es un documento histórico |
+| [Informe Lighthill](../../catalogo/investigacion/lighthill-1973.md) — 1973 ([original](https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm)) | El origen documental del primer invierno: qué se le reprochaba al área y con qué argumentos | Leído aislado se toma por una sentencia definitiva sobre la inteligencia artificial; conviene acompañarlo del contexto de la [página 2](02-historia-hasta-2012.md) |
+| [*Rule-Based Expert Systems: The MYCIN Experiments*](../../catalogo/investigacion/mycin-1984.md) — Buchanan y Shortliffe, 1984 ([texto completo](https://shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm)) | El mejor caso documentado de conocimiento escrito a mano: qué funcionó, qué costaba mantenerlo y por qué no llegó al uso diario | Es un libro: se consulta por capítulos, no se lee entero en esta etapa |
+| [*R1: An Expert in the Computer Systems Domain*](../../catalogo/investigacion/r1-1980.md) — McDermott, 1980 ([PDF archivado](https://web.archive.org/web/20171116060857/http:/aaai.org/Papers/AAAI/1980/AAAI80-076.pdf)) | El paso de los sistemas expertos a la industria, con el problema real que resolvían | Si se busca una evaluación moderna: es un informe técnico de su época |
+| [*Learning from Artificial Intelligence's Previous Awakenings*](../../catalogo/investigacion/brock-2018.md) — Brock, *AI Magazine*, 2018 ([artículo](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2809)) | Una síntesis del auge y el declive del ciclo de los sistemas expertos, con su economía | Es una revisión histórica, no una fuente primaria: ordena muy bien, pero no sirve para citar el dato original |
+| [*The Mathematics of Statistical Machine Translation*](../../catalogo/investigacion/brown-1993.md) — Brown y otros, 1993 ([ACL Anthology](https://aclanthology.org/J93-2004/)) | El trabajo que muestra a los datos desplazando al conocimiento lingüístico escrito a mano | Es denso en notación; la idea se puede tomar de la [página 2](02-historia-hasta-2012.md) |
 
 ## Lecturas de criterio
 
@@ -52,10 +52,10 @@ Cada entrada lleva la razón por la que está y el caso en el que no conviene le
 
 | Recurso | Por qué está aquí | Cuándo no leerlo |
 |:--|:--|:--|
-| *The Impact of AI on Developer Productivity* — 2023 ([arXiv](https://arxiv.org/abs/2302.06590)) | Un ejemplo de experimento controlado en una tarea cerrada, con mejora clara de tiempo | No representa el trabajo habitual: la tarea está acotada y especificada |
-| *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity* — METR, 2025 ([arXiv](https://arxiv.org/abs/2507.09089)) | El caso contrario, en proyectos maduros y con desarrolladores expertos: el resultado contradice la expectativa | Muestra pequeña y contexto específico: se cita por lo que mide, no como conclusión general |
-| *SWE-bench* — 2023 ([arXiv](https://arxiv.org/abs/2310.06770)) | Cómo se evalúa hoy una capacidad real: incidencias de repositorios con sus propias pruebas | Mide resolución de incidencias, no la utilidad ni el coste dentro de un equipo |
-| [Investigación de DORA](https://dora.dev/research/) — Google Cloud | Una visión de conjunto sobre prácticas y rendimiento de equipos, por encuesta anual | Son encuestas, no experimentos: sirven para situar tendencias |
+| [*The Impact of AI on Developer Productivity*](../../catalogo/investigacion/copilot-devprod-2023.md) — 2023 ([arXiv](https://arxiv.org/abs/2302.06590)) | Un ejemplo de experimento controlado en una tarea cerrada, con mejora clara de tiempo | No representa el trabajo habitual: la tarea está acotada y especificada |
+| [*Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*](../../catalogo/investigacion/metr-2025.md) — METR, 2025 ([arXiv](https://arxiv.org/abs/2507.09089)) | El caso contrario, en proyectos maduros y con desarrolladores expertos: el resultado contradice la expectativa | Muestra pequeña y contexto específico: se cita por lo que mide, no como conclusión general |
+| [*SWE-bench*](../../catalogo/investigacion/swe-bench-2023.md) — 2023 ([arXiv](https://arxiv.org/abs/2310.06770)) | Cómo se evalúa hoy una capacidad real: incidencias de repositorios con sus propias pruebas | Mide resolución de incidencias, no la utilidad ni el coste dentro de un equipo |
+| [Investigación de DORA](../../catalogo/investigacion/dora-research.md) — Google Cloud ([sitio](https://dora.dev/research/)) | Una visión de conjunto sobre prácticas y rendimiento de equipos, por encuesta anual | Son encuestas, no experimentos: sirven para situar tendencias |
 
 ## Si le falta el oficio
 
@@ -78,7 +78,7 @@ Esta selección cubre los fundamentos y el criterio general. No sirve para elegi
 
 ## Referencias
 
-- Comprobación propia — las direcciones de esta página devolvieron código 200 en una petición HTTP el 2026-10-10; la única excepción es la edición canónica del artículo de Turing en *Mind*, que responde 403 y se sustituye por una copia abierta
+- Comprobación propia — las direcciones de esta página se comprobaron por HTTP el 2026-10-22. Responden 200 todas menos dos: la edición canónica del artículo de Turing en *Mind* (403, muro de pago; se enlaza una copia abierta) y la propuesta del taller de Dartmouth, cuyo alojamiento (`jmc.stanford.edu`) rechaza la conexión ese día —el 2026-10-10 respondía 200— y se acompaña de una copia en el Internet Archive. El Reglamento europeo, en la página de lecturas de criterio, responde 202 con un desafío anti-automatización: se verifica en un navegador
 - Las referencias completas, con autor, entidad y fecha de consulta, figuran al final de cada página de la etapa
 
 ## Continuar
