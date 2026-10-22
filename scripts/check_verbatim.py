@@ -48,6 +48,10 @@ ENLACE_RE = re.compile(r"\]\([^)]*\)")  # destino de un enlace: se conserva el t
 DIRECCION_RE = re.compile(r"https?://\S+")
 NO_PALABRA_RE = re.compile(r"[^\w\sáéíóúüñ]+")
 
+# Marca de entrada bibliográfica: la dirección de la fuente o la fecha de consulta.
+# Sirve para no confundir el título de una obra citada con texto copiado.
+BIBLIO_RE = re.compile(r"(<https?://|\]\(https?://|\(consultado\s+\d{4}-\d{2}-\d{2})")
+
 
 def normalizar(texto: str) -> str:
     """Deja solo palabras, en minúscula y sin tildes, para poder comparar."""
@@ -58,18 +62,30 @@ def normalizar(texto: str) -> str:
 
 
 def prosa(texto: str) -> str:
-    """Quita lo que no es texto firmado: frontmatter, código, etiquetas y direcciones.
+    """Quita lo que no es texto firmado: frontmatter, código, etiquetas, direcciones
+    y entradas bibliográficas.
 
-    Sin esto, las bandas de color (`<img src=... alt=... width=...>`), los bloques
-    de código y las listas de enlaces generan coincidencias que no son prosa, y un
-    aviso que grita en falso deja de leerse.
+    Sin las tres primeras, las bandas de color (`<img src=... alt=... width=...>`), los
+    bloques de código y las listas de enlaces generan coincidencias que no son prosa.
+    Sin la cuarta, cada obra citada produce una coincidencia: su título aparece literal
+    en la referencia, que es precisamente como debe aparecer. Un aviso que grita en
+    falso deja de leerse, y entonces no protege de nada.
     """
     texto = FRONTMATTER_RE.sub("", texto)
     texto = VALLADO_RE.sub(" ", texto)
     texto = HTML_RE.sub(" ", texto)
-    texto = ENLACE_RE.sub(" ", texto)
-    texto = DIRECCION_RE.sub(" ", texto)
-    return texto
+
+    # El filtro bibliográfico va ANTES de borrar las direcciones: una entrada se
+    # reconoce precisamente por llevarlas. Aplicado después, no reconoce nada.
+    lineas = []
+    for linea in texto.splitlines():
+        desnuda = linea.strip()
+        if desnuda[:2] in {"- ", "* ", "| "} and BIBLIO_RE.search(linea):
+            continue
+        linea = ENLACE_RE.sub(" ", linea)
+        linea = DIRECCION_RE.sub(" ", linea)
+        lineas.append(linea)
+    return "\n".join(lineas)
 
 
 def corpus_ngramas(corpus: Path, n: int) -> set[str]:
@@ -174,4 +190,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except BrokenPipeError:
+        # Al canalizar la salida a `head`, la tubería se cierra antes de terminar.
+        raise SystemExit(0)
