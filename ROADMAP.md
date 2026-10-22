@@ -27,7 +27,7 @@ Trabajo previo, sin anuncio público. Semana del 12 al 18 de octubre de 2026. **
 
 Las doce fichas semilla y la primera receta **no** entraron en esta publicación: son la primera entrega de la Fase 1, y así se anuncia. La Etapa 0 se publicó con sus cuatro elementos —índice, documentación, práctica y recursos—, y `recursos.md` enlaza directamente a las fuentes mientras no existan sus fichas de catálogo.
 
-El calendario de la Fase 1 **no se desplaza** por este adelanto: arranca con la semana 1 el lunes 26 de octubre, como estaba previsto.
+El calendario de la Fase 1 **no se desplazó** por aquel adelanto: la semana 1 conservó su fecha prevista y se publicó después con cuatro días de adelanto, como se explica en la Fase 1.
 
 ## Fase 1 — Primer trimestre
 

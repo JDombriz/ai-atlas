@@ -22,7 +22,7 @@ Ninguno de estos recursos es obligatorio para cerrar la etapa: el criterio de sa
 Cada entrada lleva la razón por la que está y el caso en el que no conviene leerla. Eso último es tan útil como lo primero: hay documentos admirables que en esta etapa hacen perder el tiempo.
 
 > [!NOTE]
-> **Nota de entrega (26 de octubre de 2026).** Ya están en el catálogo las doce fichas semilla: las ocho fuentes de «Las fuentes que sostienen la etapa» y las cuatro de «Evidencia sobre el oficio». El título de cada una enlaza a su ficha, y el enlace a la fuente se conserva al lado. Las seis lecturas de criterio se incorporan en una entrega posterior.
+> **Nota de entrega (22 de octubre de 2026).** Ya están en el catálogo las doce fichas semilla: las ocho fuentes de «Las fuentes que sostienen la etapa» y las cuatro de «Evidencia sobre el oficio». El título de cada una enlaza a su ficha, y el enlace a la fuente se conserva al lado. Las seis lecturas de criterio se incorporan en una entrega posterior.
 
 ## Las fuentes que sostienen la etapa
 

@@ -22,7 +22,7 @@ None of these resources is compulsory for closing the stage: the exit criterion 
 Each entry carries the reason it is here and the case in which it is not worth reading. The latter is as useful as the former: there are admirable documents that at this stage waste your time.
 
 > [!NOTE]
-> **Delivery note (26 October 2026).** The twelve seed cards are now in the catalogue: the eight sources under «The sources that sustain the stage» and the four under «Evidence on the trade». Each title links to its card, and the link to the source is kept beside it. The six criteria readings are incorporated in a later delivery.
+> **Delivery note (22 October 2026).** The twelve seed cards are now in the catalogue: the eight sources under «The sources that sustain the stage» and the four under «Evidence on the trade». Each title links to its card, and the link to the source is kept beside it. The six criteria readings are incorporated in a later delivery.
 
 ## The sources that sustain the stage
 

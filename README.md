@@ -29,11 +29,11 @@ Las reglas completas están en AGENTS.md.
 
 **Repositorio de consulta documental sobre inteligencia artificial, con un camino de cero a nivel profesional.**
 
-![estado](https://img.shields.io/badge/estado-v0.1%20publicada%20%C2%B7%2010%20de%20octubre%20de%202026-1F4E79?style=flat-square)
+![estado](https://img.shields.io/badge/estado-entrega%201%20publicada%20%C2%B7%2022%20de%20octubre%20de%202026-1F4E79?style=flat-square)
 ![entregas](https://img.shields.io/badge/entregas-una%20cada%20lunes-1F4E79?style=flat-square)
 ![licencia](https://img.shields.io/badge/licencia-MIT%20%2B%20CC%20BY%204.0-1F4E79?style=flat-square)
 
-> **Primera entrega publicada.** La Etapa 0 está completa: seis páginas, una práctica que la cierra y los recursos que la sostienen. La siguiente entrega, el lunes 26 de octubre, trae las doce fichas semilla del catálogo, la primera receta y las páginas 1 a 3 de la Etapa 1. El calendario completo está en [`ROADMAP.md`](ROADMAP.md).
+> **Entrega 1 publicada el jueves 22 de octubre de 2026**, con cuatro días de adelanto sobre el calendario: doce fichas semilla y ocho fichas de modelos en el catálogo, la receta del banco de diez casos y las páginas 1 a 3 de la Etapa 1, todo en español y en inglés. La siguiente entrega, el lunes 2 de noviembre, trae la receta para elegir un modelo. El calendario completo está en [`ROADMAP.md`](ROADMAP.md).
 
 ## Qué es
 
@@ -87,7 +87,7 @@ El orden recomendado es [`camino/00-punto-de-partida.md`](camino/00-punto-de-par
 | Publicación | Entrega |
 |:--|:--|
 | **sáb 10 oct 2026** | **Release v0.1** — Etapa 0 completa: documentación, práctica y recursos. *Publicada* |
-| lun 26 oct 2026 | 12 fichas semilla de la Etapa 0 y 1 receta + Etapa 1, páginas 1–3 |
+| **jue 22 oct 2026** | **Entrega 1** — 12 fichas semilla y 8 fichas de modelos, la receta del banco de diez casos y la Etapa 1 con sus páginas 1–3. *Publicada* |
 | lun 2 nov 2026 | Receta: elegir un modelo para una tarea concreta |
 | lun 9 nov 2026 | Etapa 1, páginas 4–5 + práctica + fichas de herramientas |
 
