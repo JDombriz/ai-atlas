@@ -1,7 +1,7 @@
 ---
 id: swe-bench-2023
-title_es: SWE-bench: ¿pueden los modelos de lenguaje resolver incidencias reales de GitHub?
-title_en: SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
+title_es: "SWE-bench: ¿pueden los modelos de lenguaje resolver incidencias reales de GitHub?"
+title_en: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
 url: https://arxiv.org/abs/2310.06770
 categoria: investigacion
 tipo: estudio

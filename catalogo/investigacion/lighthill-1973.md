@@ -1,7 +1,7 @@
 ---
 id: lighthill-1973
-title_es: Informe Lighthill: la inteligencia artificial, examen general
-title_en: Artificial Intelligence: A General Survey (Lighthill Report)
+title_es: "Informe Lighthill: la inteligencia artificial, examen general"
+title_en: "Artificial Intelligence: A General Survey (Lighthill Report)"
 url: https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm
 categoria: investigacion
 tipo: informe

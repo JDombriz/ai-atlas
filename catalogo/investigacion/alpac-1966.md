@@ -1,7 +1,7 @@
 ---
 id: alpac-1966
-title_es: Lenguaje y máquinas: ordenadores en la traducción y la lingüística
-title_en: Language and Machines: Computers in Translation and Linguistics
+title_es: "Lenguaje y máquinas: ordenadores en la traducción y la lingüística"
+title_en: "Language and Machines: Computers in Translation and Linguistics"
 url: https://www.mt-archive.net/ALPAC-1966.pdf
 categoria: investigacion
 tipo: informe

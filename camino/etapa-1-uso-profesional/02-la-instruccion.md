@@ -1,5 +1,5 @@
 ---
-titulo: La instrucción: pedir bien y obtener algo usable
+titulo: "La instrucción: pedir bien y obtener algo usable"
 etapa: 1
 orden: 2
 pregunta: ¿Qué tiene una instrucción para que la respuesta se pueda usar tal cual, y qué le falta a la que no?

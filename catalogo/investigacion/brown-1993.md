@@ -1,7 +1,7 @@
 ---
 id: brown-1993
 title_es: La matemática de la traducción automática estadística
-title_en: The Mathematics of Statistical Machine Translation: Parameter Estimation
+title_en: "The Mathematics of Statistical Machine Translation: Parameter Estimation"
 url: https://aclanthology.org/J93-2004/
 categoria: investigacion
 tipo: articulo

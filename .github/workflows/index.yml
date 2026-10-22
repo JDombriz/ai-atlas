@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Comprobar el frontmatter
+        run: python3 scripts/check_frontmatter.py
+
       - name: Regenerar índices
         run: python3 scripts/build_index.py
 

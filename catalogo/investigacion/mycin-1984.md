@@ -1,7 +1,7 @@
 ---
 id: mycin-1984
-title_es: Sistemas expertos basados en reglas: los experimentos MYCIN
-title_en: Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project
+title_es: "Sistemas expertos basados en reglas: los experimentos MYCIN"
+title_en: "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project"
 url: https://shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm
 categoria: investigacion
 tipo: libro

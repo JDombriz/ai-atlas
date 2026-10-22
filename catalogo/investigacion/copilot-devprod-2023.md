@@ -1,7 +1,7 @@
 ---
 id: copilot-devprod-2023
 title_es: El impacto de la IA en la productividad de los desarrolladores
-title_en: The Impact of AI on Developer Productivity: Evidence from GitHub Copilot
+title_en: "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot"
 url: https://arxiv.org/abs/2302.06590
 categoria: investigacion
 tipo: estudio
