@@ -5,7 +5,7 @@ orden: 1
 pregunta: How is the model that suits a specific task chosen, with judgement and with numbers?
 prerrequisitos: ["../etapa-0-fundamentos/05-donde-no-hace-falta-ia.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de: 2026-10-22
 ---
 

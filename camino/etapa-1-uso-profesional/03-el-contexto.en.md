@@ -5,7 +5,7 @@ orden: 3
 pregunta: If the model does not remember, what is handed to it on each call, how much, and in what order?
 prerrequisitos: ["02-la-instruccion.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de: 2026-10-22
 ---
 

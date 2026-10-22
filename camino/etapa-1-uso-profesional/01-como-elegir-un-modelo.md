@@ -5,7 +5,7 @@ orden: 1
 pregunta: ¿Cómo se elige, con criterio y con números, el modelo que conviene a una tarea concreta?
 prerrequisitos: ["../etapa-0-fundamentos/05-donde-no-hace-falta-ia.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 

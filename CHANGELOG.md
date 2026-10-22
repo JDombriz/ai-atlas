@@ -2,9 +2,9 @@
 
 Todas las entregas del proyecto, con su fecha y su contenido. Una entrada por Release; el detalle del calendario, en [`ROADMAP.md`](ROADMAP.md).
 
-## Sin publicar
+## Entrega 1 — jueves 22 de octubre de 2026
 
-Sin publicar. Redactado para la entrega del lunes 26 de octubre de 2026.
+Entrega semanal, sin Release: la v0.2 llega el 16 de noviembre al cerrar la Etapa 1. Adelantada del lunes 26 al jueves 22, el mismo día de la revisión, por decisión del autor.
 
 ### Añadido
 

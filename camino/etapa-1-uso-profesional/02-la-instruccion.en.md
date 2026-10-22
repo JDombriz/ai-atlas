@@ -5,7 +5,7 @@ orden: 2
 pregunta: What does an instruction have so that the answer can be used as it stands, and what is missing from one that cannot?
 prerrequisitos: ["01-como-elegir-un-modelo.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de: 2026-10-22
 ---
 

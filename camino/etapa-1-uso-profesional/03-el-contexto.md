@@ -5,7 +5,7 @@ orden: 3
 pregunta: Si el modelo no recuerda, ¿qué se le entrega en cada llamada, cuánto y en qué orden?
 prerrequisitos: ["02-la-instruccion.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 

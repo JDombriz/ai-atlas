@@ -5,7 +5,7 @@ orden: 2
 pregunta: ¿Qué tiene una instrucción para que la respuesta se pueda usar tal cual, y qué le falta a la que no?
 prerrequisitos: ["01-como-elegir-un-modelo.md"]
 ultima_revision: 2026-10-22
-estado: borrador
+estado: publicado
 traduccion_de:
 ---
 
