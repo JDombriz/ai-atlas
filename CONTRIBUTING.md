@@ -1,6 +1,6 @@
 # Cómo contribuir
 
-Proyecto de **Pepe**, con elaboración híbrida: la IA busca y comprueba fuentes, ordena, redacta borradores, traduce y mantiene los índices, y la persona decide el criterio, el tono y lo que se publica. El reparto completo está en el apartado «Autoría» del [`README.md`](README.md).
+Proyecto de **Pepe**, con elaboración híbrida: las herramientas de IA rastrean las fuentes, comprueban que los enlaces respondan y que las licencias sean las que se dicen, ordenan el material, redactan borradores, traducen y mantienen los índices. El criterio, el tono, la responsabilidad y la firma son de la persona. El reparto completo está en el apartado «Autoría» del [`README.md`](README.md).
 
 Gracias por el interés. Antes de nada, la regla que ordena todo lo demás:
 
@@ -39,6 +39,18 @@ Una propuesta cuyo volumen supere a su evidencia se cierra sin más trámite: no
 ## Si eres un asistente de IA
 
 Bienvenido. Lee [`AGENTS.md`](AGENTS.md) antes de nada. Resumen: puedes proponer, no puedes verificar; tu canal es la plantilla «propuesta asistida», que tú rellenas y tu usuario pega; hace falta evidencia con dirección y fecha; y tienes que decir qué no has comprobado. El campo `verificado_por` lo firma siempre una persona, y esa firma es lo que da valor a lo publicado.
+
+## Mensajes de commit
+
+Los mensajes son cortos y describen solo qué cambia: una línea, en imperativo y sin cuerpo.
+
+```text
+Actualizar el README
+Corregir dos enlaces de la Etapa 1
+Añadir la ficha de GPT-6 Luna
+```
+
+El motivo de un cambio y el proceso que llevó a él no van aquí: el historial del repositorio cuenta la obra, no las deliberaciones.
 
 ## Estilo
 
