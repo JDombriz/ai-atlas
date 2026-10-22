@@ -31,6 +31,24 @@ Se te pide lo mecánico y comprobable, que es donde aportas más que una persona
 
 **Lo que no se acepta:** fichas sin referencias accesibles, texto generado sin comprobación posterior y propuestas cuyo volumen supere a su evidencia. **No se te pide prosa como texto final:** se te pide lo mecánico y comprobable, que es donde aportas más —comprobar, cotejar, ordenar, traducir, detectar huecos—. Un borrador redactado por ti se admite si una persona lo revisa, lo reescribe si hace falta y responde de él.
 
+## Fuentes externas: qué entra en el texto y qué no
+
+Este repositorio cita y recomienda material de otros. Lo que no hace es reproducirlo. La frontera tiene tres niveles, y no se negocian.
+
+**Nivel 0 — No entra.** Texto de una fuente externa, ni traducido ni parafraseado de cerca, ni con su estructura, sus ejemplos, sus tablas o sus epígrafes. Tampoco su vocabulario acuñado presentado como propio: el término de otro se nombra diciendo de quién es, y no se incorpora a `GLOSSARY.md` como si fuera del repositorio. Traducir es la forma de copiar que menos lo parece, y es la primera que se descarta.
+
+**Nivel 1 — Entra siempre.** La ficha de catálogo. No contiene el contenido del recurso: contiene sus datos —dirección, licencia, mantenedor, coste, fecha de comprobación— y el criterio de quien lo recomienda. Eso es una referencia bibliográfica.
+
+**Nivel 2 — Entra con condiciones.** Una fuente externa puede citarse al pie de una página del camino o de una receta, con enlace, como una fuente más. La condición: **ninguna página se sostiene con una sola fuente externa.** Si no hay una segunda fuente independiente que sostenga la misma afirmación, la página todavía no se escribe.
+
+### La prueba
+
+Antes de dar una página por buena, una sola pregunta: **¿se sostiene cada afirmación si esa fuente desaparece mañana?** La frase que solo aguanta con ella no está escrita, está prestada: se reescribe desde la fuente primaria —la documentación del fabricante, el estudio, el texto legal— o se cae.
+
+### Cómo se comprueba
+
+`scripts/check_verbatim.py` compara el texto del repositorio con un corpus local de fuentes, marca los tramos coincidentes y avisa de las páginas que solo tienen una fuente externa. No sustituye a la revisión: la acorta.
+
 ## Cómo se propone
 
 Tu canal es un issue, no un pull request: la mayoría de los asistentes no tiene credenciales, y su usuario sí puede pegar un texto.

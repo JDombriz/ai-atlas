@@ -30,6 +30,18 @@ La razón es práctica: admitir propuestas sobre un borrador me obliga a revisar
 2. **Referencias accesibles** sin registro ni pago, con fecha de consulta.
 3. **Nada de cifras sin origen.** Precios, límites y capacidades, con su fuente. Si el dato procede de una prueba propia, se indica cuándo se hizo y con qué resultado.
 
+## De dónde sale el texto
+
+Recomiendo material de otros y lo cito; no lo reproduzco. La línea que sigo tiene tres tramos:
+
+- **Nunca entra** texto de una fuente externa: ni traducido, ni parafraseado de cerca, ni con su estructura, sus ejemplos o sus tablas. Tampoco su vocabulario acuñado como propio. Traducir es la forma de copiar que menos lo parece, y es la primera que descarto.
+- **Siempre entra** la ficha: los datos del recurso y mi criterio sobre él. Eso es una referencia bibliográfica, no una copia.
+- **Con condiciones entra** una fuente citada al pie de una página del camino o de una receta: como una más, **nunca como la única**. Una página que solo se sostiene con una fuente externa no se publica todavía.
+
+La prueba que me hago al revisar es una: si esa fuente desapareciera mañana, ¿seguiría defendiendo cada frase de la página? La que no, se reescribe desde la fuente primaria o se cae.
+
+`scripts/check_verbatim.py` es la parte que se puede automatizar: coteja el texto con un corpus local de fuentes y avisa de las páginas con una sola fuente.
+
 ## Cómo lo reviso
 
 Toda propuesta pasa por la misma puerta: compruebo las referencias y leo el texto en español antes de publicarlo. Respondo a todas, se acepten o no, con el motivo de la decisión. Las que acepto entran en la entrega siguiente; las que no, quedan cerradas con la explicación.
