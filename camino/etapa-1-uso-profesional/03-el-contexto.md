@@ -105,6 +105,8 @@ Lo que hay que llevarse a la conversación nueva es un párrafo: estado actual, 
 
 - [GPT-6.1 Sol](../../catalogo/modelos/gpt-6-1-sol.md), [Gemini 4 Argon](../../catalogo/modelos/gemini-4-argon.md) y [Llama 4 Scout](../../catalogo/modelos/llama-4-scout.md) — fichas del catálogo con la ventana de contexto declarada por cada fabricante, verificadas el 2026-10-22.
 - Tarifas y regla de los 272 000 tokens: tabla de precios de OpenAI — <https://developers.openai.com/api/docs/pricing> (consultado 2026-10-22).
+- *Lost in the Middle: How Language Models Use Long Contexts* — Liu, Lin, Hewitt, Paranjape, Bevilacqua, Petroni et al., 2023 — <https://arxiv.org/abs/2307.03172> (consultado 2026-10-22). Mide el efecto de la posición: el acierto es mayor cuando el dato relevante está al principio o al final, y cae cuando está en medio. Es la evidencia independiente de la regla de orden de esta página, y el motivo de poner lo que cambia al final.
+- Caché de prompt — Anthropic — <https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching> (consultado 2026-10-22). Multiplicadores documentados por un segundo fabricante: escritura al 1,25× de la entrada y lectura al 0,1×, con excepciones menores según el modelo. Corrobora que cobrar una fracción por el prefijo repetido no es particularidad de un proveedor; cada uno publica sus cifras.
 - Comprobación propia — las direcciones de esta página respondieron 200 en una petición HTTP el 2026-10-22. Las cifras de ventana son las que declara cada fabricante; el uso efectivo de un contexto muy largo no se ha medido en esta página y conviene medirlo en la propia tarea.
 
 ## Continuar

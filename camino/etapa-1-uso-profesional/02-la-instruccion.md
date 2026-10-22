@@ -92,8 +92,9 @@ Una instrucción de cuarenta líneas no se mantiene: nadie recuerda por qué est
 ## Referencias
 
 - *Building effective agents* — Anthropic, 2024 — <https://www.anthropic.com/engineering/building-effective-agents> (consultado 2026-10-22). Se cita por su criterio de empezar por lo simple; es documentación de un fabricante, no una fuente neutral.
+- *The Prompt Report: A Systematic Survey of Prompt Engineering Techniques* — Schulhoff, Sander, Ilie, Balepur, Kahadze, Liu, Si et al., 2024 — <https://arxiv.org/abs/2406.06608> (consultado 2026-10-22). Revisión académica independiente que cataloga las técnicas de instrucción y sus componentes. Respalda que las cinco partes de esta página son categorías documentadas y no consejo de un solo fabricante; no respalda ninguna cifra concreta de rendimiento.
 - [Ministral 3 3B](../../catalogo/modelos/ministral-3-3b.md) — ficha del catálogo, para el límite de los modelos pequeños ante instrucciones largas.
-- Comprobación propia — las dos direcciones de esta página respondieron 200 en una petición HTTP el 2026-10-22. El método de las cinco partes no se apoya en una fuente única: es práctica de oficio, y lo que se puede comprobar es el resultado, con el [banco de diez casos](../../recetas/banco-de-diez-casos.md).
+- Comprobación propia — las dos direcciones de esta página respondieron 200 en una petición HTTP el 2026-10-22. Las cinco partes se contrastan con la revisión académica citada arriba; lo que solo se puede comprobar en la tarea propia es el resultado, y para eso está el [banco de diez casos](../../recetas/banco-de-diez-casos.md).
 
 ## Continuar
 
